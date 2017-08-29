@@ -1,0 +1,150 @@
+\contentsline {chapter}{\numberline {0}General Instructions}{1}{chapter.0}
+\contentsline {section}{\numberline {1}Purpose of the Laboratory}{1}{section.0.1}
+\contentsline {section}{\numberline {2}Preparation for the Laboratory}{1}{section.0.2}
+\contentsline {section}{\numberline {3}Bring to Each Laboratory Session}{2}{section.0.3}
+\contentsline {section}{\numberline {4}Graph Plotting}{2}{section.0.4}
+\contentsline {section}{\numberline {5}Error Analysis}{3}{section.0.5}
+\contentsline {subsection}{\numberline {5.1}Inevitability of Experimental Error}{3}{subsection.0.5.1}
+\contentsline {subsection}{\numberline {5.2}Importance of Errors}{4}{subsection.0.5.2}
+\contentsline {subsection}{\numberline {5.3}Questions or Complaints}{4}{subsection.0.5.3}
+\contentsline {chapter}{\numberline {1}Uncertainty and Error Part 1}{7}{chapter.1}
+\contentsline {section}{\numberline {1}Introduction}{7}{section.1.1}
+\contentsline {section}{\numberline {2}Theory- Uncertainty and Error}{8}{section.1.2}
+\contentsline {subsection}{\numberline {2.1}Types of Uncertainties}{8}{subsection.1.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}Systematic Uncertainties}{8}{subsubsection.1.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.2}Random Uncertainties}{8}{subsubsection.1.2.1.2}
+\contentsline {subsection}{\numberline {2.2}Accuracy and Precision}{9}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {2.3}Numerical Estimates of Uncertainties}{10}{subsection.1.2.3}
+\contentsline {subsubsection}{\numberline {2.3.1}Upper Bound}{10}{subsubsection.1.2.3.1}
+\contentsline {subsubsection}{\numberline {2.3.2}Estimation from the Spread (2/3 method)}{11}{subsubsection.1.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.3}Square-Root Estimation in Counting}{11}{subsubsection.1.2.3.3}
+\contentsline {subsection}{\numberline {2.4}Number of Significant Digits}{12}{subsection.1.2.4}
+\contentsline {subsection}{\numberline {2.5}Relative and Absolute Uncertainty}{12}{subsection.1.2.5}
+\contentsline {subsection}{\numberline {2.6}Propagation of Uncertainties}{13}{subsection.1.2.6}
+\contentsline {subsubsection}{\numberline {2.6.1}Adding/Subtracting Quantities}{13}{subsubsection.1.2.6.1}
+\contentsline {subsubsection}{\numberline {2.6.2}Multiplying/Dividing Quantities}{13}{subsubsection.1.2.6.2}
+\contentsline {subsubsection}{\numberline {2.6.3}Multiplication by a Constant}{14}{subsubsection.1.2.6.3}
+\contentsline {subsection}{\numberline {2.7}Numerical Statistics}{14}{subsection.1.2.7}
+\contentsline {section}{\numberline {3}Theory-Excel}{16}{section.1.3}
+\contentsline {section}{\numberline {4}Procedure}{17}{section.1.4}
+\contentsline {subsection}{\numberline {4.1}Practice with Excel Analysis}{17}{subsection.1.4.1}
+\contentsline {section}{\numberline {5}Applications}{18}{section.1.5}
+\contentsline {chapter}{\numberline {2}Uncertainty and Error Part 2}{21}{chapter.2}
+\contentsline {section}{\numberline {1}Introduction}{21}{section.2.1}
+\contentsline {section}{\numberline {2}Theory}{21}{section.2.2}
+\contentsline {subsection}{\numberline {2.1}Advanced Uncertainty and Error}{21}{subsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}Powers and Roots}{21}{subsubsection.2.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.2}Other Functions}{22}{subsubsection.2.2.1.2}
+\contentsline {subsubsection}{\numberline {2.1.3}Best-Fit Line}{22}{subsubsection.2.2.1.3}
+\contentsline {subsection}{\numberline {2.2}Plotting in Excel}{24}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.3}Simple Pendulum}{27}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.4}Buffon's Needle}{28}{subsection.2.2.4}
+\contentsline {section}{\numberline {3}Procedure}{29}{section.2.3}
+\contentsline {subsection}{\numberline {3.1}Pendulum}{29}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {3.2}Buffon's Needle}{31}{subsection.2.3.2}
+\contentsline {section}{\numberline {4}Lab Preparation Examples}{32}{section.2.4}
+\contentsline {chapter}{\numberline {3}Velocity, Acceleration, and $g$}{35}{chapter.3}
+\contentsline {section}{\numberline {1}Introduction}{35}{section.3.1}
+\contentsline {section}{\numberline {2}Set-up}{35}{section.3.2}
+\contentsline {subsection}{\numberline {2.1}Getting Started}{35}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {2.2}Setting Up the Sonic Ranger for Use with the Air Track}{37}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {2.3}A Note about Distances}{38}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {2.4}A Note about the Rider and Air-Track}{39}{subsection.3.2.4}
+\contentsline {section}{\numberline {3}Motion with Constant Velocity}{39}{section.3.3}
+\contentsline {subsection}{\numberline {3.1}Leveling the Air Track}{39}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.2}Taking Data}{39}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3}The Coefficient of Restitution}{39}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.4}Using the Smart Tool to Read off Data Points}{40}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.5}Determining the Coefficient of Restitution}{40}{subsection.3.3.5}
+\contentsline {section}{\numberline {4}Gravitational Acceleration}{41}{section.3.4}
+\contentsline {chapter}{\numberline {4}Forces}{45}{chapter.4}
+\contentsline {section}{\numberline {1}Introduction}{45}{section.4.1}
+\contentsline {section}{\numberline {2}Theory}{45}{section.4.2}
+\contentsline {subsection}{\numberline {2.1}Vector Representation of Forces}{45}{subsection.4.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}Parallax}{47}{subsubsection.4.2.1.1}
+\contentsline {subsection}{\numberline {2.2}Springs}{48}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {2.3}Inclined Plane}{48}{subsection.4.2.3}
+\contentsline {section}{\numberline {3}Procedure}{49}{section.4.3}
+\contentsline {subsection}{\numberline {3.1}Addition of Forces}{49}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {3.2}Spring}{51}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {3.3}Inclined Plane}{52}{subsection.4.3.3}
+\contentsline {section}{\numberline {4}Lab Preparation Examples}{53}{section.4.4}
+\contentsline {chapter}{\numberline {5}Projectile Motion and Conservation of Energy}{57}{chapter.5}
+\contentsline {section}{\numberline {1}Introduction}{57}{section.5.1}
+\contentsline {section}{\numberline {2}Theory}{57}{section.5.2}
+\contentsline {subsection}{\numberline {2.1}Conservation of Energy}{57}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {2.2}Estimating the Friction Loss}{58}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {2.3}Kinetic Energy including Rotation}{58}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {2.4}Parabolic Trajectory}{59}{subsection.5.2.4}
+\contentsline {section}{\numberline {3}Procedure}{59}{section.5.3}
+\contentsline {subsection}{\numberline {3.1}Prediction of Position}{59}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {3.2}Verify your Range Expression}{61}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {3.3}Quantitative Measurements and Uncertainty}{61}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {3.4}Checking Formula}{62}{subsection.5.3.4}
+\contentsline {section}{\numberline {4}Lab Preparation Examples}{62}{section.5.4}
+\contentsline {chapter}{\numberline {6}Conservation of Momentum}{65}{chapter.6}
+\contentsline {section}{\numberline {1}Introduction}{65}{section.6.1}
+\contentsline {section}{\numberline {2}Theory}{65}{section.6.2}
+\contentsline {subsection}{\numberline {2.1}Momentum Conservation}{65}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {2.2}The Air Track}{66}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {2.3}The Ballistic Pendulum}{67}{subsection.6.2.3}
+\contentsline {section}{\numberline {3}Experiments}{68}{section.6.3}
+\contentsline {subsection}{\numberline {3.1}The Air Track}{68}{subsection.6.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}Set-up}{68}{subsubsection.6.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.2}Elastic Collision of Two Gliders}{69}{subsubsection.6.3.1.2}
+\contentsline {subsubsection}{\numberline {3.1.3}Inelastic Collision of Two Gliders}{71}{subsubsection.6.3.1.3}
+\contentsline {subsection}{\numberline {3.2}The Ballistic Pendulum}{71}{subsection.6.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Measuring $\theta $}{73}{subsubsection.6.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}Other Measurements}{73}{subsubsection.6.3.2.2}
+\contentsline {section}{\numberline {4}Lab Preparation Examples}{74}{section.6.4}
+\contentsline {chapter}{\numberline {7}Torque and Rotational Inertia}{77}{chapter.7}
+\contentsline {section}{\numberline {1}Introduction}{77}{section.7.1}
+\contentsline {section}{\numberline {2}Theory}{77}{section.7.2}
+\contentsline {subsection}{\numberline {2.1}Rotational Inertia}{77}{subsection.7.2.1}
+\contentsline {section}{\numberline {3}Procedure}{79}{section.7.3}
+\contentsline {subsection}{\numberline {3.1}Level the apparatus}{79}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {3.2}Rotational inertia of a point mass}{80}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {3.3}Rotational inertia of a disk}{82}{subsection.7.3.3}
+\contentsline {chapter}{\numberline {8}Centripetal Force and Angular Momentum Conservation}{85}{chapter.8}
+\contentsline {section}{\numberline {1}Introduction}{85}{section.8.1}
+\contentsline {section}{\numberline {2}Theory}{85}{section.8.2}
+\contentsline {subsection}{\numberline {2.1}Centripetal Force}{85}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {2.2}Angular Momentum Conservation}{85}{subsection.8.2.2}
+\contentsline {section}{\numberline {3}Procedure}{86}{section.8.3}
+\contentsline {subsection}{\numberline {3.1}Level the apparatus.}{87}{subsection.8.3.1}
+\contentsline {subsection}{\numberline {3.2}Centripetal Force}{87}{subsection.8.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Vary Radius (constant force and mass)}{87}{subsubsection.8.3.2.1}
+\contentsline {subsection}{\numberline {3.3}Conservation of Angular Momentum}{89}{subsection.8.3.3}
+\contentsline {chapter}{\numberline {9}Waves I: Standing Waves}{93}{chapter.9}
+\contentsline {section}{\numberline {1}Introduction}{93}{section.9.1}
+\contentsline {section}{\numberline {2}Theory}{93}{section.9.2}
+\contentsline {subsection}{\numberline {2.1}Waves}{93}{subsection.9.2.1}
+\contentsline {subsection}{\numberline {2.2}Standing Waves}{96}{subsection.9.2.2}
+\contentsline {section}{\numberline {3}Experiments}{97}{section.9.3}
+\contentsline {subsection}{\numberline {3.1}Standing waves on a String}{97}{subsection.9.3.1}
+\contentsline {subsection}{\numberline {3.2}Standing Sound Waves}{99}{subsection.9.3.2}
+\contentsline {section}{\numberline {4}Applications}{100}{section.9.4}
+\contentsline {section}{\numberline {5}Lab Preparation Problems}{103}{section.9.5}
+\contentsline {chapter}{\numberline {10}Waves II: The Oscilloscope and Function Generator}{105}{chapter.10}
+\contentsline {section}{\numberline {1}Introduction}{105}{section.10.1}
+\contentsline {section}{\numberline {2}Theory}{105}{section.10.2}
+\contentsline {subsection}{\numberline {2.1}Time varying voltage signals}{105}{subsection.10.2.1}
+\contentsline {subsection}{\numberline {2.2}Oscilloscope}{106}{subsection.10.2.2}
+\contentsline {subsection}{\numberline {2.3}The function generator}{107}{subsection.10.2.3}
+\contentsline {section}{\numberline {3}Procedure}{107}{section.10.3}
+\contentsline {subsection}{\numberline {3.1}Use the function generator to create waves}{107}{subsection.10.3.1}
+\contentsline {subsection}{\numberline {3.2}Human pulse}{108}{subsection.10.3.2}
+\contentsline {subsection}{\numberline {3.3}Sound waves}{110}{subsection.10.3.3}
+\contentsline {chapter}{\numberline {11}Ideal Gas and Thermal Conductivity}{115}{chapter.11}
+\contentsline {section}{\numberline {1}Introduction}{115}{section.11.1}
+\contentsline {section}{\numberline {2}Theory}{115}{section.11.2}
+\contentsline {subsection}{\numberline {2.1}Ideal Gas Law}{115}{subsection.11.2.1}
+\contentsline {subsection}{\numberline {2.2}Thermal Conductivity}{117}{subsection.11.2.2}
+\contentsline {section}{\numberline {3}Procedure}{118}{section.11.3}
+\contentsline {subsection}{\numberline {3.1}Thermal Conductivity}{119}{subsection.11.3.1}
+\contentsline {subsection}{\numberline {3.2}Ideal Gas Law}{122}{subsection.11.3.2}
+\contentsline {subsection}{\numberline {3.3}Adiabatic Compression (Demo)}{124}{subsection.11.3.3}
+\contentsline {chapter}{Appendices}{129}{section*.55}
+\contentsline {chapter}{\numberline {A}Advanced Error Analysis}{129}{appendix.A}
+\contentsline {section}{\numberline {1}Clarification of 2/3 Rule}{129}{section.A.1}
+\contentsline {section}{\numberline {2}The ``Correct'' Way to Add Uncertainties}{129}{section.A.2}

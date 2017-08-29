@@ -1,0 +1,110 @@
+\chapter{Specific Heat and Mechanical Equivalent of Heat}
+\section{Introduction}
+
+James Joule (1818-1889) was the first to establish by experiment that heat and mechanical work are both forms of energy and that they can be quantitatively related to one another. The purposes of this experiment are: 
+\begin{enumerate}
+\item to measure the specific heat of a substance (the amount of heat that must be applied to a unit mass of substance in order to change its temperature by one degree) and 
+\item to determine by experiment the relationship between ``heat'' energy units (MKS - kilocalorie) and ``mechanical'' energy units (MKS - Joule).
+\end{enumerate}
+
+\section{Specific Heat}
+\label{sec:specificheat}
+\subsection{Physical Principles}
+
+The amount of heat required to raise the temperature of a unit mass of a substance by one degree is called the specific heat of that substance. Thus, if an amount of heat $Q$ is added to a substance of mass, $m$, having a specific heat, $c$, the change in temperature, $\Delta T=T_{f}-T_{i}$, will be given by:
+\begin{equation}
+  \Delta T=\frac{Q}{mc}\quad \textrm{or}\quad Q=mc\Delta T
+\end{equation}
+
+In the MKS system, the unit of heat is the kilocalorie and it is defined so that the specific heat of water is one -- i.e. when one kilocalorie of heat is applied to one kilogram of water, its temperature will rise by one degree Celsius.\myskip
+
+When two or more substances at different temperatures are brought together, they will reach thermal equilibrium after a period of time because heat will flow from the warmer to the cooler substance until they are both at the same temperature. If the materials which make up the system of interest are insulated so that no heat can be transferred to or from the surroundings, the process is said to be adiabatic. Since heat is a form of energy, the law of conservation of energy requires that for an adiabatic process the sum of all the heat transfers among parts of the system must be equal to zero, since no heat can be lost to or gained from the surroundings. Note: If heat is added to a substance, then $T_{f}>T_{i}$  and $Q$ is positive; if heat is removed, then $T_{f}<T_{i}$ and $Q$ is negative.\myskip
+
+In this part of the experiment, a mass $m_{L}$ of lead will be heated to a temperature $T_{L}$. The hot lead will be placed in a mass $m_{W}$ of water at a known temperature $T_{W}$. Since $T_{W}<T_{L}$, heat will flow from the lead into the water until the equilibrium temperature $T_{e}$ is reached. Then the sum of the heat transfers will equal zero:
+\begin{align}
+    Q_{L}&=m_{L}c_{L}(T_{e}-T_{L}) \label{eqn:heat1}\\
+  Q_{W}&=m_{W}c_{W}(T_{e}-T_{w})\\
+  Q_{L}&+Q_{W}=0 \label{eqn:heat3}
+\end{align}
+
+The specific heat $c_{L}$ of lead can be determined from the known values of temperature and mass. (The specific heat of water, $c_W$, is $1\, \textrm{kCal/kg\ deg\,C}$.)
+
+\subsection{Experimental Apparatus}
+
+The experimental apparatus consists of the following items:
+\begin{enumerate}
+\item A block of lead held by a string.
+\item An electrically heated kettle.  (Do not fill the kettle more than 2/3 full.)
+\item A ``Styrofoam'' container of negligible mass.  (Put a paper cup inside the Styrofoam cube before adding water. Do not put water directly into the cube.)
+\item A thermometer.
+\item An electronic scale.
+\end{enumerate}
+
+\subsection{Procedure}
+
+First, measure the mass of the lead block using an electronic scale.  Next, fill the kettle with water and set the lead block inside.  Turn the kettle on and let the water boil for a few minutes, which should allow the lead block's temperature time to rise to the water's.  As this water is coming up to boil, fill a \emph{paper} cup with cool water and measure its mass using an electronic scale.\myskip
+
+\noindent\emph{Note: Do not fill the \underline{styrofoam} cup directly with water!}\myskip
+
+Now place the paper cup in the styrofoam and measure the water's temperature with a thermometer.  After recording this value, take the hot lead (which should now be 100$^{\circ}$C) and place it in the cool water.  Cover the top of the styrofoam container, and wait a few minutes for the lead and water's temperatures to equalize.  Gently stirring the water every few minutes will help achieve equilibrium more quickly.\myskip
+
+Once you're satisfied that the lead and water are in equilibrium, measure the temperature of the water.  Use these values, along with the given specific heat of water, to deduce the specific heat of lead via equations \ref{eqn:heat1}--\ref{eqn:heat3}.
+
+\begin{itemize}
+\item Compare your result with the accepted value for the specific heat of lead and comment on sources of error in the experiment:
+  \begin{equation}
+    c_{L}=0.031\frac{\textrm{kCal}}{\textrm{kg deg C}}
+  \end{equation}
+\item Why is it advisable to start with water which is a few degrees below room temperature? (Think about symmetry in the interaction between the air and water.)
+
+\item It is recommended that you stir gently to assure uniform temperature in the water. Does stirring introduce a significant source of error?
+\end{itemize}
+
+\underline{\emph{Safety Caution}}: Unplug the water heater when you are done, empty all the water out, and leave the heater disconnected. 
+
+\section{Mechanical Equivalent of Heat}
+
+\subsection{Physical Principles}
+
+When an object starts with zero initial velocity and falls through a distance $h$, its initial potential energy $mgh$ is converted into kinetic energy as it falls. When the object comes to rest after impact at the bottom of the fall, the kinetic energy is converted into the energy of molecular vibrations (heat). This fact is apparent from the observable rise in the object’s temperature after the fall. When the specific heat and the mass of the object are known, the amount of heat added to the object during impact can be determined from the change in temperature. If you are sure that all of the original mechanical energy was transformed into heat energy and that only a negligible amount of heat escaped from the object, you can determine the relationship between the units used for mechanical energy and the units used for heat energy. This conversion constant is called the mechanical equivalent of heat, $J$.
+  \begin{equation}
+    \label{equ:j}
+    J=\frac{W}{Q}=\frac{mgh}{mc\Delta T}=\frac{gh}{c\Delta T}
+  \end{equation}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.8\textwidth]{./Exp10/pic/image1.png}
+\caption{Converting Mechanical Energy to Heat Energy}
+\end{figure} 
+
+\subsection{Experimental Apparatus}
+
+In this experiment, about $1\, \textrm{kg}$ of lead ``shot'' (small pellets) has been placed in a cardboard tube about one meter long, which is permanently closed at both ends, with a metal dial thermometer mounted in one end. The cardboard is an extremely poor conductor and has a low heat capacity. Thus, when the shot is made to fall vertically from one end of the tube to the other a large number of times, most of the heat developed is absorbed by the shot itself, while an insignificant portion is taken up by the cardboard and the light thermometer stem. The mechanical equivalent of heat can be determined by measuring $h$, the total distance through which the shot has fallen, and $\Delta T$, the temperature rise of the shot, and by using the value of the specific heat of lead measured in part {\ref{sec:specificheat}}.\myskip
+
+\underline{\emph{Note}}: There are solid black lines near both ends of the tube marking the \emph{top} of the lead shot when it is residing in respective ends. Use these lines to determine the actual distance $h$ that the center-of-mass of the shot falls from one end to another. \myskip
+
+\underline{\emph{Safety Caution}}: Do not attempt to remove either of the caps from the cardboard tube; they are meant to be permanently sealed (this prevents the spilling of any lead dust, which accumulates in the tube.)
+
+\subsection{Procedure}
+
+Cool the lead shot 5-7 degrees below room temperature by placing the end of the cardboard tube for ap few minutes in an empty metal pipe which is suspended in an ice bath. Do not get the tube wet! Agitate the shot very slightly to ensure thermal equilibrium. Allow the thermometer to remain in contact with the shot for 2-3 minutes before taking a reading
+\begin{itemize}
+\item After thermal equilibrium has been established, record the temperature of the shot. It should be about 3-4 degrees below room temperature.
+\end{itemize}
+
+Proceed to invert the tube $N$ times (approximately 75) in rapid succession. When inverting the tube, place the lower end on the table so that the falling shot does not force out the ends. Try to keep your hands away from the ends of the tube so that they do not absorb the heat of your hands.\myskip
+
+When you have completed the last inversion, repeat the procedure for recording the temperature of the shot. 
+\begin{itemize}
+\item For best accuracy the temperature of the shot should be approximately as much above room temperature as it was below room temperature initially. Why? If this is not the case, you should discuss the error that this would introduce in your conclusion. 
+\end{itemize}
+
+Measure the total height $h$ through which the center of mass of the shot has fallen. (Use the marks on the outside of the tube, which indicate the location of the shot at each end of the tube.)
+\begin{itemize}
+\item Using the value of the specific heat of lead measured in {\ref{sec:specificheat}}, and the measured value of $h$ and $\Delta T$, calculate $J$, the mechanical equivalent of heat, using equation ({\ref{equ:j}}).
+
+(You will want to include a factor of $N$ when you use this equation, to take into account the $N$  times you inverted the tube.)
+
+\item Repeat the measurement, and compare the average value of $J$ from your two trials with the accepted value of $4185\, \textrm{Joules/kCal}$. What are the major sources of error in your measurement?
+\end{itemize}

@@ -1,0 +1,429 @@
+\chapter{Conservation of Momentum}
+%\maketitle
+
+\section{Introduction}
+
+Momentum is one of the central quantities in physics and, like energy, is bound by a conservation law. Although conservation of momentum is less intuitive to many people than conservation of energy, conservation of momentum can be applicable in situations where conservation of energy is not. Sometimes, conservation of energy may not be easily utilized since it can be difficult to keep track of all possible energy contributions (such as energy contribution that deforms the metal of two cars as they collide), but conservation of momentum may still be helpful. For some problems, momentum conservation is essential. We will see that specific problems, like the ballistic pendulum that you will study today, require both energy and momentum conservation for their solution. Others, like collisions on the airtrack, can be solved by momentum conservation where mechanical energy is conserved (elastic) as well as where mechanical energy is not conserved (inelastic). This lab is designed to provide you with an intuitive, yet quantitative, sense of momentum and some of its important applications\footnote{See Chapter 9 of \emph{Fundamentals of Physics}, 9th Ed., by Halliday, Resnick \& Walker.}.\myskip
+
+\underline{\emph{Remark}:} You must prepare some derivations (mainly for projectile velocity in the ballistic pendulum part) \underline{at home}; otherwise you may not finish the lab on time!
+
+\section{Theory}
+\subsection{Momentum Conservation}
+Momentum is a vector quantity, so it has magnitude and direction. To add or subtract momenta, use the usual rules of vector addition. In this lab, we deal only with momentum in one dimension, so the vector property is applicable only in the sense that if two objects move in opposite directions, their momenta have opposite signs. This is the source of most mistakes when performing calculations with momenta, so be careful. \myskip
+
+Momentum is the product of mass and velocity:
+\begin{equation}
+  \mathbf{p}=m\mathbf{v}
+\end{equation}
+A fundamental property of nature is that the total momentum components of any closed system\footnote{A closed system is one in which the sum of forces \underline{external} to the specified system are negligible.} are conserved in any physical process.
+\subsection{The Air Track}
+
+Using the gliders on the air track, we will test momentum conservation by measuring momentum of the gliders before and after collisions. Since momentum is the product of mass and velocity, we simply need to measure the mass of the gliders using a balance, and measure the velocities using the apparatus we saw in the velocities lab. We are going to study two different kinds of collisions:\myskip
+
+A). \textbf{Elastic Collision}. In the first experiment performed on the air track, two gliders with masses $m$ and $M$ will start with velocities $v_{1i}$ and $v_{2i}$. We will use the sonic ranger to measure these velocities following procedures described in section 3. After collision, the velocities become $v_{1f}$ and $v_{2f}$. The gliders will undergo perfectly elastic collision, so both energy and momentum are conserved, meaning that
+\begin{align}
+    mv_{1i} + Mv_{2i} &=  mv_{1f} + Mv_{2f} \\
+    \frac{1}{2}mv_{1i}^2 + \frac{1}{2}Mv_{2i}^2 &= \frac{1}{2}mv_{1f}^2 + \frac{1}{2}Mv_{2f}^2
+\end{align}
+After some algebra, you should be able to solve $v_{1f}$ and $v_{2f}$ from the above two equations, and the result should be
+\begin{equation}
+    v_{1f} = \frac{2Mv_{2i} - (M-m)v_{1i}}{M+m},\quad v_{2f} = \frac{2mv_{1i} + (M-m)v_{2i}}{M+m}
+\end{equation}
+
+A special case of the above equations is that, when the two masses are equal, $M=m$, the equations can be simpified into
+\begin{equation}
+    v_{1f} = v_{2i},\quad v_{2f} = v_{1i}
+\end{equation}
+or in other words, the two gliders just exchange their velocities.
+\myskip
+
+B). \textbf{Inelastic Collision}. In the second experiment the two gliders will stick together after collision. This is called perfectly inelastic collision meaning that the kinetic energy in the center-of-mass frame is reduced to zero. Momentum is still conserved in this case, and because the two gliders stick together after collision, there is only one unknown final velocity. The momentum conservation equation reads
+\begin{equation}
+    mv_{1i} + Mv_{2i} = (m+M)v_f
+\end{equation}
+where $v_f$ is the common final velocity of the two gliders.
+
+%Using the gliders in the air trough, we will test momentum conservation by measuring total momentum before and after collisions. Since momentum is the product of mass and velocity, we should, in principle, measure the mass and velocity of each object before and after the collision. We will measure the masses with a balance. But rather than measure the velocities directly, we will use a trick that simplifies the measurements. \myskip
+
+%We position the gliders in such a way that, after they collide and move in opposite directions, they touch the ends at the same time. Since the gliders started at a common position (which we can record), we can determine the distance they traveled to the two ends of the trough (called $s_1$ and $s_2$). Since the times are equal, the ratio of the velocities is equal to the ratio of the distances:
+%\begin{equation}
+  %\frac{v_{1}}{v_{2}}=\frac{s_{1}/t}{s_{2}/t}=\frac{s_{1}}{s_{2}}
+%\end{equation}
+
+%This comes from simply using $s=v\cdot t$.\myskip
+
+%In order to predict the velocity ratio of the two gliders we are going to use momentum and energy conservation.\myskip
+
+%A). In the first experiment performed on the air track, a large glider (of mass $M$) begins at rest, while a small glider (of mass $m$) with an initial velocity collides with it elastically. Therefore, we can use both momentum and energy conservation to determine the expected final velocity ratio.
+%\begin{align}
+  %\textrm{Momentum conservation:}\qquad  mv_{1i} &= mv_{1f}+Mv_{2f}\\
+  %\textrm{Energy conservation:}\qquad \frac{1}{2} mv_{1i}^2 &=\frac{1}{2}mv_{1f}^2+\frac{1}{2}Mv_{2f}^2
+%\end{align}
+%After some algebraic manipulation, the equations can be combined to read:
+%\begin{equation}
+  %\frac{v_{1f}}{v_{2f}}=\frac{1}{2}\bigg(1-\frac{M}{m}\bigg)
+%\end{equation}
+
+%B). In the second experiment, both gliders begin at rest and are exploded apart using a Tesla coil. This is considered like the reverse of an inelastic collision in which momentum is conserved but not energy.
+%\begin{equation}
+  %\textrm{Momentum conservation:}\qquad  0= mv_{1f}+Mv_{2f}
+%\end{equation}
+
+\subsection{The Ballistic Pendulum}
+%A ballistic pendulum is an instrument usually used to indirectly measure the velocity of a projectile. A small metal ball strikes a stationary pendulum (a can filled with clay) and sticks to it. The initial velocity of the ball can be deduced by observing the pendulum as it swings after the collision. However in this experiment, we can measure the velocity of the projectile rather accurately and will use that information to deduce how far the pendulum should move. This is then compared to the actual measured pendulum displacement.\myskip
+
+%It is easiest to analyze the problem by splitting it into two parts. In the first part, consider the projectile and pendulum in the time right before and right after the collision. The pendulum is initially at rest at its equilibrium point, whereas the projectile travels with an initial velocity and therefore kinetic energy. When the projectile strikes the pendulum, they stick together and move at the same velocity. Since an unknown part of the initial kinetic energy is used to deform the clay so the projectile can lodge into it, we cannot directly calculate the pendulum's subsequent motion from conservation of mechanical energy. However, momentum conservation will help us, since it is not affected by the deformation of the clay.\myskip
+
+%More quantitatively, consider the projectile to have a mass $m$ and initial velocity $v$, and the pendulum to have a mass $M$ and initial velocity of 0. The total initial momentum is $mv$. When the projectile and the pendulum stick together, they have total mass $m + M$ and we define their combined velocity to be $V$. The relationship from conservation of momentum is:
+%\begin{equation}
+  %mv=(m+M)V
+%\end{equation}
+%So if we know the initial velocity of the projectile we can calculate the combined velocity of the projectile and pendulum $V$.\myskip
+
+%For the second part of the problem, we consider the motion of the pendulum after the collision. After the collision, we cannot use conservation of momentum since there are forces on the pendulum (gravity and the strings) from outside the pendulum which change momentum. However, we can use energy conservation, because there are no uncontrollable energy losses (like the energy lost when the bullet deforms the clay in the first part of the problem). Conservation of energy requires:
+%\begin{align}
+%\text{\emph{Kinetic energy after the collision}}&= \text{\emph{Potential energy at the top of the swing,}}\notag\\
+%\frac{1}{2}(m+M)V^2&=(m + M)gh.
+%\end{align}
+
+%This relation permits us to calculate the maximum height $h$ that the pendulum reaches from the combined velocity $V$, which was calculated from the initial velocity of the projectile in the first part. \myskip
+
+%However when we want to check with experiment it is difficult to directly measure the vertical rise, $h$. Instead it is much easier to measure the horizontal distance, $d$, that the pendulum swings through (see figure.)  These quantities are geometrically related, by the Pythagorean Theorem, as:
+%\begin{equation}
+  %R^2=(R-h)^2+d^2
+%\end{equation}
+%These three equations permit you to derive the dependence of $d$ on the quantities $m$, $M$, $g$, $R$, $v$. 
+%\begin{figure}[h]
+%\centering
+%\includegraphics[width=0.8\textwidth]{./pic/image1.png}
+%\caption{Ballistic Pendulum}
+%\end{figure} 
+
+%\underline{\emph{Remark}}: Make sure that you go through the derivation of the steps needed to arrive at the expressions for $d$ in terms of $v$ before coming to the lab, since you will need them, and your TA is not going to derive them for you!  Since the full expressions are rather cumbersome, when performing error propagation, you can approximate the error as coming from only one or two main sources, and ignore everything else. Think about which variables in your expressions likely have the largest relative error, as a way to justify this approach. 
+
+A ballistic pendulum is an instrument usually used to indirectly measure the velocity of a projectile. A fast metal ball strikes a stationary pendulum (in our case a small cup with a latch on the top) and sticks to it. The initial velocity of the ball can be deduced by observing how far the pendulum swings after the collision. In this experiment, we will measure angular displacement of the pendulum, and use that value to estimate the metal ball's initial velocity. We can then compare the measurement with the pre-measured velocity data. % We can then compare our estimated initial velocity to the velocity we measure with a sensitive photogate timing system.\myskip
+
+To analyze this problem, it is easiest to start by splitting it into two parts. In the first part, consider the metal ball and pendulum in the time right before and right after the collision. The pendulum is initially at rest at its equilibrium point, whereas the metal ball travels with an initial velocity and therefore nonzero kinetic energy. When the ball strikes the pendulum, they stick together and move at the same velocity. But because an unknown part of the initial kinetic energy is lost via vibrations, we cannot directly calculate the pendulum's subsequent motion from conservation of mechanical energy.  Instead, we can use conservation of momentum, since during the small time of the collision there are no external forces acting in the direction of motion.\myskip
+                   
+Quantitatively, consider the ball to have a mass $m$ and initial velocity $v$, and the pendulum to have a mass $M$ (concentrated completely at the pendulum's end) and initial velocity of 0. The total initial momentum is $mv$. When the projectile and the pendulum stick together, they have total mass $m + M$ and we define their combined velocity to be $V$. The relationship from conservation of momentum is:
+\begin{equation}
+    mv = (m+M)V
+\end{equation}
+So if we know the initial velocity of the projectile $v$, we can calculate the combined velocity of the projectile and pendulum $V$.\myskip
+
+\begin{figure}[h]
+    \begin{center}
+        \begin{tikzpicture}
+            \begin{scope}[dashed]
+                \draw (0,0) rectangle (0.2,4);
+                \draw (-0.4,0) rectangle (0.6,-1);
+                \draw (-0.4,-1) rectangle (-0.1,-1.5);
+                \draw (0.6,-1) rectangle (0.3,-1.5);
+                \draw (-0.1,-1) rectangle (0.3,-1.2);
+                \draw (-0.1,-1.2) rectangle (0.3,-1.4);
+                \draw[dashed] (0.1,-0.5) circle (0.3);
+            \end{scope}
+
+            \begin{scope}[rotate around={35:(0.1,4)}]
+                \draw (0,0) rectangle (0.2,4);
+                \draw (-0.4,0) rectangle (0.6,-1);
+                \draw (-0.4,-1) rectangle (-0.1,-1.5);
+                \draw (0.6,-1) rectangle (0.3,-1.5);
+                \draw (-0.1,-1) rectangle (0.3,-1.2);
+                \draw (-0.1,-1.2) rectangle (0.3,-1.4);
+                \draw[dashed] (0.1,-0.5) circle (0.3);
+
+                \draw[dashed] (0.1,4) -- (1.6,4);
+                \draw[dashed] (0.1,-0.5) -- (1.6,-0.5);
+                \draw[>=stealth,<->,thick] (1.4,-0.5) -- node[right] {$R$} (1.4,4);
+                \node (A) at (0.1,-0.5) {};
+            \end{scope}
+            \draw[xshift=-2cm] (0.1,-0.5) circle (0.3);
+            \draw[>=triangle 60,->,xshift=-2cm] (-0.5,-1.2) --  node[below] {$v$}(0.5,-1.2);
+
+            \draw[>=stealth,<->,thick] (0.2,2.5) arc (-85:-58:1.5cm);
+            \node at (0.7,2.2) {$\theta$};
+
+            \path [name path=upper line] (A) -- ++(4,0);
+            \path [name path=lower line] (0.1,-0.5) -- ++(6,0);
+            \path [name path=vertical line] (4.5,-1) -- (4.5,3);
+
+            \draw [name intersections={of=upper line and vertical line, by=x}] [dashdotted] (A) to (x);
+            \draw [name intersections={of=lower line and vertical line, by=y}] [dashdotted] (0.1,-0.5) to (y);
+            \draw[>=stealth,<->,thick] (x) -- node[right] {$h$} (y);
+
+            \node at (-1.9, 0.2) {$m$};
+            \node at (0.6,0.5) {$M$};
+            %\draw[dashdotted] (A) -- ++(2.2,0);
+            %\draw[>=stealth,<->] (4.3,
+        \end{tikzpicture}
+    \end{center}
+    \caption{Schematic Diagram for the Ballistic Pendulum}
+    \label{fig:balldiag}
+\end{figure}
+
+For the second part of the problem, consider the motion of the pendulum after the collision. At this point we cannot use conservation of momentum because an external force (gravity) acts on the pendulum more and more in the direction of the pendulum's motion.  However, we can use energy conservation, because there are no uncontrollable energy losses (like vibrations or friction). Conservation of energy requires:
+\begin{equation}
+    \text{Kinetic Energy after the Collision} = \text{Potential Energy at the Top of the Swing}
+\end{equation}
+or
+\begin{equation}
+    \frac{1}{2}(m+M)V^2 = (m+M)gh
+\end{equation}
+Here, $h$ is the height of the combined (pendulum bob + metal ball) above their lowest point.  This relation permits us to calculate the maximum height $h$ that the pendulum reaches from the combined velocity $V$ , which was calculated from the initial velocity of the projectile in the first part.\myskip
+
+Due to the design of our pendulum, we have one final step.  We will not be measuring the height $h$ which the cup in the pendulum rises to, but rather the angle $\theta$ through which it sweeps.  By examining figure \ref{fig:balldiag}, it is clear that $h$ can be represented as a function of $\theta$ in the following way:
+\begin{equation}
+    h = R(1-\cos\theta)
+\end{equation}
+We now have everything we need to solve for the initial velocity $v$ of the metal ball in terms of the angle $\theta$ swept through by the pendulum.\myskip
+
+NOTE: Before coming to lab, make sure you have solved for $v$ as a function of $\theta$!
+
+\section{Experiments}
+\subsection{The Air Track}
+
+\subsubsection{Set-up}
+
+The air track should be set up according to Figure \ref{fig:airtrack_p} with a sonic ranger at either side of the air track, both connected to the data-collecting computer. Remember the sonic rangers should be set to ``cart'' mode for better accuracy by moving the switch at the top to the cart icon. Prior to taking any data, you should use the leveling feet to level the air track so that a glider placed on it would drift as little as possible. Note that a small amount of drifting might be inevitable because there might be some bowing or sagging of the track due to its weight.\myskip
+
+\underline{\emph{Please handle the gliders with care}}! Don't put them on the track without air flowing and store them only on the felt covered holders provided. Make sure that the bumpers are inserted on both ends of the gliders, and don't make violent collisions! (this also compromises your data).\myskip
+
+\begin{figure}[h]
+        \begin{tikzpicture}[>=triangle 60]
+            \begin{scope}[xshift=-3cm]
+                \draw (-4,0) rectangle (6,0.3);
+                \draw (-4,0.3) rectangle (6,0.5);
+                \draw (-4,0.5) -- (-4,0.8) -- (-3.8,0.8) -- (-3.8,0.7) -- (-4,0.7);
+                \draw (6,0.5) -- (6,0.8) -- (5.8,0.8) -- (5.8,0.7) -- (6,0.7);
+
+                \draw (-1,0) rectangle (-0.8,-0.3); %leg 1
+                \fill (-1,-0.3) rectangle (-0.8,-0.4);
+
+                \draw (3,0) rectangle (2.8,-0.3); %leg 2
+                \fill (3,-0.3) rectangle (2.8,-0.4);
+
+                \draw (-2,0.3) rectangle (-3,0.8);
+                \draw[thick] (-3,0.7) -- (-3.1,0.7);
+                \draw[very thick] (-3.1,0.65) -- (-3.1,1.1);
+
+                \draw (3,0.3) rectangle (4,0.8);
+                \draw[thick] (4,0.7) -- (4.1,0.7);
+                \draw[very thick] (4.1,0.65) -- (4.1,1.1);
+
+                \draw (-2,0.7) -- (-1.9,0.7);
+                \draw (-1.9,0.75) rectangle (-1.7,0.65);
+
+                \draw (3,0.7) -- (2.9,0.7);
+                \draw (2.9,0.75) rectangle (2.7,0.65);
+
+                \begin{scope}[xshift = 0.5cm]
+                    \draw (-6,-0.4) -- (-5,-0.4);
+                    \draw (-5.6,-0.4) -- (-5.6, 0.5);
+                    \draw (-6,0.5) rectangle (-5,1);
+                \end{scope}
+                
+                \begin{scope}[xshift = -0.5cm]
+                    \draw (7,-0.4) -- (8,-0.4);
+                    \draw (7.6,-0.4) -- (7.6, 0.5);
+                    \draw (8,0.5) rectangle (7,1);
+                \end{scope}
+
+                \draw[->] (-3,2) node[above] {Elastic Bumper} -- (-3.9,0.9);
+                \draw[->] (-2.9,2) -- (-1.8,0.9);
+
+                \draw[->] (2,2) node[above] {Bumper Plate} -- (2.8,0.9);
+                \draw[->] (6,2) node[above] {Sonic Ranger} -- (6.8,1.2);
+                \draw[->] (0,-0.6) node[right] {Leveling Feet} -- (-0.7,-0.2);
+                \node at (0,1) {Air Track};
+            \end{scope}
+        \end{tikzpicture}
+    \caption{Schematic Diagram of the Air Track Setup}
+    \label{fig:airtrack_p}
+\end{figure}
+
+In this experiment we use the computer in the lab to collect data. To log on, use the user name \textbf{student} and password \textbf{student}. On the desktop screen, click on the MOMENTUMLAB icon to load the software we use for this part of the lab.
+\myskip
+
+To begin taking data, single click on the \textbf{Start} button. As the data is being collected, the graph will dynamically display the current velocities of the two gliders. To stop taking data, single click on the \textbf{Stop} button. After analyzing the data, you may want to reset the graph by clicking on the menu \textbf{Experiment} $\rightarrow$ \textbf{Delete Last Data Run}.\myskip
+
+\subsubsection{Elastic Collision of Two Gliders}\label{sec:elastic}
+
+In the air track experiment, we observe both elastic and inelastic collisions. The air track provides a steady airflow so that the gliders move along a layer of air and the effects of friction are negligible. We use bumpers and elastic rubber bands on the gliders to provide almost perfectly elastic collisions.\myskip
+%Flexible steel bumpers, mounted on the riders and at the ends of the trough, provide almost perfectly elastic collisions.\myskip
+%\begin{figure}[h]
+%\centering
+%\includegraphics[width=0.8\textwidth]{./pic/image2.png}
+%\caption{Air track}
+%\end{figure} %TODO: figure needs update
+
+%Place a glider at rest near the center of the air track. The track may need a minor adjustment, using the leveling feet, to make it as close to horizontal as possible (note that there may be some bowing or sagging of the track due to its weight).\myskip
+
+\begin{figure}[h]
+    \begin{center}
+        \begin{tikzpicture}[MyPerspective,scale=0.5,thick]
+            \path (0.5,0,0);
+            \pgfgetlastxy{\cylxx}{\cylxy}
+            \path (0,0.5,0);
+            \pgfgetlastxy{\cylyx}{\cylyy}
+            \path (0,0,0.5);
+            \pgfgetlastxy{\cylzx}{\cylzy}
+
+            \pgfmathsetmacro{\cylt}{(\cylzy * \cylyx - \cylzx * \cylyy)/ (\cylzy * \cylxx - \cylzx * \cylxy)}
+            \pgfmathsetmacro{\ang}{atan(\cylt)}
+            \pgfmathsetmacro{\ct}{1/sqrt(1 + (\cylt)^2)}
+            \pgfmathsetmacro{\st}{\cylt * \ct}
+
+            \begin{scope}
+                \draw (0.2,-1.8,-3) -- (-0.2,-1.8,-3) -- (-0.2,-1.8,0) -- (0.2,-1.8,0)  -- (0.2,-1.8,-2.5) -- (-0.1,-1.8,-2.5) -- (-0.1,-1.8,-2.6) -- (0.2,-1.8,-2.6) -- cycle;
+                \draw (0,0,0) .. controls (0.8,0,2.3) and (-0.8,0,2.3) .. (0,0,0);
+                \draw[fill=white] (-0.2,-1.8,0) -- (0.2,-1.8,0) -- (0.2,1.8,0) -- (-0.2,1.8,0) -- cycle;
+                \draw[fill=gray] (0.2, -1.8, -2.5) -- (-0.1, -1.8, -2.5) -- (-0.1,1.8, -2.5) -- (0.2,1.8,-2.5) -- cycle;
+                \draw[fill=white] (0.2,1.8,-3) -- (-0.2,1.8,-3) -- (-0.2,1.8,0) -- (0.2,1.8,0)  -- (0.2,1.8,-2.5) -- (-0.1,1.8,-2.5) -- (-0.1,1.8,-2.6) -- (0.2,1.8,-2.6) -- cycle;
+            \end{scope}
+
+            \begin{scope}[xshift=6cm]
+                \draw (0,0) circle[x radius=0.5, y radius=0.5];
+                \draw[fill=white] (0.47,0.03,-1.5) -- (0.47,0.03,0) -- (-0.47,0.03,0) -- (-0.47,0.03,-1.5) -- cycle;
+                \draw[fill=white] (0.47,0.03,0) -- (0.47,0.03,-1.5) -- (0.47,-0.03,-1.5) -- (0.47,-0.03,0) -- cycle;
+                \draw (-0.47,0.03,-1.5) -- (-0.47,-0.03,-1.5) -- (0.47,-0.03,-1.5);
+                \draw (0,0,1.5) .. controls (0.8,0,3.8) and (-0.8,0,3.8) .. (0,0,1.5);
+                \draw[fill=white] (\ct*0.5,\st*0.5,0) -- ++(0,0,1.5) arc[start angle=\ang,delta angle=180,radius=0.5] -- ++(0,0,-1.5) arc[start angle=\ang+180, delta angle=-180, radius=0.5];
+                %\draw (
+                %\draw[thick] (
+            \end{scope}
+        \end{tikzpicture}
+    \end{center}
+    \caption{Rubber Band Bumpers and Bumper Plates}
+    \label{fig:bumpers}
+\end{figure}
+
+Insert an elastic rubber band bumper to the end of one glider (Figure \ref{fig:bumpers}), and insert a bumper plate to the end of the other glider. Measure the masses of the gliders with these accessories on, without any additional mass first. Put the two gliders onto the air track and make sure that the bumper plate is facing the rubber band bumper, and the two flags are facing the sonic rangers respectively, as shown in Figure \ref{fig:airtrack_p}. Click \textbf{Start} button to start collecting data and send the two gliders moving toward each other with an arbitrary velocity. Record the velocities of the gliders right before collision, and right after collision. 
+\begin{itemize}
+    \item Calculate the final velocities of the gliders from the $v_{1i}$ and $v_{2i}$ you measured from experiment. Which formula do you use? Does the result agree with the final velocities you recorded using the sonic ranger? 
+    %\item Repeat the experiment with some additional weights added to either of the glider. Does the theory still agree with experiment?
+    %\item What would happen if the two gliders had exactly equal mass?
+    %\item What would happen if you send a heavy glider to collide with a stationary light glider? Do we want this to happen?
+    %\item What would happen if you placed the small glider stationary and send the large one on it? Why do we not want this to happen?
+\end{itemize}
+
+Now we would like to study some special situations qualitatively (without calculations). Carry out the above procedure again but now keep one of the gliders stationary in the beginning, and send the other glider to collide with this one. Record the velocities of the gliders right before the collision, and right after collision.
+\begin{itemize}
+    \item What do you observe? Do you have a simple explanation why this happens? Did you anticipate this result?
+\end{itemize}
+
+Now add 2 additional weights to one of the gliders, one on each side (Always put the same number of additional weights on both sides of the rider, so that it is balanced and won't scratch the air track). Put this heavier glider on the air track and keep it stationary. Send the other glider moving toward the heavier one with an arbitrary velocity. Record the velocities of the gliders right before collision, and right after collision.
+\begin{itemize}
+    \item Describe qualitatively the result of collision, i.e.\ which directions do the gliders go, how fast they are. Does it agree with your expectation?
+    \item What will happen if the heavier glider is extremely massive, say with mass 100 times larger than the lighter one?
+    %\item Calculate the final velocities of the gliders from the $v_{1i}$ and $v_{2i}$ data you measured from experiment. Do they agree with the final velocities you recorded using the sonic ranger?
+\end{itemize}
+
+Now repeat the above procedure but now with the lighter glider initially at rest, and send the heavier glider to collide with it. Record the relevant velocities.
+\begin{itemize}
+    \item Describe qualitatively the result of collision. Does it agree with your expectation?
+    \item Again, what will happen if the heavier glider is far more massive than the lighter one?
+    %\item Calculate the final velocities of the gliders from $v_{1i}$ and $v_{2i}$. Do they agree with the recorded final velocities?
+\end{itemize}
+
+\subsubsection{Inelastic Collision of Two Gliders}
+
+Replace the rubber band bumper and the bumper plate with a wax tube and a needle from the accessory box. The needle will stick into the wax tube and the two gliders will stick together after collision. Repeat the same step as section \ref{sec:elastic} by sending the a glider moving toward another stationary glider. Record the velocities of the gliders right before collision, and right after collision.
+\begin{itemize}
+    \item Calculate the combined velocity of the two gliders after collision from the $v_{1i}$ and $v_{2i}$ you measured from experiment. Does it agree with the velocity you recorded using the sonic ranger?
+    \item Repeat the experiment with both gliders moving towards each other. Try a few times to find initial velocities such that both gliders come to rest after collision. What is the ratio of their velocities? Is it what you expect?
+%\item Compare the experimental velocity ratio to a theoretical prediction from the masses of the gliders
+%\item After bouncing off the ends, do the two gliders meet again at the position from which they started?  Explain why or why not!
+\end{itemize}
+
+%\underline{\emph{Safety remark}}: Remember to handle the gliders carefully, and don't make violent collisions!
+
+%\underline{\emph{Safety remark}}: Handle the Tesla coil carefully. It produces several thousand volts and you or others can get a serious shock! 
+
+\subsection{The Ballistic Pendulum}
+\emph{Safety remark}: Do not have the projectile launcher loaded while you are taking measurements or setting up. Remember to wear the safety goggles when you are actually doing the experiment.\myskip
+
+In this experiment, we will measure the velocity of a projectile from a spring-loaded launcher and use it to predict the behavior of a pendulum with which it is colliding. The components are shown in the following diagram:
+
+\begin{figure}[h]
+    \begin{center}
+        \includegraphics[height=0.6\textheight]{./Exp6/pic/image3.png}
+    \end{center}
+    \caption{Ballistic Pendulum}
+    \label{fig:ballistic}
+\end{figure}
+
+%TODO: Add a diagram
+
+\begin{itemize}
+    \item \textbf{Launcher} - We will be using a spring-loaded launcher to propel our projectile.  There are 3 different velocity settings, i.e.\ three different positions to which you can compress the spring.  We assume that for a single spring position, the projectile will show very little variability in its velocity between launchings (you can convince yourself of this in the next section!).
+    \item \textbf{Pendulum} - The pendulum consists of a rigid rod with a cup (and some brass weights) at one end.  The cup has a latch which will trap the ball inside upon impact.  The rod has a non-negligible mass, but we will assume that our pendulum is a simple pendulum, with all weight concentrated at the end.
+    %\item \textbf{Photogate Timers} - To measure the initial velocity of our projectile, we will use two photogate timers.  These send a signal whenever a solid object passes through their beam.  Note that the construction of our pendulum does not allow us to measure the projectile's velocity \textit{in situ} - we must measure the projectile's velocity with the pendulum moved away, and then assume a similar velocity for subsequent trials.  Because our launcher gives highly repeatable results, this is not a bad assumption.
+\end{itemize}    
+
+\subsubsection{Measuring $\theta$}
+
+First, make sure that that the launcher is attached to the bottom set of slots, as shown in the above diagram. The plumb bob at the end of the launcher indicates the angle of inclination of the launcher.  Arrange the launcher so that it lays level, and then load the metal ball into the launcher, compressing the spring to its \emph{maximum} extent.  Note that during the loading, the pendulum can be clipped to the 90 degrees position so that it stays out of the way. \myskip
+
+Once the metal ball is loaded, bring the pendulum down.  The black angle indicator should be in position so that it is pushed upward as the pendulum swings forward.  It is designed to stick to the position to which the pendulum pushes it, without slipping backward due to gravity.  If you find that the indicator does slip backward, a rubber band can be used to hold it in place. \myskip
+
+Because the base plate may not rest on a perfectly level surface, the angle indicator at the top of the pendulum may not point to zero even when the pendulum is pointing straight down.  Therefore you should first record the initial (small) angle of the pendulum, and then record the final angle of the pendulum, subtracting the two to find the total angle swung through by the pendulum.\myskip
+
+You are ready to launch.  With the pendulum in position, and the whole setup pointed toward a safe place (away from your fellow physicists!), pull the yellow cord, which releases the catch on the launcher and launches your metal ball.  Record the resulting angle of the pendulum, and repeat this procedure three or four times to ensure that your result is consistent.
+
+%\subsubsection{Measuring $v$}
+
+%You should now be using the computer next to the ballistic pendulum set. On the desktop screen, click on the PENDULUM icon to load the software for this part of the lab. The column labelled ``time between gates'' is the time it takes for an object to pass through two photogates. Clip the pendulum once again to the 90 degrees position, and position the two photogate timers (they are mounted on their own stands) in front of the launcher.  When the metal ball passes in front of a photogate, an LED on top blinks red.  If when you launch you don't see a ``time between gates'' showing up, it may be because you have not precisely aligned the photogates with the path of the ball.\myskip
+
+%To take data, press the green \textbf{Start} button in DataStudio.  Notice that there is a $\sim$2 second delay before it actually starts to collect data! Do not launch your metal ball until you see that the timer has begun counting up. Once you see it counting, launch the ball and record the time between gates. Repeat this 3-4 times to ensure consistency.\myskip
+
+%The velocity of the ball is then just its distance travelled divided by its time spent travelling.  Carefully use a ruler to measure the distance between the photogates, and use that value to record the velocity of the metal ball upon launching.
+
+\subsubsection{Other Measurements}
+
+In order to calculate the initial velocity, we must also know the masses of the ball and the pendulum, as well as the pendulum's length. In order to measure these quantities, you can unscrew the pendulum and take it off from the base. Measure all of these using the electric scale and your ruler, and use them (along with the angle swept out by the pendulum) to make an estimation of the metal ball's initial velocity.\myskip
+
+\begin{itemize}
+    \item Once you have calculated what you expect the ball's initial velocity to have been, compare it to what is labelled on the pendulum.  Is your prediction higher or lower than the labelled value?  What factors may have caused this?
+    \item Repeat the experiment with a different compression for the spring, i.e.\ different initial velocity. Which of your result agrees better with the labelled value? %You can have at most 3 different initial velocities. Compare your experimental results with the labelled values on the pendulum, which one agrees best?
+    \item In making our prediction, we assumed a simple pendulum (i.e.\ one with all mass concentrated at the end).  Were you to make a more careful calculation, what steps in our derivation would require modification?
+\end{itemize}
+
+\section{Lab Preparation Examples}
+\noindent\underline{Propagation of Uncertainty}:\myskip
+
+1. Given $a = 1.5 \pm 0.5\, \textrm{m}$ and $b = 3.0 \pm 0.6\, \textrm{m}$ what is $a/b$?\myskip
+
+\noindent\underline{Ballistic Pendulum}:\myskip
+
+2. You measure the following values for the pendulum experiment:
+\begin{table}[h]
+  \centering
+  \begin{tabular}{|c|c|c|c|}
+    \hline
+    $\theta$&$R$&$m$&$M$\\
+    \hline
+    $25^\circ$ & $30\,\mathrm{cm}$ & $30\,\textrm{g}$ & $300\,\textrm{g}$\\
+    \hline
+  \end{tabular}
+\end{table}
+
+What is your predicted value for $v_0$? (Answer: $8.16\,\mathrm{m/s}$)\myskip
+
+\noindent\underline{Conversion m/s, km/h and miles/h}: \myskip
+
+4. What is $1\, \textrm{m/s}$ in km/h?\myskip
+
+5. How many miles/h is the speed of $200\,\textrm{km/s}$?\myskip
+
+
+\noindent\underline{Air track}:\myskip
+
+6. In the elastic collision, the gliders weigh $m = 100\,\textrm{g}$ and $M = 250\textrm{g}$. The heavier glider is stationary, whereas the lighter one initially travels towards it with velocity $v_{1i} = 1.5\,\mathrm{m/s}$. What is the expected value for $v_{1f}$ and $v_{2f}$? (Answer: $-0.64\,\mathrm{m/s}$ and $0.86\,\mathrm{m/s}$ respectively)\myskip
+
+7. In the inelastic collision, the gliders weigh $m = 100\,\textrm{g}$ and $M = 250\textrm{g}$. The heavier glider is stationary, whereas the lighter one initially travels towards it with velocity $v_{1i} = 1.5\,\mathrm{m/s}$. What is the expected value for $v_{1f}$ and $v_{2f}$? (Answer: $0.43\,\mathrm{m/s}$ for both)\myskip
+
+\noindent\underline{Explanations}:\myskip
+
+8. You are sitting in a car of mass $M$. Another car with mass $m = 500\,\textrm{kg}$ crashes into you with a relative velocity of $10\,\textrm{m/s}$. Explain in a few sentences (and maybe equations) why you feel less impact if your car has $M = 2000\,\textrm{kg}$ as if your car has only $M = 500\,\textrm{kg}$? 
+

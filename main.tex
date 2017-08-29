@@ -1,0 +1,169 @@
+\documentclass[letterpaper, 12pt]{book}
+
+\usepackage[pdftex]{graphicx}
+\usepackage{epstopdf}
+\usepackage[titletoc]{appendix}
+\usepackage{multirow}% http://ctan.org/pkg/multirow
+\usepackage{hhline}% http://ctan.org/pkg/hhline
+
+\DeclareGraphicsRule{*}{mps}{*}{} 
+%\usepackage{graphicx}
+\usepackage{amsmath, amsthm, amssymb}
+\usepackage{listings}
+\usepackage{float}
+\usepackage{enumerate}
+\usepackage{hyperref}
+\usepackage{fancyheadings}
+\usepackage{titlesec}
+\usepackage{multicol}
+\usepackage{wrapfig}
+\usepackage{tocloft}
+\usepackage{tikz}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{array}
+\usepackage{multirow}
+\usetikzlibrary{positioning}
+\usetikzlibrary{decorations.pathmorphing}
+\usetikzlibrary{arrows}
+\usetikzlibrary{decorations.markings}
+\usetikzlibrary{patterns}
+\usetikzlibrary{shapes}
+\usetikzlibrary{intersections}
+\usetikzlibrary{shapes.geometric}
+\restylefloat{table}
+%\usepackage{fullpage}
+\usepackage[left=1in, top=1.2in, right=1in, bottom=1.2in, bindingoffset=0.4in]{geometry}
+
+\newcommand{\myintertext}[1]{\end{enumerate} #1\begin{enumerate}}
+
+% Different font in captions
+\newcommand{\captionfonts}{\small}
+
+\makeatletter  % Allow the use of @ in command names
+\long\def\@makecaption#1#2{%
+  \vskip\abovecaptionskip
+  \sbox\@tempboxa{{\captionfonts #1: #2}}%
+  \ifdim \wd\@tempboxa >\hsize
+    {\captionfonts #1: #2\par}
+  \else
+    \hbox to\hsize{\hfil\box\@tempboxa\hfil}%
+  \fi
+  \vskip\belowcaptionskip}
+\makeatother   % Cancel the effect of \makeatletter
+
+\linespread{1.05}
+
+\renewcommand*\thesection{\arabic{section}}
+\renewcommand*\thefigure{\arabic{figure}}
+
+\setlength{\cftchapnumwidth}{1.2cm}
+\renewcommand{\cftchappresnum}{1-}
+
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{0}
+\setcounter{chapter}{-1}
+
+\pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection.#1}{}}
+
+\newcommand{\myskip}{\vspace{0.5\baselineskip}}
+
+\lhead[\rightmark]{Experiment 1-\thechapter}
+\cfoot{\thepage}
+\rhead[Experiment 1-\thechapter]{\leftmark}
+
+%\fancypagestyle{plain}{
+    %\fancyhf{}
+    %\renewcommand{\headrulewidth}{0pt}
+    %\renewcommand{\footrulewidth}{0pt}
+%}
+
+\tikzset{
+    MyPerspective/.style={scale=1.5,y={(0.8cm, -0.4cm)},x={(0cm,1cm)},z={(0.9cm,0.3cm)}}
+}
+
+\begin{document}
+
+\pagestyle{empty}
+\include{cover}
+\newpage
+\phantom{aaa}
+\clearpage
+\tableofcontents
+%\addtocontents{toc}{\protect\thispagestyle{empty}}
+\cleardoublepage
+
+\pagestyle{fancy}
+
+\titlespacing*{\chapter}{0pt}{-50pt}{20pt}
+\titleformat{\chapter}[display]
+    {\bfseries\huge\filcenter}
+    {\underline{Introduction 1-\thechapter}}
+    {0pt}
+    {\huge}
+
+\setcounter{page}{1}
+\include{intro}
+
+\titleformat{\chapter}[display]
+    {\bfseries\huge\filcenter}
+    {\underline{Experiment 1-\thechapter}}
+    {0pt}
+    {\huge}
+
+\include{Exp0/ExcelError}
+\include{Exp1/UncertaintyError}
+\include{Exp2/VelocityAcceleration}
+\include{Exp3/Forces}
+\include{Exp4/ProjectileMotionandConservationofEnergy}
+\include{Exp5/ConservationofMomentum}
+\include{Exp6/TorqueandRotationalInertia}
+\include{Exp7/CentripetalForceAngularMomentum}
+\include{Exp8/WavesI_StandingWaves}
+\include{Exp9/WavesII_OscilliscopeandFunctionGenerator}
+\include{Exp10/IdealGasandThermalConductivity}
+
+\titleformat{\chapter}[display]
+    {\bfseries\huge\filright}
+    {\underline{Appendix \thechapter}}
+    {0pt}
+    {\huge}
+
+\appendix
+\appendixpage
+\addappheadtotoc
+ 
+\chapter{Advanced Error Analysis}  
+\section{Clarification of 2/3 Rule}
+
+To find the true uncertainty, we are really interested in the \emph{standard error of the mean}, i.e. how likely it would be for a newly measured average value to be close to our original value were we to perform the experiment again.  The proper way to figure this out would be to get say a thousand friends to perform this experiment in the same way, each using the same number of data points, and then compare the results of everyone.  Each student would calculate his or her own mean, and they would likely all be clustered around some central average.  We could then examine the spread of this cluster of means using the 2/3 rule, and we'd have a quantitative measure of the uncertainty surrounding any single student's measurement.\myskip
+
+While it's usually impractical to get 1000 friends together to repeat an experiment a thousand times, it turns out that the uncertainty (or ``standard error'') of the mean can be estimated with the following formula:
+\begin{equation}
+    \text{Standard Error Of The Mean} = \frac{\text{Uncertainty Of Single Measurement}}{\sqrt{N}}
+\end{equation}
+where ``$N$'' is the number of data points in your sample, and ``Uncertainty Of Single Measurement'' is the uncertainty calculated via the 2/3 method.  The ``$\sqrt{N}$'' term should make sense qualitatively -- as we take more and more data points, our measured average becomes less and less uncertain as we approach what should be the ``global'' mean.
+
+\section{The ``Correct'' Way to Add Uncertainties}
+
+The rules we've given for propagating uncertainties through a calculation are essentially correct, and intuitively make sense.  When adding two quantities together, if one has an uncertainty of $\Delta$x and another has an uncertainty of $\Delta y$, the sum could indeed range from $(x+y) - (\Delta x +  \Delta y)$ to $(x+y) + (\Delta x + \Delta y)$.  This implies that the proper way to find the uncertainty of $(x+y)$ is to add their respective absolute uncertainties. \myskip
+
+There is, however, a small problem -- this overestimates the uncertainty!  Since $x$ and $y$ are equally likely to be wrong by either a \emph{positive} amount or a \emph{negative} amount, there's a good chance that the respective errors of each variable will partly cancel one another out.  To account for this, a more accurate way to estimate uncertainty turns out to be to add uncertainties \emph{in quadrature}.  This means:\myskip
+
+\textbf{Adding/Subtracting Quantities}
+
+\begin{equation}
+    (A\pm\Delta A) + (B\pm\Delta B) = (A+B)\pm\sqrt{(\Delta A)^2+(\Delta B)^2}
+\end{equation}
+
+\myskip\textbf{Multiplying/Dividing Quantities}
+
+\begin{equation}
+    A\left(1\pm\frac{\Delta A}{A}\right) \times B\left(1\pm\frac{\Delta B}{B}\right) = \left(A \times B\right) \left ( 1 \pm\sqrt{\left(\frac{\Delta A}{A}\right)^2+\left(\frac{\Delta B}{B}\right)^2} \right )
+\end{equation}
+
+While this method gives a closer approximation to what the true propagated uncertainty should be, it is clearly a more complex calculation.  In the limited time available to complete your experiment and lab report, you may use the simpler, earlier uncertainty calculation method provided, and avoid this complicated calculation.  But do remember that the simpler method \emph{overestimates} the total uncertainty.
+
+\end{document}

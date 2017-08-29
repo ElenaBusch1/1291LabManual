@@ -1,0 +1,260 @@
+\chapter{Forces}
+
+\section{Introduction}
+
+Forces are an essential element in the study of physics. The concept of force is familiar: effects of forces on the human body are part of everyday experience. But force has a precise meaning; forces can be measured, combined, and evaluated in exact ways. This laboratory is intended to demonstrate a few of the many examples of natural and familiar forces discussed in the lecture course. \myskip
+
+Today's experiments illustrate the nature of several forces and how they are measured. First, we deal with the vector nature of forces and note how a situation of zero net force at a point requires that all forces in each direction must balance. The forces arise from the gravitational attraction to the earth (weight) of objects, which are transmitted to a point through string tension.\footnote{See Chapters 5 and 12 of \emph{Fundamentals of Physics}, 9th Ed., by Halliday, Resnick \& Walker.} \myskip
+
+Next, we work with the force arising by stretching or contracting a spring. This kind of force has more general applications than springs, in that the ``elastic'' nature of collisions (like a tennis ball bouncing on the floor) arises from spring-like forces. You will measure the quantitative relationship between the force applied and the subsequent displacement of a spring.\footnote{See Section 7-7 of Halliday, Resnick \& Walker.} \myskip
+
+Finally, we deal with an aspect of force that has not yet been discussed in lecture: the lever. This topic will be covered in the course lectures on rotations. For the purposes of this lab, you should see how stability against rotation adds to the concept of force the new concept of ``lever arm''.\footnote{This will be covered in Chapter 11 of Halliday, Resnick \& Walker.}  Lever arm is an important aspect of how forces work in many physical situations, like the forces applied by muscles on your skeleton. \myskip
+
+\section{Subject Matter}
+
+\subsection{Vector Forces}
+
+In the first part of the experiment, we measure three vector forces and show that when the system is stationary, the sum of all forces is zero. Vectors have length \emph{and} direction, and therefore are usually represented by an arrow -- its length corresponds to the magnitude of the vector, while its direction (from tail to head) corresponds to the direction of the vector. To add two vectors graphically, simply place the tail of one vector at the head of the other. Then start from the same origin and attach the two vectors in the reverse order, we must arrive at the same final point. From the parallelogram formed by this procedure, the arrow along the main diagonal represents the sum of the two vectors. (The other diagonal is the difference of the two vectors.)
+\begin{figure}[h]
+    \begin{center}
+        \includegraphics[width=0.6\textwidth]{./Exp2/pic/image1.png}
+    \end{center}
+    \caption{Addition of Forces}
+    \label{fig:forceadd}
+\end{figure}
+
+Vectors can also be added algebraically. If a vector is described in a given basis, or specific coordinate axes, e.g.\ $\mathbf{u} = (1,2)$, you must add a second vector in the same basis. For example, if the second vector has components $\mathbf{v} = (3,-3)$, the components of the sum, or resultant, vector are $\mathbf{u}+\mathbf{v} = (1+3,2+(-3)) = (4,-1)$.\myskip
+
+Just as every two added vectors give a vector sum or resultant, the opposite is also true: every vector can be split into two ``components'' at right angles to each other. This is an important tool we use in physics repeatedly. You may choose, for the convenience of doing the problem, along which perpendicular directions to split the vector. There is usually a favorable choice of perpendicular basis vectors in which the problem can be described most easily. 
+
+\subsubsection{Parallax}
+
+In the first part of this lab, we must draw images on paper of strings located above the paper. It will at first appear that there are many different possibilities of where to draw the images of the strings. If you draw lines on the sheet that seem directly below the strings when your head is in a given position, if you move your head a few centimeters left or right you will see that the lines are no longer covered by the strings. This effect, in which a closer object (here the string) seems to move relative to a distant background (here the sheet on which you draw the line) is called \emph{parallax}. We will see effects of parallax several times during these labs, so it is important to learn how to handle it. \myskip
+
+Where should the lines be drawn?  A unique prescription for where to place the lines is provided by the instruction to \emph{always look straight down on the string}. Now we must determine how we know when we are looking straight down on the string. Use a small mirror and place the mirror on the sheet directly under the string. Both the string and the image of the string in the mirror are visible. As your head moves left and right, the mirror image of the string moves relative to the string. When your head is located so that the string and its mirror image exactly overlap, \emph{you are looking straight down}. Make two small marks beside the mirror where the image of the string enters and leaves the mirror. Then, remove the mirror and draw a line through the two points on the paper with a ruler. This line is the correct image of the string.
+
+\subsection{Springs}
+
+Ideal springs turn out to have a very simple relation between the force $F$ applied to them and the distance $s$ they are stretched. This \emph{linear} relationship, called ``Hooke's Law,'' is expressed by:
+\begin{equation}
+    F = k\cdot s
+\end{equation}
+where $k$ is known as the ``spring constant''\footnote{Note that this denotes the force applied \emph{to} the spring, not by the spring}. It is the same for a specific spring, and its value depends only on the properties of that spring. In this lab, we will measure the forces necessary to stretch a spring different distances, and from these we will determine the spring constant of the spring.
+
+\subsubsection{Best-Fit Line}
+
+In most research laboratories, plotting measurements on a graph is found to be the preferred method of reviewing the validity of data and quantitatively measuring the relationship between the variables. We often have some prior idea of the expected relationship between the variables. In these labs, this expected relationship is almost always arranged to be a straight line. But even if we know that ideal points fit on a precise straight line, real measured data points will not lie on a single line -- because the measurements always have intrinsic uncertainty. Therefore when the points are plotted, we should include error bars to indicate the uncertainties in the measured points. Because real measurements do not all lie on a single straight line, there are a variety of possible lines you might put through the data points. Some examples are shown in the figure below.
+\begin{figure}[h]
+    \begin{center}
+        \includegraphics[width=0.8\textwidth]{./Exp2/pic/image2.png}
+    \end{center}
+    \caption{Example of Best Fit Line}
+    \label{fig:bestfit}
+\end{figure}
+
+Which line represents the best fit?  There is actually an exact mathematical procedure to obtain the best-fit line, but since this is a tedious calculation (and usually done on a computer), we will introduce some useful ``eyeball'' methods that can be done easily, during the lab session without a computer. These techniques are sufficiently precise for our purposes, and with some experience they give results surprisingly close to the best computer fits. \myskip
+
+How does one draw the best line?  First, try to draw a line with as many points (with uncertainties included) lying above the line as below it. The gauge of how close the line is to a point is given by the uncertainty associated with that measured point. However, all the points at the left end should not lie on one side of the line with all the points at the right end lying on the other side. As a rule of thumb, roughly 2/3 of the points should have the line passing through the uncertainties.\myskip
+%The uncertainty for the best-fit line is obtained by estimating how much one could increase and decrease the slope of the line before the fit is deemed very bad. \myskip
+
+How to estimate the uncertainty on the slope of the best-fit line you draw using the above method? To do this we should estimate the spread of the slope, or maximum and minimum possible slopes that one can conceivably deduced from the graph. Half the difference between the minimum and maximum slopes is a good estimate of the slope uncertainty. \myskip
+
+\underline{Remark}: Often in our experiments the data points will not look as nice as in the above examples. One or several points may not be close to any best-fit line you try. Such anomalous points may occur, for example, because of a mistake in measuring. In such cases, it is acceptable to ignore these anomalies when estimating the best-fit line. (Of course you must note this fact down in your lab report)  Dropping anomalous points must be done with extreme care and only rarely.\footnote{More than once, data points that did not behave as theory predicted turned out to be new effects and led to Nobel prizes!}  It is better to choose a line with as many points above the line as below. If you are not sure of your measurements, it is better to re-measure or to take more data points.
+
+\subsubsection{Lever Arm}
+
+A lever is a simple device that enables you to ``trade force for distance'' in a system subject to rotation about a pivot. You can choose to apply a smaller force to lift a body, so long as you move further away from the pivot or increase the ``lever arm''. Those who have enjoyed themselves in their younger years on a playground ``see-saw'' understand this principle well. \myskip
+
+Among the first to explain the theory of levers, Archimedes is reported to have said, ``Give me a place to stand and I will move the earth.'' This statement reflects the fact that with enough available distance, the force necessary to move the earth could be applied by a single person. The problem of course, is that there is nowhere to stand at that distance from the earth.
+\begin{figure}[h]
+    \begin{center}
+        \includegraphics[width=0.6\textwidth]{./Exp2/pic/image6.png}
+    \end{center}
+    \caption{Moving the Earth}
+    \label{fig:earth}
+\end{figure}
+
+If two forces, $F_1$ and $F_2$, act on opposite sides of a pivot with lever arms (relative to the pivot) of $s_1$ and $s_2$, the lever will remain stationary if: \footnote{The experts among you will realize that this merely requires that the two torques are equal. This will also be covered in lecture later in the semester.}
+\begin{equation}
+    F_1\cdot s_1 = F_2\cdot s_2
+\end{equation}
+This implies that if $F_1$ and $s_1$ are fixed, then the product $F_2\cdot s_2$ must be constant and equal to the product $F_1\cdot s_1$,  otherwise the lever will rotate.
+
+\section{Description and Procedure}
+
+\subsection{Addition of Forces}
+
+In the first part of the experiment, we deal with three different forces. The force due to an unknown weight is balanced by two known forces. We will check the result by graphically adding the known forces. Using vector components, we check that the components of the three vectors in equilibrium cancel (within the uncertainty).
+\begin{figure}[h]
+    \begin{center}
+        \includegraphics[width=0.8\textwidth]{./Exp2/pic/image7.png}
+    \end{center}
+    \caption{Experimental Setup}
+    \label{fig:setup}
+\end{figure}
+
+The equipment includes a wooden board to which three pulleys are clamped. Over each pulley, we place a string with a weight. Choose two different known weights and attach them to two of the strings (you might begin with a $100\,\mathrm{g}$ and $150\,\mathrm{g}$ weight for example). The three strings are tied together over the board at a ``node''. Move the node, where the strings join, around gently and try to find the equilibrium position. (The position at which the node no longer moves, or the location to which the node returns if displaced a few cm, represent this equilibrium position.)  Place a sheet of paper on the wooden board, under the strings. In order to have room to record the string locations, make sure that the node is approximately in the middle of your paper and the wooden board. (You may need to move the pulleys to accomplish this.) \myskip
+
+You are going to draw vector representations of the forces due to each of the weights. Draw three line segments on your paper, corresponding to the three strings, using the method of parallax-free reading. After removing your paper, extend the lines so that they intersect at the node. Then, draw two arrows along the lines corresponding to the strings holding the known masses, with lengths proportional to the masses on the strings. Choose a scale that is appropriate for your weights and the size of the paper. These arrows are vectors representing the forces due to the known weights.\myskip
+
+Add these two vectors graphically using the parallelogram method described above to obtain their resultant force. The resultant of these two vectors should be opposite in direction but equal in length to the vector representing the unknown force (from the unknown mass). 
+
+\begin{itemize}
+    \item Are the two directions opposite?  How far off are they?
+    \item Measure the length of the resultant vector. From this length, calculate the magnitude of the unknown mass, and include uncertainty.
+\end{itemize}
+    
+On the electronic scale, measure the unknown mass and compare to the mass determined by the parallelogram method. 
+
+\begin{itemize}
+    \item Are they the same?  Should they be the same?
+\end{itemize}
+
+Now draw an arrow along the third (unknown) direction with length corresponding to the mass of the unknown weight you measured on the electronic scales. 
+
+\begin{itemize}
+    \item Specify the $x$ and $y$ components of all three vectors. Choose your $x$- and $y$-axis to make the work simplest!
+    \item Determine if the sum of all the $x$ components gives zero within uncertainty. Do the same for the $y$ components. (Remember that components from two vectors pointing in opposite directions have opposite signs.)
+    \item Note the main sources of error.
+\end{itemize}
+
+\subsection{Spring}
+
+In the second part of the experiment we plot applied force vs.\ stretch of the spring, make a best-fit straight line and measure its slope. You should understand the physical interpretation of this slope. \myskip
+
+\underline{General Comment}: Every line is fully determined by its slope and intercept. Whenever you obtain a best-fit line, you should check if these two quantities are reasonable. Also, these two quantities often have a physical interpretation that you should understand. \myskip
+
+Pick a spring and hang it from the pivot point. You will be using this spring for the entire experiment. Attach a $100\,\mathrm{g}$ weight to the bottom of the spring. Adjust the measuring ruler so that a calibration mark lines up with the lower end of the spring. \myskip
+
+Attach the force meter to the lower end of the spring and pull the spring so that it aligns with distances you want to use as measuring points. You can use the mirror from the first part of the experiment to get a parallax-free reading of the position of the spring. Your uncertainty in the position should then be as small as the resolution of the ruler. \myskip
+
+Read the force meter to determine the force you are applying to the spring by pulling it, and estimate the uncertainty in the reading of the force meter. 
+
+\begin{itemize}
+    \item Record a total of 5 points with associated uncertainty.
+    \item Draw a force vs. distance (stretch) graph. Don’t forget the error bars!
+    \item Draw a best-fit line through the data points. Draw the maximum and minimum slope on the graph. Do these in whichever order you find most convenient.
+    \item Record the value of the slope and determine its error. Interpret its physical meaning.
+    \item What is the value of the intercept of your line (where the distance is zero)?  How do you interpret this when it is non-zero?
+    \item Give the value of the spring constant including uncertainty.
+    \item Note the main sources of error.
+\end{itemize}
+
+\subsection{Lever Arm}
+
+In the last part of the experiment, a pivoted lever is balanced to remain in horizontal equilibrium. The quantitative goal is to verify that force and distance are inversely proportional. (We check to see if \emph{force} $\times$ \emph{lever arm} = \emph{constant} holds.)  You will graph force vs.\ 1/distance for several distances from the pivot point. If a straight line can be reasonably fit to the data, then we can conclude that there is a linear relation between force and inverse distance. You may find that the curve has a non-zero $y$-intercept, due to the fact that we have not counted the weight of the force meter. \myskip
+
+(NOTE: some of the lever arm setups have left and right inverted -- examine your equipment to see whether you need to interchange left and right in the description below.) \myskip
+
+Level the lever arm with the black paper clamp provided. Place the $500\,\mathrm{g}$ weight on the single hook to the right of the pivot. Using the meter that measures Newtons, measure the force necessary to keep the lever in balance for each of the hooks on the right side of the pivot. Include the uncertainty associated with each recorded force!
+
+\begin{itemize}
+    \item Make a plot including each pair of data values: force vs.\ 1/lever arm. Include the error bars of the force measurement.
+    \item Obtain the best-fit line in this graph. Comment on how well your best-fit line fits your measured data!
+    \item Does your best-fit line go through the origin of the graph?  Should it?
+    \item According to your best-fit line, how much force would have been necessary if the lever arm were 10 meters long (i.e. the balance force were applied at $s = 10\,\mathrm{m}$)?
+    \item Note the main sources of error.
+\end{itemize}
+
+\section{Application}
+
+How much force acts on your hip joint as you walk? \myskip
+
+You may be tempted to respond that the force on the hip joint is simply the weight of the body above the hip. This is indeed the force acting down from above. However, when you walk (supported by one leg at a time) the force acting from below is actually complicated. The reason is that the supporting forces consist of (a) the reaction force of the leg bone (femur) directly supporting the hip, and (b) the forces transmitted by the muscles connecting the hip to the femur. The latter are necessary to keep the body in balance. Figure \ref{fig:hipjoint} illustrates this mechanism. In performing this function, the two kinds of forces actually operate in different directions and have very different lever arms. In the end, for a typical person of weight, $W$, with his/her weight on one leg at a time, the direct reaction force on the hip from the leg bone is about $2.4W$ acting upwards, but at an angle to the vertical. (So if you weigh 125 pounds, the total upward force on your hip from direct contact with the femur is over 300 pounds!)  The force from the muscle attachments on the hip acts generally downwards (opposite direction) and is such as to balance the vertical forces and torques.\footnote{References: J. R. Cameron, et al, Physics of the Human Body (Medical Physics Publishing, Madison, 1992) p.36, and: R.M. Kenedi: Biomechanics and Related Bio-Engineering Topics.}\myskip
+
+So the balancing of forces (and torques) is an important element in dealing with the physiology of the human body.
+\begin{figure}[h]
+    \begin{center}
+        \includegraphics[width=0.6\textwidth]{./Exp2/pic/image3.png}
+    \end{center}
+    \caption{Balancing of Forces on Hip Joint}
+    \label{fig:hipjoint}
+\end{figure}
+
+\section{Lab Preparation Examples}
+
+\noindent \underline{Vectors}:\myskip
+
+1. Add the following two vectors algebraically:
+\begin{equation*}
+    \mathbf{u} = (1,2),\quad \mathbf{v} = (2,-5)
+\end{equation*}
+
+2. Draw the two vectors described above and add them graphically. \myskip
+
+3. Graphically add the two vectors below:
+\begin{figure}[h]
+    \begin{center}
+        \includegraphics[width=0.3\textwidth]{./Exp2/pic/image4.png}
+    \end{center}
+\end{figure}
+
+4. Draw the two vectors $\mathbf{u} = (3,-5)$, $\mathbf{v} = (-1,7)$ and graphically check if their sum points in the same direction as the vector $\mathbf{w} = (-1,-1)$.\myskip
+
+5. Split the vectors below into the two given components $(x,y)$ and add them up:
+\begin{figure}[h]
+    \begin{center}
+        \includegraphics[width=0.4\textwidth]{./Exp2/pic/image5.png}
+    \end{center}
+\end{figure}
+
+6. Does the sum of the 5 forces $\mathbf{F}_1,\dots,\mathbf{F}_5$ below vanish?
+\begin{align*}
+    \mathbf{F}_1 &= (1,2,3)\,\mathrm{N},\quad \mathbf{F}_2 = (1,0,-5)\,\mathrm{N},\quad \mathbf{F}_3 = (0,-3,7)\,\mathrm{N}, \\ 
+    \mathbf{F}_4 &= (-3,1,0)\,\mathrm{N},\quad \mathbf{F}_5 = (1,0,0)\,\mathrm{N}
+\end{align*}
+
+7. Show graphically that the sum of the three vectors $\mathbf{u} = (1,-2)$, $\mathbf{v} = (-3,4)$, $\mathbf{w} = (2,-2)$ vanishes.\myskip
+
+8. Does the sum of the following three vectors vanish within uncertainty?
+\begin{equation*}
+    \mathbf{u} = (10 \pm 1, -5 \pm 1),\quad \mathbf{v} = (-13 \pm 1, 7 \pm 1),\quad \mathbf{w} = (7 \pm 1, -3 \pm 1)
+\end{equation*}
+
+\noindent \underline{Lever arm}: \myskip
+
+9. You have a lever whose right hand lever arm is $1\,\mathrm{m}$ and the left is $25\,\mathrm{cm}$. If you place a mass of $1\,\mathrm{kg}$ on the left, how much mass do you need to place on the right so the lever stays balanced? \myskip
+
+10. A force $F = 1.0 \pm 0.2\,\mathrm{N}$ acts to the left of a pivot (length $L = 0.5 \pm 0.1\,\mathrm{m}$). The right side force acts at $R = 0.20 \pm 0.05\,\mathrm{m}$. What force must act on the right side if the lever is balanced? \myskip
+
+11. You want to fix a flat tire on your car ($m = 1000\,\mathrm{kg}$). To lift your car you use a (massless) lever of total length $100\,\mathrm{cm}$ pivoted about an unknown location along its length. How long should the distance from the car to the pivot be if you could only push down on the end of the lever with a force of $1000\,\mathrm{N}$?\myskip
+
+\noindent \underline{Spring}:\myskip
+
+12. If a spring stretches $5\,\mathrm{cm}$ when you put $100\,\mathrm{g}$ on it, what is the spring constant? \myskip
+
+13. If you set a mass of $10.0 \pm 0.1\,\mathrm{g}$ on a spring with spring constant, $k = 5.0 \pm 0.2 \,\mathrm{N/m}$, how long will it stretch? \myskip
+
+\noindent \underline{Best-Fit Line}: \myskip
+
+14. For the following force versus 1/distance diagram draw in the maximum and minimum slope and the best-fit line.
+\begin{figure}[h]
+    \begin{center}
+        \includegraphics[width=0.9\textwidth]{./Exp2/pic/image8.png}
+    \end{center}
+\end{figure}
+
+15. Fill in the table and draw a force vs. stretch diagram for the following data. Draw the maximum and minimum slope and the best-fit line. Give the value of the spring constant including uncertainty (via maximum and minimum slope curve).
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|l|l|}
+        \hline 
+        Stretch in $\mathrm{cm}$ & Force in $\mathrm{N}$ \\ \hline
+        10 & $1\pm 2$ \\ \hline
+        25 & $3\pm 1$ \\ \hline
+        50 & $4\pm 2$ \\ \hline
+        75 & $8\pm 1$ \\ \hline
+        100 & $9\pm 1$ \\ \hline
+    \end{tabular}
+\end{table}
+
+\noindent \underline{Explanations}:\myskip
+
+17. Explain why a line fit to many measurements gives a better result than a single measurement. \myskip
+
+18. Try to explain, using forces and levers, why your biceps is such a strong muscle.\myskip
+
+19. Put a string through a book with the binding facing upwards. Try to pull the strings until they are horizontal.  Why is this impossible (your string will usually break)?
+
+
+

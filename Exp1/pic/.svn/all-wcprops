@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/labmanual/!svn/ver/1/Exp1/pic
+END
+.directory
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/labmanual/!svn/ver/1/Exp1/pic/.directory
+END
+image1.png
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/labmanual/!svn/ver/1/Exp1/pic/image1.png
+END
+image2.png
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/labmanual/!svn/ver/1/Exp1/pic/image2.png
+END
