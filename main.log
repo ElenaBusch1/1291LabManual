@@ -1,15 +1,14 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  23 AUG 2017 11:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.8.28)  29 AUG 2017 18:19
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
 **main.tex
 (./main.tex
-LaTeX2e <2015/01/01>
-Babel <3.9l> and hyphenation patterns for 79 languages loaded.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/book.cls
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 3 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/bk12.clo
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk12.clo
 File: bk12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -25,60 +24,72 @@ File: bk12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: pdftex.def on input line 94.
+Package graphics Info: Driver file: pdftex.def on input line 95.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
+
+! Package pdftex.def Error: PDF mode expected, but DVI mode detected!
+(pdftex.def)                If you are using `latex', then call `pdflatex'.
+(pdftex.def)                Otherwise check and correct the driver options.
+(pdftex.def)                Error recovery by switching to PDF mode.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.433   }\@ehc
+              
+? 
 \Gread@gobject=\count88
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf.sty
 Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
 Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
 ))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
 Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -87,11 +98,11 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
@@ -105,81 +116,110 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 )))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/appendix/appendix.sty
-Package: appendix 2009/09/02 v1.2b extra appendix facilities
-\c@@pps=\count89
-\c@@ppsavesec=\count90
-\c@@ppsaveapp=\count91
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/multirow/multirow.sty
-\bigstrutjot=\dimen105
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/hhline.sty
+
+! LaTeX Error: File `appendix.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: myboy
+
+! LaTeX Error: File `myboy.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: myboy
+
+! LaTeX Error: File `myboy.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+
+! LaTeX Error: Unknown option `titletoc' for package `appendix'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 \usepackage
+               {multirow}% http://ctan.org/pkg/multirow
+? 
+
+! LaTeX Error: File `multirow.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+(/usr/share/texlive/texmf-dist/tex/latex/tools/hhline.sty
 Package: hhline 2014/10/28 v2.03 Table rule package (DPC)
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2013/01/14 v2.14 AMS math features
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/03 v2.15a AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2000/06/29 v2.01
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks15
-\ex@=\dimen106
+\ex@=\dimen105
 ))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen107
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen106
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count92
-LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count93
-\leftroot@=\count94
-LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count95
-\DOTSCASE@=\count96
-LaTeX Info: Redefining \ldots on input line 378.
-LaTeX Info: Redefining \dots on input line 381.
-LaTeX Info: Redefining \cdots on input line 466.
+\inf@bad=\count89
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count90
+\leftroot@=\count91
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count92
+\DOTSCASE@=\count93
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
 \Mathstrutbox@=\box26
 \strutbox@=\box27
-\big@size=\dimen108
-LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count97
-\c@MaxMatrixCols=\count98
+\big@size=\dimen107
+LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
+\macc@depth=\count94
+\c@MaxMatrixCols=\count95
 \dotsspace@=\muskip10
-\c@parentequation=\count99
-\dspbrk@lvl=\count100
+\c@parentequation=\count96
+\dspbrk@lvl=\count97
 \tag@help=\toks16
-\row@=\count101
-\column@=\count102
-\maxfields@=\count103
+\row@=\count98
+\column@=\count99
+\maxfields@=\count100
 \andhelp@=\toks17
-\eqnshift@=\dimen109
-\alignsep@=\dimen110
-\tagshift@=\dimen111
-\tagwidth@=\dimen112
-\totwidth@=\dimen113
-\lineht@=\dimen114
+\eqnshift@=\dimen108
+\alignsep@=\dimen109
+\tagshift@=\dimen110
+\tagwidth@=\dimen111
+\totwidth@=\dimen112
+\lineht@=\dimen113
 \@envbody=\toks18
 \multlinegap=\skip44
 \multlinetaggap=\skip45
 \mathdisplay@stack=\toks19
-LaTeX Info: Redefining \[ on input line 2665.
-LaTeX Info: Redefining \] on input line 2666.
+LaTeX Info: Redefining \[ on input line 2735.
+LaTeX Info: Redefining \] on input line 2736.
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amscls/amsthm.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2015/03/04 v2.20.2
 \thm@style=\toks20
 \thm@bodyfont=\toks21
@@ -191,61 +231,42 @@ Package: amsthm 2015/03/04 v2.20.2
 \thm@headsep=\skip48
 \dth@everypar=\toks25
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count104
-\lst@gtempboxa=\box28
-\lst@token=\toks26
-\lst@length=\count105
-\lst@currlwidth=\dimen115
-\lst@column=\count106
-\lst@pos=\count107
-\lst@lostspace=\dimen116
-\lst@width=\dimen117
-\lst@newlines=\count108
-\lst@lineno=\count109
-\lst@maxwidth=\dimen118
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
-\c@lstnumber=\count110
-\lst@skipnumbers=\count111
-\lst@framebox=\box29
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2014/09/06 1.5e listings configuration
-))
-Package: listings 2014/09/06 1.5e (Carsten Heinz)
+! LaTeX Error: File `listings.sty' not found.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/float/float.sty
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count112
-\float@exts=\toks27
-\float@box=\box30
-\@float@everytoks=\toks28
-\@floatcapt=\box31
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+
+! LaTeX Error: File `float.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+(/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks26
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/enumerate.sty
-Package: enumerate 2014/10/28 v3.00 enumerate extensions (DPC)
-\@enLab=\toks29
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
 
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
@@ -275,22 +296,22 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
-\@linkdim=\dimen119
-\Hy@linkcounter=\count113
-\Hy@pagecounter=\count114
+\@linkdim=\dimen114
+\Hy@linkcounter=\count101
+\Hy@pagecounter=\count102
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count115
+\Hy@SavedSpaceFactor=\count103
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Hyper figures OFF on input line 4443.
@@ -300,17 +321,17 @@ Package hyperref Info: Plain pages OFF on input line 4458.
 Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count116
+\c@Hy@tempcnt=\count104
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen120
-\Fld@menulength=\count117
-\Field@Width=\dimen121
-\Fld@charsize=\dimen122
+\XeTeXLinkMargin=\dimen115
+\Fld@menulength=\count105
+\Field@Width=\dimen116
+\Fld@charsize=\dimen117
 Package hyperref Info: Hyper figures OFF on input line 6295.
 Package hyperref Info: Link nesting OFF on input line 6300.
 Package hyperref Info: Hyper index ON on input line 6303.
@@ -320,26 +341,26 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count118
-\c@Item=\count119
-\c@Hfootnote=\count120
+\Hy@abspage=\count106
+\c@Item=\count107
+\c@Hfootnote=\count108
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count121
-\c@bookmark@seq@number=\count122
+\Fld@listcount=\count109
+\c@bookmark@seq@number=\count110
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip49
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/fancyhdr/fancyheadings.sty
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyheadings.sty
 Package: fancyheadings 2008/02/04 1.99 Dummy package to call fancyhdr
 
 
@@ -355,7 +376,7 @@ Package fancyheadings Warning: Please stop using fancyheadings!
 (fancyheadings)                parameters, but normal macros (to be changed
 (fancyheadings)                with \renewcommand rather than \setlength)..
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 \fancy@headwidth=\skip50
 \f@ncyO@elh=\skip51
 \f@ncyO@erh=\skip52
@@ -366,41 +387,41 @@ Package fancyheadings Warning: Please stop using fancyheadings!
 \f@ncyO@olf=\skip57
 \f@ncyO@orf=\skip58
 ))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/titlesec/titlesec.sty
-Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
-\ttl@box=\box32
-\beforetitleunit=\skip59
-\aftertitleunit=\skip60
-\ttl@plus=\dimen123
-\ttl@minus=\dimen124
-\ttl@toksa=\toks30
-\titlewidth=\dimen125
-\titlewidthlast=\dimen126
-\titlewidthfirst=\dimen127
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/multicol.sty
-Package: multicol 2015/03/31 v1.8m multicolumn formatting (FMi)
-\c@tracingmulticols=\count123
-\mult@box=\box33
-\multicol@leftmargin=\dimen128
-\c@unbalance=\count124
-\c@collectmore=\count125
-\doublecol@number=\count126
-\multicoltolerance=\count127
-\multicolpretolerance=\count128
-\full@width=\dimen129
-\page@free=\dimen130
-\premulticols=\dimen131
-\postmulticols=\dimen132
-\multicolsep=\skip61
-\multicolbaselineskip=\skip62
-\partial@page=\box34
-\last@line=\box35
-\maxbalancingoverflow=\dimen133
-\mult@rightbox=\box36
-\mult@grightbox=\box37
-\mult@gfirstbox=\box38
-\mult@firstbox=\box39
+
+! LaTeX Error: File `titlesec.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2015/08/19 v1.8n multicolumn formatting (FMi)
+\c@tracingmulticols=\count111
+\mult@box=\box28
+\multicol@leftmargin=\dimen118
+\c@unbalance=\count112
+\c@collectmore=\count113
+\doublecol@number=\count114
+\multicoltolerance=\count115
+\multicolpretolerance=\count116
+\full@width=\dimen119
+\page@free=\dimen120
+\premulticols=\dimen121
+\postmulticols=\dimen122
+\multicolsep=\skip59
+\multicolbaselineskip=\skip60
+\partial@page=\box29
+\last@line=\box30
+\maxbalancingoverflow=\dimen123
+\mult@rightbox=\box31
+\mult@grightbox=\box32
+\mult@gfirstbox=\box33
+\mult@firstbox=\box34
+\@tempa=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
 \@tempa=\box40
 \@tempa=\box41
 \@tempa=\box42
@@ -413,526 +434,173 @@ Package: multicol 2015/03/31 v1.8m multicolumn formatting (FMi)
 \@tempa=\box49
 \@tempa=\box50
 \@tempa=\box51
-\@tempa=\box52
-\@tempa=\box53
-\@tempa=\box54
-\@tempa=\box55
-\@tempa=\box56
-\c@columnbadness=\count129
-\c@finalcolumnbadness=\count130
-\last@try=\dimen134
-\multicolovershoot=\dimen135
-\multicolundershoot=\dimen136
-\mult@nat@firstbox=\box57
-\colbreak@box=\box58
-\mc@col@check@num=\count131
+\c@columnbadness=\count117
+\c@finalcolumnbadness=\count118
+\last@try=\dimen124
+\multicolovershoot=\dimen125
+\multicolundershoot=\dimen126
+\mult@nat@firstbox=\box52
+\colbreak@box=\box53
+\mc@col@check@num=\count119
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-\wrapoverhang=\dimen137
-\WF@size=\dimen138
-\c@WF@wrappedlines=\count132
-\WF@box=\box59
-\WF@everypar=\toks31
-Package: wrapfig 2003/01/31  v 3.6
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/tocloft/tocloft.sty
-Package: tocloft 2013/05/02 v2.3f parameterised ToC, etc., typesetting
-Package tocloft Info: The document has chapter divisions on input line 44.
-\cftparskip=\skip63
-\cftbeforetoctitleskip=\skip64
-\cftaftertoctitleskip=\skip65
-\cftbeforepartskip=\skip66
-\cftpartnumwidth=\skip67
-\cftpartindent=\skip68
-\cftbeforechapskip=\skip69
-\cftchapindent=\skip70
-\cftchapnumwidth=\skip71
-\cftbeforesecskip=\skip72
-\cftsecindent=\skip73
-\cftsecnumwidth=\skip74
-\cftbeforesubsecskip=\skip75
-\cftsubsecindent=\skip76
-\cftsubsecnumwidth=\skip77
-\cftbeforesubsubsecskip=\skip78
-\cftsubsubsecindent=\skip79
-\cftsubsubsecnumwidth=\skip80
-\cftbeforeparaskip=\skip81
-\cftparaindent=\skip82
-\cftparanumwidth=\skip83
-\cftbeforesubparaskip=\skip84
-\cftsubparaindent=\skip85
-\cftsubparanumwidth=\skip86
-\cftbeforeloftitleskip=\skip87
-\cftafterloftitleskip=\skip88
-\cftbeforefigskip=\skip89
-\cftfigindent=\skip90
-\cftfignumwidth=\skip91
-\c@lofdepth=\count133
-\c@lotdepth=\count134
-\cftbeforelottitleskip=\skip92
-\cftafterlottitleskip=\skip93
-\cftbeforetabskip=\skip94
-\cfttabindent=\skip95
-\cfttabnumwidth=\skip96
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
-(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
-(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
-x
-\pgfutil@everybye=\toks32
-\pgfutil@tempdima=\dimen139
-\pgfutil@tempdimb=\dimen140
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
-sts.tex))
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box60
-(/usr/local/texlive/2015/texmf-dist/tex/latex/ms/everyshi.sty
-Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
-))
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
-Package: pgfrcs 2013/12/20 v3.0.0 (rcs-revision 1.28)
-))
-Package: pgf 2013/12/18 v3.0.0 (rcs-revision 1.14)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
-(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
-Package: pgfsys 2013/11/30 v3.0.0 (rcs-revision 1.47)
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks33
-\pgfkeys@temptoks=\toks34
+! LaTeX Error: File `wrapfig.sty' not found.
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
-ode.tex
-\pgfkeys@tmptoks=\toks35
-))
-\pgf@x=\dimen141
-\pgf@y=\dimen142
-\pgf@xa=\dimen143
-\pgf@ya=\dimen144
-\pgf@xb=\dimen145
-\pgf@yb=\dimen146
-\pgf@xc=\dimen147
-\pgf@yc=\dimen148
-\w@pgf@writea=\write3
-\r@pgf@reada=\read1
-\c@pgf@counta=\count135
-\c@pgf@countb=\count136
-\c@pgf@countc=\count137
-\c@pgf@countd=\count138
-\t@pgf@toka=\toks36
-\t@pgf@tokb=\toks37
-\t@pgf@tokc=\toks38
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
-File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
-)
-Driver file for pgf: pgfsys-pdftex.def
+Enter file name: 
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
-ef
-File: pgfsys-pdftex.def 2013/07/18  (rcs-revision 1.33)
+! LaTeX Error: File `tocloft.sty' not found.
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
-df.def
-File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
-)))
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
-code.tex
-File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count139
-\pgfsyssoftpath@bigbuffer@items=\count140
-)
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
-code.tex
-File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
-)) (/usr/local/texlive/2015/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
-File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
-)
-Package xcolor Info: Driver file: pdftex.def on input line 225.
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
-Package xcolor Info: Model `RGB' extended on input line 1353.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
-)
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
-Package: pgfcore 2010/04/11 v3.0.0 (rcs-revision 1.7)
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen149
-\pgfmath@count=\count141
-\pgfmath@box=\box61
-\pgfmath@toks=\toks39
-\pgfmath@stack@operand=\toks40
-\pgfmath@stack@operation=\toks41
-)
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
-tex
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
-.code.tex)
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
-nometric.code.tex)
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
-m.code.tex)
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
-rison.code.tex)
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
-code.tex)
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
-.code.tex)
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
-code.tex)
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
-erarithmetics.code.tex)))
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count142
-))
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
-de.tex
-File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
-\pgf@picminx=\dimen150
-\pgf@picmaxx=\dimen151
-\pgf@picminy=\dimen152
-\pgf@picmaxy=\dimen153
-\pgf@pathminx=\dimen154
-\pgf@pathmaxx=\dimen155
-\pgf@pathminy=\dimen156
-\pgf@pathmaxy=\dimen157
-\pgf@xx=\dimen158
-\pgf@xy=\dimen159
-\pgf@yx=\dimen160
-\pgf@yy=\dimen161
-\pgf@zx=\dimen162
-\pgf@zy=\dimen163
-)
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
-ruct.code.tex
-File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
-\pgf@path@lastx=\dimen164
-\pgf@path@lasty=\dimen165
-)
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
-.code.tex
-File: pgfcorepathusage.code.tex 2013/12/13  (rcs-revision 1.23)
-\pgf@shorten@end@additional=\dimen166
-\pgf@shorten@start@additional=\dimen167
-)
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
-de.tex
-File: pgfcorescopes.code.tex 2013/10/09  (rcs-revision 1.44)
-\pgfpic=\box62
-\pgf@hbox=\box63
-\pgf@layerbox@main=\box64
-\pgf@picture@serial@count=\count143
-)
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
-ate.code.tex
-File: pgfcoregraphicstate.code.tex 2013/09/19  (rcs-revision 1.11)
-\pgflinewidth=\dimen168
-)
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
-ations.code.tex
-File: pgfcoretransformations.code.tex 2013/10/10  (rcs-revision 1.17)
-\pgf@pt@x=\dimen169
-\pgf@pt@y=\dimen170
-\pgf@pt@temp=\dimen171
-)
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
-e.tex
-File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
-)
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
-ode.tex
-File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
-)
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
-ssing.code.tex
-File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
-)
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
-de.tex
-File: pgfcorearrows.code.tex 2013/11/07  (rcs-revision 1.40)
-\pgfarrowsep=\dimen172
-)
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
-e.tex
-File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
-\pgf@max=\dimen173
-\pgf@sys@shading@range@num=\count144
-)
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
-e.tex
-File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+Enter file name: 
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
-code.tex
-File: pgfcoreexternal.code.tex 2013/07/15  (rcs-revision 1.20)
-\pgfexternal@startupbox=\box65
-))
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
-de.tex
-File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
-)
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
-ncy.code.tex
-File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
-)
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
-code.tex
-File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
-)))
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
-e.tex
-File: pgfmoduleshapes.code.tex 2013/10/31  (rcs-revision 1.34)
-\pgfnodeparttextbox=\box66
-)
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
-tex
-File: pgfmoduleplot.code.tex 2013/07/31  (rcs-revision 1.12)
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
--0-65.sty
-Package: pgfcomp-version-0-65 2007/07/03 v3.0.0 (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen174
-\pgf@nodesepend=\dimen175
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
--1-18.sty
-Package: pgfcomp-version-1-18 2007/07/23 v3.0.0 (rcs-revision 1.1)
-))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
-(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
-) (/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/math/pgfmath.sty
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
-Package: pgffor 2013/12/13 v3.0.0 (rcs-revision 1.25)
+! LaTeX Error: File `tikz.sty' not found.
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen176
-\pgffor@skip=\dimen177
-\pgffor@stack=\toks42
-\pgffor@toks=\toks43
-))
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
-e.tex
-Package: tikz 2013/12/13 v3.0.0 (rcs-revision 1.142)
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
-dlers.code.tex
-File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.0 (rcs-revision 1.20)
-\pgf@plot@mark@count=\count145
-\pgfplotmarksize=\dimen178
-)
-\tikz@lastx=\dimen179
-\tikz@lasty=\dimen180
-\tikz@lastxsaved=\dimen181
-\tikz@lastysaved=\dimen182
-\tikzleveldistance=\dimen183
-\tikzsiblingdistance=\dimen184
-\tikz@figbox=\box67
-\tikz@figbox@bg=\box68
-\tikz@tempbox=\box69
-\tikz@tempbox@bg=\box70
-\tikztreelevel=\count146
-\tikznumberofchildren=\count147
-\tikznumberofcurrentchild=\count148
-\tikz@fig@count=\count149
+Enter file name: 
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
-e.tex
-File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count150
-\pgfmatrixcurrentcolumn=\count151
-\pgf@matrix@numberofcolumns=\count152
-)
-\tikz@expandcount=\count153
+! LaTeX Error: File `caption.sty' not found.
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
-s/tikzlibrarytopaths.code.tex
-File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.0 (rcs-revision 1.2)
-)))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 57.
-\captionmargin=\dimen185
-\captionmargin@=\dimen186
-\captionwidth=\dimen187
-\caption@tempdima=\dimen188
-\caption@indent=\dimen189
-\caption@parindent=\dimen190
-\caption@hangindent=\dimen191
-)
-\c@ContinuedFloat=\count154
-Package caption Info: float package is loaded.
-Package caption Info: hyperref package is loaded.
-Package caption Info: listings package is loaded.
-Package caption Info: wrapfig package is loaded.
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/caption/subcaption.sty
-Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
-\c@subfigure=\count155
-\c@subtable=\count156
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/array.sty
+Enter file name: 
+
+! LaTeX Error: File `subcaption.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen192
-\extrarowheight=\dimen193
-\NC@list=\toks44
-\extratabsurround=\skip97
-\backup@length=\skip98
+\col@sep=\dimen127
+\extrarowheight=\dimen128
+\NC@list=\toks27
+\extratabsurround=\skip61
+\backup@length=\skip62
 )
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
-s/tikzlibrarypositioning.code.tex
-File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.0 (rcs-revision 1.7)
-)
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
-s/tikzlibrarydecorations.pathmorphing.code.tex
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
-s/tikzlibrarydecorations.code.tex
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/modules/pgfmoduledecoration
-s.code.tex
-\pgfdecoratedcompleteddistance=\dimen194
-\pgfdecoratedremainingdistance=\dimen195
-\pgfdecoratedinputsegmentcompleteddistance=\dimen196
-\pgfdecoratedinputsegmentremainingdistance=\dimen197
-\pgf@decorate@distancetomove=\dimen198
-\pgf@decorate@repeatstate=\count157
-\pgfdecorationsegmentamplitude=\dimen199
-\pgfdecorationsegmentlength=\dimen200
-)
-\tikz@lib@dec@box=\box71
-)
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
-brarydecorations.pathmorphing.code.tex))
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
-s/tikzlibraryarrows.code.tex
-File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
+! Undefined control sequence.
+<recently read> \usetikzlibrary 
+                                
+l.26 \usetikzlibrary
+                    {positioning}
+? 
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
-code.tex
-File: pgflibraryarrows.code.tex 2013/09/23 v3.0.0 (rcs-revision 1.16)
-\arrowsize=\dimen201
-))
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
-s/tikzlibrarydecorations.markings.code.tex
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
-brarydecorations.markings.code.tex))
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
-s/tikzlibrarypatterns.code.tex
-File: tikzlibrarypatterns.code.tex 2008/01/15 v3.0.0 (rcs-revision 1.2)
+! LaTeX Error: Missing \begin{document}.
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/libraries/pgflibrarypattern
-s.code.tex
-File: pgflibrarypatterns.code.tex 2008/03/03 v3.0.0 (rcs-revision 1.13)
-))
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
-s/tikzlibraryshapes.code.tex
-File: tikzlibraryshapes.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
-s/tikzlibraryshapes.geometric.code.tex
-File: tikzlibraryshapes.geometric.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
-
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
-shapes.geometric.code.tex
-File: pgflibraryshapes.geometric.code.tex 2008/06/26 v3.0.0 (rcs-revision 1.1)
-))
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
-s/tikzlibraryshapes.misc.code.tex
-File: tikzlibraryshapes.misc.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
-shapes.misc.code.tex
-File: pgflibraryshapes.misc.code.tex 2013/07/18 v3.0.0 (rcs-revision 1.5)
-))
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
-s/tikzlibraryshapes.symbols.code.tex
-File: tikzlibraryshapes.symbols.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
-shapes.symbols.code.tex
-File: pgflibraryshapes.symbols.code.tex 2013/09/11 v3.0.0 (rcs-revision 1.6)
-))
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
-s/tikzlibraryshapes.arrows.code.tex
-File: tikzlibraryshapes.arrows.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
-shapes.arrows.code.tex
-File: pgflibraryshapes.arrows.code.tex 2008/06/26 v3.0.0 (rcs-revision 1.1)
-))
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
-s/tikzlibraryshapes.callouts.code.tex
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
-shapes.callouts.code.tex))
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
-s/tikzlibraryshapes.multipart.code.tex
-File: tikzlibraryshapes.multipart.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
-
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
-shapes.multipart.code.tex
-File: pgflibraryshapes.multipart.code.tex 2010/01/07 v3.0.0 (rcs-revision 1.2)
-\pgfnodepartlowerbox=\box72
-\pgfnodeparttwobox=\box73
-\pgfnodepartthreebox=\box74
-\pgfnodepartfourbox=\box75
-\pgfnodeparttwentybox=\box76
-\pgfnodepartnineteenbox=\box77
-\pgfnodeparteighteenbox=\box78
-\pgfnodepartseventeenbox=\box79
-\pgfnodepartsixteenbox=\box80
-\pgfnodepartfifteenbox=\box81
-\pgfnodepartfourteenbox=\box82
-\pgfnodepartthirteenbox=\box83
-\pgfnodeparttwelvebox=\box84
-\pgfnodepartelevenbox=\box85
-\pgfnodeparttenbox=\box86
-\pgfnodepartninebox=\box87
-\pgfnodeparteightbox=\box88
-\pgfnodepartsevenbox=\box89
-\pgfnodepartsixbox=\box90
-\pgfnodepartfivebox=\box91
-)))
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
-s/tikzlibraryintersections.code.tex
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/libraries/pgflibraryinterse
-ctions.code.tex
-\pgf@intersect@solutions=\count158
-))
-\@float@every@table=\toks45
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/geometry/geometry.sty
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 \usetikzlibrary{p
+                      ositioning}
+? 
+! Undefined control sequence.
+l.27 \usetikzlibrary
+                    {decorations.pathmorphing}
+? 
+! Undefined control sequence.
+l.28 \usetikzlibrary
+                    {arrows}
+? 
+! Undefined control sequence.
+l.29 \usetikzlibrary
+                    {decorations.markings}
+? 
+! Undefined control sequence.
+l.30 \usetikzlibrary
+                    {patterns}
+? 
+! Undefined control sequence.
+l.31 \usetikzlibrary
+                    {shapes}
+? 
+! Undefined control sequence.
+l.32 \usetikzlibrary
+                    {intersections}
+? 
+! Undefined control sequence.
+l.33 \usetikzlibrary
+                    {shapes.geometric}
+? 
+! Undefined control sequence.
+l.34 \restylefloat
+                  {table}
+? 
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
-\Gm@cnth=\count159
-\Gm@cntv=\count160
-\c@Gm@tempcnt=\count161
-\Gm@bindingoffset=\dimen202
-\Gm@wd@mp=\dimen203
-\Gm@odd@mp=\dimen204
-\Gm@even@mp=\dimen205
-\Gm@layoutwidth=\dimen206
-\Gm@layoutheight=\dimen207
-\Gm@layouthoffset=\dimen208
-\Gm@layoutvoffset=\dimen209
-\Gm@dimlist=\toks46
+\Gm@cnth=\count120
+\Gm@cntv=\count121
+\c@Gm@tempcnt=\count122
+\Gm@bindingoffset=\dimen129
+\Gm@wd@mp=\dimen130
+\Gm@odd@mp=\dimen131
+\Gm@even@mp=\dimen132
+\Gm@layoutwidth=\dimen133
+\Gm@layoutheight=\dimen134
+\Gm@layouthoffset=\dimen135
+\Gm@layoutvoffset=\dimen136
+\Gm@dimlist=\toks28
 )
+! Undefined control sequence.
+<argument> \cftchapnumwidth 
+                            
+l.60 \setlength{\cftchapnumwidth}{1.2cm}
+                                        
+? 
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 \setlength{\cftchapnumwidth}{1.2cm}
+                                        
+? 
+
+! LaTeX Error: \cftchappresnum undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 \renewcommand{\cftchappresnum}
+                                   {1-}
+? 
+! Undefined control sequence.
+l.83 \tikzset
+             {
+? 
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.84     M
+          yPerspective/.style={scale=1.5,y={(0.8cm, -0.4cm)},x={(0cm,1cm)},z...
+
+? 
+
+Overfull \hbox (53.8454pt too wide) in paragraph at lines 84--86
+[]\OT1/cmr/m/n/12 MyPerspective/.style=scale=1.5,y=(0.8cm, -0.4cm),x=(0cm,1cm),
+z=(0.9cm,0.3cm)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--86
+
+ []
+
 (./main.aux (./cover.aux) (./intro.aux) (./Exp0/ExcelError.aux)
 (./Exp1/UncertaintyError.aux) (./Exp2/VelocityAcceleration.aux)
 (./Exp3/Forces.aux) (./Exp4/ProjectileMotionandConservationofEnergy.aux)
@@ -967,42 +635,38 @@ LaTeX Font Info:    ... okay on input line 87.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 87.
 LaTeX Font Info:    ... okay on input line 87.
 
-(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count162
-\scratchdimen=\dimen210
-\scratchbox=\box92
-\nofMPsegments=\count163
-\nofMParguments=\count164
-\everyMPshowfont=\toks47
-\MPscratchCnt=\count165
-\MPscratchDim=\dimen211
-\MPnumerator=\count166
-\makeMPintoPDFobject=\count167
-\everyMPtoPDFconversion=\toks48
+\scratchcounter=\count123
+\scratchdimen=\dimen137
+\scratchbox=\box54
+\nofMPsegments=\count124
+\nofMParguments=\count125
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count126
+\MPscratchDim=\dimen138
+\MPnumerator=\count127
+\makeMPintoPDFobject=\count128
+\everyMPtoPDFconversion=\toks30
 )
-\c@lstlisting=\count168
-\AtBeginShipoutBox=\box93
+\AtBeginShipoutBox=\box55
 Package hyperref Info: Link coloring OFF on input line 87.
- (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count169
+\c@section@level=\count129
 )
 LaTeX Info: Redefining \ref on input line 87.
 LaTeX Info: Redefining \pageref on input line 87.
 LaTeX Info: Redefining \nameref on input line 87.
 
 (./main.out) (./main.out)
-\@outlinefile=\write4
-\openout4 = `main.out'.
+\@outlinefile=\write3
+\openout3 = `main.out'.
 
- ABD: EveryShipout initializing macros
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: End \AtBeginDocument code.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1039,87 +703,193 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 \openout2 = `cover.aux'.
 
-(./cover.tex <./pic/Columbia-Logo.png, id=63, 501.875pt x 441.65pt>
+ (./cover.tex [2
+
+
+]
+<./pic/Columbia-Logo.png, id=70, 501.875pt x 441.65pt>
 File: ./pic/Columbia-Logo.png Graphic file (type png)
 
 <use ./pic/Columbia-Logo.png>
 Package pdftex.def Info: ./pic/Columbia-Logo.png used on input line 13.
 (pdftex.def)             Requested size: 129.32806pt x 113.81102pt.
- [1
-
-
-
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./pic/C
-olumbia-Logo.png>]) [2
-
-] (./main.toc
-LaTeX Font Info:    Try loading font information for U+msa on input line 1.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 1.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
-\tf@toc=\write5
-\openout5 = `main.toc'.
-
- [3
-
-] [4
-
-]
-\openout2 = `intro.aux'.
-
-
-(./intro.tex
-Chapter 0.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.16 
-      [1
+l.19 \end{titlepage}
+                     [1 <./pic/Columbia-Logo.png>])pdfTeX warning (ext4): desti
+nation with the same identifier (name{page.2}) has been already used, duplicate
+ ignored
+<to be read again> 
+                   \relax 
+l.93 \clearpage
+                [2
 
+] (./main.toc
+LaTeX Font Info:    Try loading font information for U+msa on input line 46.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 46.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
+\tf@toc=\write4
+\openout4 = `main.toc'.
+
+ [3
+
+
+] [4
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 22.
- (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 22.
-
+! Undefined control sequence.
+l.100 \titlespacing
+                   *{\chapter}{0pt}{-50pt}{20pt}
+? 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+[5] [6
+
+]
+! Argument of \@xdblarg has an extra }.
+<inserted text> 
+                \par 
+l.100 \titlespacing*{\chapter}
+                              {0pt}{-50pt}{20pt}
+? 
+Runaway argument?
+! Paragraph ended before \@xdblarg was complete.
+<to be read again> 
+                   \par 
+l.100 \titlespacing*{\chapter}
+                              {0pt}{-50pt}{20pt}
+? 
+! Undefined control sequence.
+l.101 \titleformat
+                  {\chapter}[display]
+? 
+[7] [8
+
+]
+! Argument of \@xdblarg has an extra }.
+<inserted text> 
+                \par 
+l.101 \titleformat{\chapter}
+                            [display]
+? 
+Runaway argument?
+! Paragraph ended before \@xdblarg was complete.
+<to be read again> 
+                   \par 
+l.101 \titleformat{\chapter}
+                            [display]
+? 
+! Undefined control sequence.
+l.102     {\bfseries\huge\filcenter
+                                   }
+? 
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.44 \end{itemize}
-                   [2]pdfTeX warning (ext4): destination with the same identifi
-er (name{page.3}) has been already used, duplicate ignored
+l.108 \include{intro}
+                      [1]
+\openout2 = `intro.aux'.
+
+ (./intro.texpdfTeX warning (ext4): destination with the same identifier (name{
+page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.57 
-      [3]pdfTeX warning (ext4): destination with the same identifier (name{page
-.4}) has been already used, duplicate ignored
+l.1 \chapter
+            {General Instructions} [2
+
+
+]
+Chapter 0.
+pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
+been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.78 \end{itemize}
-                   [4]) [5]
+l.14 
+      [3]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 22.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 22.
+pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.38 
+      [4]pdfTeX warning (ext4): destination with the same identifier (name{page
+.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.55 
+      [5]
+Underfull \vbox (badness 1189) has occurred while \output is active []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.71     \item O
+                ne of the laboratory Preceptors in Pupin Room 729; [6])pdfTeX w
+arning (ext4): destination with the same identifier (name{page.7}) has been alr
+eady used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.108 \include{intro}
+                      [7]
+! Undefined control sequence.
+l.110 \titleformat
+                  {\chapter}[display]
+? 
+pdfTeX warning (ext4): destination with the same identifier (name{page.8}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.110 \titleformat{\chapter
+                           }[display] [8
+
+
+]
+! Argument of \@xdblarg has an extra }.
+<inserted text> 
+                \par 
+l.110 \titleformat{\chapter}
+                            [display]
+? 
+Runaway argument?
+! Paragraph ended before \@xdblarg was complete.
+<to be read again> 
+                   \par 
+l.110 \titleformat{\chapter}
+                            [display]
+? 
+! Undefined control sequence.
+l.111     {\bfseries\huge\filcenter
+                                   }
+? 
+[9]
 \openout2 = `Exp0/ExcelError.aux'.
 
- (./Exp0/ExcelError.tex [6
-
+ (./Exp0/ExcelError.tex [10
 
 
 ]
@@ -1127,21 +897,14 @@ Chapter 1.
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7]
-[8] [9] <./Exp1/pic/image1.png, id=160, 507.39563pt x 158.84344pt>
+[11] [12] [13] <./Exp1/pic/image1.png, id=192, 507.39563pt x 158.84344pt>
 File: ./Exp1/pic/image1.png Graphic file (type png)
 
 <use ./Exp1/pic/image1.png>
 Package pdftex.def Info: ./Exp1/pic/image1.png used on input line 64.
 (pdftex.def)             Requested size: 220.42374pt x 69.00423pt.
- [10 <./Exp1/pic/image1.png>] [11]
-Underfull \vbox (badness 1072) has occurred while \output is active []
-
- [12]
-<./Exp1/pic/image2.png, id=192, 509.65407pt x 280.79906pt>
+ [14 <./Exp1/pic/image1.png>] [15] [16]
+<./Exp1/pic/image2.png, id=224, 509.65407pt x 280.79906pt>
 File: ./Exp1/pic/image2.png Graphic file (type png)
 
 <use ./Exp1/pic/image2.png>
@@ -1152,8 +915,8 @@ Overfull \hbox (7.73259pt too wide) in paragraph at lines 138--139
 \OT1/cmr/m/n/12 When we $[]$ quan-ti-ties, we $[]$ (never sub-tract) the $[]$
  []
 
-[13 <./Exp1/pic/image2.png>] [14]
-<./Exp0/pic/image3.png, id=215, 2007.5pt x 1003.75pt>
+[17 <./Exp1/pic/image2.png>] [18]
+<./Exp0/pic/image3.png, id=248, 2007.5pt x 1003.75pt>
 File: ./Exp0/pic/image3.png Graphic file (type png)
 
 <use ./Exp0/pic/image3.png>
@@ -1163,50 +926,44 @@ Package pdftex.def Info: ./Exp0/pic/image3.png used on input line 196.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[15]
+[19]
 Underfull \hbox (badness 10000) in paragraph at lines 204--204
 [][][]\OT1/cmr/m/n/10 https://support.office.com/en-us/article/Excel-functions-
 alphabetical-b3944572-255d-4efb-bb96-
  []
 
-[16 <./Exp0/pic/image3.png>] [17] [18]) [19]
+[20 <./Exp0/pic/image3.png>] [21] [22]) [23]
 \openout2 = `Exp1/UncertaintyError.aux'.
 
  (./Exp1/UncertaintyError.tex
-[20
+[24
 
 
 
 ]
 Chapter 2.
-[21] [22] <./Exp3/pic/image13.jpg, id=302, 570.6921pt x 324.9741pt>
+[25] [26] <./Exp3/pic/image13.jpg, id=334, 570.6921pt x 324.9741pt>
 File: ./Exp3/pic/image13.jpg Graphic file (type jpg)
 
 <use ./Exp3/pic/image13.jpg>
 Package pdftex.def Info: ./Exp3/pic/image13.jpg used on input line 52.
 (pdftex.def)             Requested size: 396.75612pt x 220.42409pt.
- [23 <./Exp3/pic/image13.jpg>]
-<./Exp1/pic/image4.png, id=311, 722.7pt x 783.67781pt>
+ [27 <./Exp3/pic/image13.jpg>]
+<./Exp1/pic/image4.png, id=345, 722.7pt x 783.67781pt>
 File: ./Exp1/pic/image4.png Graphic file (type png)
 
 <use ./Exp1/pic/image4.png>
 Package pdftex.def Info: ./Exp1/pic/image4.png used on input line 76.
 (pdftex.def)             Requested size: 308.59355pt x 248.60567pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[24] <./Exp1/pic/image5.png, id=326, 723.45282pt x 782.17218pt>
+ [28] [29 <./Exp1/pic/image4.png>]
+<./Exp1/pic/image5.png, id=371, 723.45282pt x 782.17218pt>
 File: ./Exp1/pic/image5.png Graphic file (type png)
 
 <use ./Exp1/pic/image5.png>
 Package pdftex.def Info: ./Exp1/pic/image5.png used on input line 93.
 (pdftex.def)             Requested size: 308.59488pt x 248.60544pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<./Exp1/pic/image6.png, id=327, 722.7pt x 783.67781pt>
+<./Exp1/pic/image6.png, id=372, 722.7pt x 783.67781pt>
 File: ./Exp1/pic/image6.png Graphic file (type png)
 
 <use ./Exp1/pic/image6.png>
@@ -1216,38 +973,39 @@ Package pdftex.def Info: ./Exp1/pic/image6.png used on input line 100.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[25 <./Exp1/pic/image4.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[30 <./Exp1/pic/image5.png>]
+Underfull \vbox (badness 2435) has occurred while \output is active []
 
- [26 <./Exp1/pic/image5.png> <./Exp1/pic/image6.png>]
-<./Exp1/pic/pendulum.png, id=348, 2090.81125pt x 2563.5775pt>
+ [31 <./Exp1/pic/image6.png>]
+<./Exp1/pic/pendulum.png, id=393, 2090.81125pt x 2563.5775pt>
 File: ./Exp1/pic/pendulum.png Graphic file (type png)
 
 <use ./Exp1/pic/pendulum.png>
 Package pdftex.def Info: ./Exp1/pic/pendulum.png used on input line 130.
 (pdftex.def)             Requested size: 220.42374pt x 270.2593pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[27] [28 <./Exp1/pic/pendulum.png (PNG copy)>]
-<./Exp1/pic/buffon.png, id=373, 686.565pt x 501.875pt>
+ [32 <./Exp1/pic/pendulum.png (PNG copy)>]
+<./Exp1/pic/buffon.png, id=407, 686.565pt x 501.875pt>
 File: ./Exp1/pic/buffon.png Graphic file (type png)
 
 <use ./Exp1/pic/buffon.png>
 Package pdftex.def Info: ./Exp1/pic/buffon.png used on input line 156.
 (pdftex.def)             Requested size: 308.59187pt x 225.57362pt.
- [29 <./Exp1/pic/buffon.png>]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[33]
 Overfull \hbox (5.78961pt too wide) in paragraph at lines 176--177
 []\OT1/cmr/m/n/12 Does your cal-cu-lated value of $\OML/cmm/m/it/12 g$ \OT1/cmr
 /m/n/12 agree with the ex-pected value ($\OML/cmm/m/it/12 g \OT1/cmr/m/n/12 = 9
 \OML/cmm/m/it/12 :\OT1/cmr/m/n/12 81\OML/cmm/m/it/12 m=s[]$\OT1/cmr/m/n/12 )? 
  []
 
-[30] [31] [32] [33]) [34]
+[34 <./Exp1/pic/buffon.png>] [35] [36] [37]) [38]
 \openout2 = `Exp2/VelocityAcceleration.aux'.
 
- (./Exp2/VelocityAcceleration.tex
+
+(./Exp2/VelocityAcceleration.tex
 Chapter 3.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -1257,100 +1015,92 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
 
-<./Exp2/pic/image11.jpg, id=444, 768.2301pt x 331.7193pt>
+<./Exp2/pic/image11.jpg, id=482, 768.2301pt x 331.7193pt>
 File: ./Exp2/pic/image11.jpg Graphic file (type jpg)
 
 <use ./Exp2/pic/image11.jpg>
 Package pdftex.def Info: ./Exp2/pic/image11.jpg used on input line 11.
 (pdftex.def)             Requested size: 396.76003pt x 171.32072pt.
 
+Underfull \vbox (badness 1067) has occurred while \output is active []
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+ [39
 
-<./Exp2/pic/image16.jpg, id=446, 780.7569pt x 462.7689pt>
+
+
+]
+<./Exp2/pic/image16.jpg, id=490, 780.7569pt x 462.7689pt>
 File: ./Exp2/pic/image16.jpg Graphic file (type jpg)
 
 <use ./Exp2/pic/image16.jpg>
 Package pdftex.def Info: ./Exp2/pic/image16.jpg used on input line 24.
 (pdftex.def)             Requested size: 440.84747pt x 261.29544pt.
- [35
 
-
-
-]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Underfull \vbox (badness 1540) has occurred while \output is active []
-
- [36 <./Exp2/pic/image11.jpg>] [37 <./Exp2/pic/image16.jpg>]
-<./Exp2/pic/image12.jpg, id=466, 723.9045pt x 202.5969pt>
+[40 <./Exp2/pic/image11.jpg>] [41 <./Exp2/pic/image16.jpg>]
+<./Exp2/pic/image12.jpg, id=505, 723.9045pt x 202.5969pt>
 File: ./Exp2/pic/image12.jpg Graphic file (type jpg)
 
 <use ./Exp2/pic/image12.jpg>
 Package pdftex.def Info: ./Exp2/pic/image12.jpg used on input line 52.
 (pdftex.def)             Requested size: 396.76003pt x 111.0422pt.
- [38 <./Exp2/pic/image12.jpg>] [39] [40]
-<./Exp2/pic/image14.jpg, id=493, 730.6497pt x 360.6273pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[42] [43 <./Exp2/pic/image12.jpg>] [44] [45]
+<./Exp2/pic/image14.jpg, id=545, 730.6497pt x 360.6273pt>
 File: ./Exp2/pic/image14.jpg Graphic file (type jpg)
 
 <use ./Exp2/pic/image14.jpg>
 Package pdftex.def Info: ./Exp2/pic/image14.jpg used on input line 118.
 (pdftex.def)             Requested size: 352.67932pt x 174.07312pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./Exp2/pic/image15.jpg, id=495, 765.3393pt x 202.5969pt>
+<./Exp2/pic/image15.jpg, id=547, 765.3393pt x 202.5969pt>
 File: ./Exp2/pic/image15.jpg Graphic file (type jpg)
 
 <use ./Exp2/pic/image15.jpg>
 Package pdftex.def Info: ./Exp2/pic/image15.jpg used on input line 129.
 (pdftex.def)             Requested size: 352.67932pt x 93.35953pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[41] [42 <./Exp2/pic/image14.jpg> <./Exp2/pic/image15.jpg>]) [43]
+ [46 <./Exp2/pic/image14.jpg> <./Exp2/pic/image15.jpg>] [47]) [48]
 \openout2 = `Exp3/Forces.aux'.
 
-
-(./Exp3/Forces.tex [44
-
-
-
-]
+ (./Exp3/Forces.tex
 Chapter 4.
-<./Exp3/pic/image11.jpg, id=536, 536.9661pt x 426.1521pt>
+<./Exp3/pic/image11.jpg, id=579, 536.9661pt x 426.1521pt>
 File: ./Exp3/pic/image11.jpg Graphic file (type jpg)
 
 <use ./Exp3/pic/image11.jpg>
 Package pdftex.def Info: ./Exp3/pic/image11.jpg used on input line 20.
 (pdftex.def)             Requested size: 308.59187pt x 244.9185pt.
- [45]
-<./Exp3/pic/image12.jpg, id=547, 566.8377pt x 468.5505pt>
+
+Underfull \vbox (badness 2035) has occurred while \output is active []
+
+ [49
+
+
+
+]
+<./Exp3/pic/image12.jpg, id=587, 566.8377pt x 468.5505pt>
 File: ./Exp3/pic/image12.jpg Graphic file (type jpg)
 
 <use ./Exp3/pic/image12.jpg>
 Package pdftex.def Info: ./Exp3/pic/image12.jpg used on input line 30.
 (pdftex.def)             Requested size: 352.68988pt x 264.51704pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[46 <./Exp3/pic/image11.jpg>]
-Underfull \vbox (badness 1163) has occurred while \output is active []
-
- [47 <./Exp3/pic/image12.jpg>] <./Exp3/pic/image16.png, id=562, 542.025pt x 325
-.215pt>
+ [50 <./Exp3/pic/image11.jpg>] [51 <./Exp3/pic/image12.jpg>] <./Exp3/pic/image1
+6.png, id=607, 542.025pt x 325.215pt>
 File: ./Exp3/pic/image16.png Graphic file (type png)
 
 <use ./Exp3/pic/image16.png>
 Package pdftex.def Info: ./Exp3/pic/image16.png used on input line 56.
 (pdftex.def)             Requested size: 352.67932pt x 211.61551pt.
- [48 <./Exp3/pic/image16.png>]
-<./Exp3/pic/image14.jpg, id=574, 576.4737pt x 457.9509pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[52] <./Exp3/pic/image14.jpg, id=620, 576.4737pt x 457.9509pt>
 File: ./Exp3/pic/image14.jpg Graphic file (type jpg)
 
 <use ./Exp3/pic/image14.jpg>
@@ -1360,528 +1110,292 @@ Package pdftex.def Info: ./Exp3/pic/image14.jpg used on input line 82.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[49] [50 <./Exp3/pic/image14.jpg>]
-<./Exp3/pic/apparatus.png, id=591, 511.9125pt x 216.81pt>
+[53 <./Exp3/pic/image16.png>]
+Underfull \vbox (badness 1642) has occurred while \output is active []
+
+ [54 <./Exp3/pic/image14.jpg>] [55]
+<./Exp3/pic/apparatus.png, id=645, 511.9125pt x 216.81pt>
 File: ./Exp3/pic/apparatus.png Graphic file (type png)
 
 <use ./Exp3/pic/apparatus.png>
 Package pdftex.def Info: ./Exp3/pic/apparatus.png used on input line 125.
 (pdftex.def)             Requested size: 396.76003pt x 168.03923pt.
- [51] [52 <./Exp3/pic/apparatus.png>] [53]
-<./Exp3/pic/image4.png, id=636, 526.96875pt x 353.32pt>
+ [56 <./Exp3/pic/apparatus.png>] [57]
+<./Exp3/pic/image4.png, id=683, 526.96875pt x 353.32pt>
 File: ./Exp3/pic/image4.png Graphic file (type png)
 
 <use ./Exp3/pic/image4.png>
 Package pdftex.def Info: ./Exp3/pic/image4.png used on input line 189.
 (pdftex.def)             Requested size: 132.25558pt x 88.67482pt.
 
-<./Exp3/pic/image5.png, id=637, 480.79625pt x 426.59375pt>
+<./Exp3/pic/image5.png, id=684, 480.79625pt x 426.59375pt>
 File: ./Exp3/pic/image5.png Graphic file (type png)
 
 <use ./Exp3/pic/image5.png>
 Package pdftex.def Info: ./Exp3/pic/image5.png used on input line 198.
 (pdftex.def)             Requested size: 176.33629pt x 156.45724pt.
- [54 <./Exp3/pic/image4.png> <./Exp3/pic/image5.png>] <./Exp3/pic/image15.jpg, 
-id=644, 539.8569pt x 233.4321pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[58 <./Exp3/pic/image4.png>]
+<./Exp3/pic/image15.jpg, id=690, 539.8569pt x 233.4321pt>
 File: ./Exp3/pic/image15.jpg Graphic file (type jpg)
 
 <use ./Exp3/pic/image15.jpg>
 Package pdftex.def Info: ./Exp3/pic/image15.jpg used on input line 227.
 (pdftex.def)             Requested size: 396.76003pt x 171.55806pt.
-) [55 <./Exp3/pic/image15.jpg>]
+ [59 <./Exp3/pic/image5.png> <./Exp3/pic/image15.jpg>]) [60]
 \openout2 = `Exp4/ProjectileMotionandConservationofEnergy.aux'.
 
-
-(./Exp4/ProjectileMotionandConservationofEnergy.tex [56
+ (./Exp4/ProjectileMotionandConservationofEnergy.tex
+Chapter 5.
+[61
 
 
 
 ]
-Chapter 5.
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
-[57] [58] <./Exp4/pic/image11.jpg, id=683, 753.7761pt x 509.9853pt>
+
+Underfull \vbox (badness 6893) has occurred while \output is active []
+
+ [62]
+<./Exp4/pic/image11.jpg, id=723, 753.7761pt x 509.9853pt>
 File: ./Exp4/pic/image11.jpg Graphic file (type jpg)
 
 <use ./Exp4/pic/image11.jpg>
 Package pdftex.def Info: ./Exp4/pic/image11.jpg used on input line 61.
 (pdftex.def)             Requested size: 440.84747pt x 298.27405pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[59] [60 <./Exp4/pic/image11.jpg>]
+ [63] [64 <./Exp4/pic/image11.jpg>]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
- [61]
+ [65]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[62]) [63]
+[66] [67]) [68]
 \openout2 = `Exp5/ConservationofMomentum.aux'.
 
- (./Exp5/ConservationofMomentum.tex [64
+ (./Exp5/ConservationofMomentum.tex
+Chapter 6.
+\c@saveenumerate=\count130
+[69
 
 
 
 ]
-Chapter 6.
-\c@saveenumerate=\count170
-[65]
 Underfull \hbox (badness 10000) in paragraph at lines 42--47
 
  []
 
-[66]
+[70]
+
+! LaTeX Error: Environment tikzpicture undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.129         \begin{tikzpicture}
+                                 
+? 
+
+! LaTeX Error: Environment scope undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.130             \begin{scope}
+                               [dashed]
+? 
+! Undefined control sequence.
+l.131                 \draw
+                            (0,0) rectangle (0.2,4);
+? 
+! Undefined control sequence.
+l.132                 \draw
+                            (-0.4,0) rectangle (0.6,-1);
+? 
+! Undefined control sequence.
+l.133                 \draw
+                            (-0.4,-1) rectangle (-0.1,-1.5);
+? 
+! Undefined control sequence.
+l.134                 \draw
+                            (0.6,-1) rectangle (0.3,-1.5);
+? 
+! Undefined control sequence.
+l.135                 \draw
+                            (-0.1,-1) rectangle (0.3,-1.2);
+? 
+! Undefined control sequence.
+l.136                 \draw
+                            (-0.1,-1.2) rectangle (0.3,-1.4);
+? 
+! Undefined control sequence.
+l.137                 \draw
+                           [dashed] (0.1,-0.5) circle (0.3);
+? 
+
+! LaTeX Error: \begin{center} on input line 128 ended by \end{scope}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.138             \end{scope}
+                             
+? 
+
+! LaTeX Error: Environment scope undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.140             \begin{scope}
+                               [rotate around={35:(0.1,4)}]
+? 
+! Undefined control sequence.
+l.141                 \draw
+                            (0,0) rectangle (0.2,4);
+? 
+! Undefined control sequence.
+l.142                 \draw
+                            (-0.4,0) rectangle (0.6,-1);
+? 
+! Undefined control sequence.
+l.143                 \draw
+                            (-0.4,-1) rectangle (-0.1,-1.5);
+? 
+! Undefined control sequence.
+l.144                 \draw
+                            (0.6,-1) rectangle (0.3,-1.5);
+? 
+! Undefined control sequence.
+l.145                 \draw
+                            (-0.1,-1) rectangle (0.3,-1.2);
+? 
+! Undefined control sequence.
+l.146                 \draw
+                            (-0.1,-1.2) rectangle (0.3,-1.4);
+? 
+! Undefined control sequence.
+l.147                 \draw
+                           [dashed] (0.1,-0.5) circle (0.3);
+? 
+! Undefined control sequence.
+l.149                 \draw
+                           [dashed] (0.1,4) -- (1.6,4);
+? 
+! Undefined control sequence.
+l.150                 \draw
+                           [dashed] (0.1,-0.5) -- (1.6,-0.5);
+? 
+! Undefined control sequence.
+l.151                 \draw
+                           [>=stealth,<->,thick] (1.4,-0.5) -- node[right] {...
+
+? 
+! Undefined control sequence.
+l.152                 \node
+                            (A) at (0.1,-0.5) {};
+? 
+
+! LaTeX Error: \begin{center} on input line 128 ended by \end{scope}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.153             \end{scope}
+                             
+? 
+! Undefined control sequence.
+l.154             \draw
+                       [xshift=-2cm] (0.1,-0.5) circle (0.3);
+? 
+! Undefined control sequence.
+l.155             \draw
+                       [>=triangle 60,->,xshift=-2cm] (-0.5,-1.2) --  node[b...
+
+? 
+! Undefined control sequence.
+l.157             \draw
+                       [>=stealth,<->,thick] (0.2,2.5) arc (-85:-58:1.5cm);
+? 
+! Undefined control sequence.
+l.158             \node
+                        at (0.7,2.2) {$\theta$};
+? 
+! Undefined control sequence.
+l.165             \draw
+                        [name intersections={of=lower line and vertical line...
+
+? 
+! Undefined control sequence.
+l.166             \draw
+                       [>=stealth,<->,thick] (x) -- node[right] {$h$} (y);
+? 
+! Undefined control sequence.
+l.168             \node
+                        at (-1.9, 0.2) {$m$};
+? 
+! Undefined control sequence.
+l.169             \node
+                        at (0.6,0.5) {$M$};
+? 
+
+! LaTeX Error: \begin{center} on input line 128 ended by \end{tikzpicture}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.172         \end{tikzpicture}
+                               
+? 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[67] [68] <Exp5/pic/image12.jpg, id=783, 774.0117pt x 248.8497pt>
+[71] [72] <Exp5/pic/image12.jpg, id=825, 774.0117pt x 248.8497pt>
 File: Exp5/pic/image12.jpg Graphic file (type jpg)
 
 <use Exp5/pic/image12.jpg>
 Package pdftex.def Info: Exp5/pic/image12.jpg used on input line 204.
 (pdftex.def)             Requested size: 396.76003pt x 127.56096pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[69 <./Exp5/pic/image12.jpg>] [70] [71]
-<./Exp5/pic/image3.png, id=823, 1276.01718pt x 1431.09656pt>
-File: ./Exp5/pic/image3.png Graphic file (type png)
-
-<use ./Exp5/pic/image3.png>
-Package pdftex.def Info: ./Exp5/pic/image3.png used on input line 322.
-(pdftex.def)             Requested size: 332.49652pt x 372.91725pt.
- [72 <./Exp5/pic/image3.png>] [73]
-Underfull \hbox (badness 10000) in paragraph at lines 374--378
-
- []
-
-[74]) [75]
-\openout2 = `Exp6/TorqueandRotationalInertia.aux'.
-
- (./Exp6/TorqueandRotationalInertia.tex [76
-
-
-
-]
-Chapter 7.
-[77] <./Exp6/pic/diskwithmass.png, id=870, 434.1018pt x 131.0496pt>
-File: ./Exp6/pic/diskwithmass.png Graphic file (type png)
-
-<use ./Exp6/pic/diskwithmass.png>
-Package pdftex.def Info: ./Exp6/pic/diskwithmass.png used on input line 46.
-(pdftex.def)             Requested size: 440.84747pt x 133.08691pt.
- [78 <./Exp6/pic/diskwithmass.png>]
-<./Exp6/pic/appbalance2.png, id=882, 949.5475pt x 391.4625pt>
-File: ./Exp6/pic/appbalance2.png Graphic file (type png)
-
-<use ./Exp6/pic/appbalance2.png>
-Package pdftex.def Info: ./Exp6/pic/appbalance2.png used on input line 72.
-(pdftex.def)             Requested size: 440.84747pt x 181.74146pt.
- [79 <./Exp6/pic/appbalance2.png>]
-<./Exp6/pic/rotplat.png, id=898, 620.3175pt x 316.18124pt>
-File: ./Exp6/pic/rotplat.png Graphic file (type png)
-
-<use ./Exp6/pic/rotplat.png>
-Package pdftex.def Info: ./Exp6/pic/rotplat.png used on input line 91.
-(pdftex.def)             Requested size: 264.51117pt x 134.82152pt.
-
-<./Exp6/pic/screenshot1.jpg, id=900, 728.7225pt x 492.6405pt>
-File: ./Exp6/pic/screenshot1.jpg Graphic file (type jpg)
-
-<use ./Exp6/pic/screenshot1.jpg>
-Package pdftex.def Info: ./Exp6/pic/screenshot1.jpg used on input line 99.
-(pdftex.def)             Requested size: 396.76003pt x 268.21689pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./Exp6/pic/screenshot2.png, id=901, 1000.48781pt x 687.31781pt>
-File: ./Exp6/pic/screenshot2.png Graphic file (type png)
-
-<use ./Exp6/pic/screenshot2.png>
-Package pdftex.def Info: ./Exp6/pic/screenshot2.png used on input line 106.
-(pdftex.def)             Requested size: 396.76003pt x 272.56253pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[80 <./Exp6/pic/rotplat.png>] [81 <./Exp6/pic/screenshot1.jpg>] [82 <./Exp6/pic
-/screenshot2.png>] <./Exp6/pic/crazyfig.png, id=951, 831.105pt x 385.44pt>
-File: ./Exp6/pic/crazyfig.png Graphic file (type png)
-
-<use ./Exp6/pic/crazyfig.png>
-Package pdftex.def Info: ./Exp6/pic/crazyfig.png used on input line 147.
-(pdftex.def)             Requested size: 352.67932pt x 163.55988pt.
-
-<./Exp6/pic/momenti1.png, id=953, 89.936pt x 71.467pt>
-File: ./Exp6/pic/momenti1.png Graphic file (type png)
-
-<use ./Exp6/pic/momenti1.png>
-Package pdftex.def Info: ./Exp6/pic/momenti1.png used on input line 160.
-(pdftex.def)             Requested size: 43.36243pt x 34.45752pt.
-
-<./Exp6/pic/momenti2.png, id=954, 103.587pt x 98.769pt>
-File: ./Exp6/pic/momenti2.png Graphic file (type png)
-
-<use ./Exp6/pic/momenti2.png>
-Package pdftex.def Info: ./Exp6/pic/momenti2.png used on input line 162.
-(pdftex.def)             Requested size: 43.36243pt x 41.34554pt.
-
-<./Exp6/pic/momenti3.png, id=955, 87.527pt x 84.315pt>
-File: ./Exp6/pic/momenti3.png Graphic file (type png)
-
-<use ./Exp6/pic/momenti3.png>
-Package pdftex.def Info: ./Exp6/pic/momenti3.png used on input line 164.
-(pdftex.def)             Requested size: 43.36243pt x 41.7727pt.
-
-<./Exp6/pic/momenti4.png, id=956, 185.19188pt x 92.59593pt>
-File: ./Exp6/pic/momenti4.png Graphic file (type png)
-
-<use ./Exp6/pic/momenti4.png>
-Package pdftex.def Info: ./Exp6/pic/momenti4.png used on input line 166.
-(pdftex.def)             Requested size: 43.36243pt x 21.68091pt.
-
-Overfull \hbox (35.94382pt too wide) in paragraph at lines 155--169
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 155--169
-
- []
-
-
-Overfull \hbox (45.49919pt too wide) in paragraph at lines 176--186
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 176--186
-
- []
-
-) [83 <./Exp6/pic/crazyfig.png>] [84 <./Exp6/pic/momenti1.png> <./Exp6/pic/mome
-nti2.png> <./Exp6/pic/momenti3.png> <./Exp6/pic/momenti4.png>]
-\openout2 = `Exp7/CentripetalForceAngularMomentum.aux'.
-
-
-(./Exp7/CentripetalForceAngularMomentum.tex
-Chapter 8.
-[85
-
-
-
-] <./Exp7/pic/appbalance2.png, id=988, 949.5475pt x 391.4625pt>
-File: ./Exp7/pic/appbalance2.png Graphic file (type png)
-
-<use ./Exp7/pic/appbalance2.png>
-Package pdftex.def Info: ./Exp7/pic/appbalance2.png used on input line 41.
-(pdftex.def)             Requested size: 352.67932pt x 145.39436pt.
-
-<./Exp7/pic/screenshot1.png, id=989, 407.27156pt x 175.40532pt>
-File: ./Exp7/pic/screenshot1.png Graphic file (type png)
-
-<use ./Exp7/pic/screenshot1.png>
-Package pdftex.def Info: ./Exp7/pic/screenshot1.png used on input line 48.
-(pdftex.def)             Requested size: 220.42374pt x 94.93156pt.
- [86 <./Exp7/pic/appbalance2.png> <./Exp7/pic/screenshot1.png>] [87] [88]
-<./Exp7/pic/apparatus.png, id=1050, 580.1675pt x 321.2pt>
-File: ./Exp7/pic/apparatus.png Graphic file (type png)
-
-<use ./Exp7/pic/apparatus.png>
-Package pdftex.def Info: ./Exp7/pic/apparatus.png used on input line 103.
-(pdftex.def)             Requested size: 308.59187pt x 170.84782pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Package array Warning: Column C is already defined on input line 109.
-
-[89] <./Exp7/pic/othersetup.png, id=1072, 367.3725pt x 267.24844pt>
-File: ./Exp7/pic/othersetup.png Graphic file (type png)
-
-<use ./Exp7/pic/othersetup.png>
-Package pdftex.def Info: ./Exp7/pic/othersetup.png used on input line 131.
-(pdftex.def)             Requested size: 264.51117pt x 192.43504pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) [90 <./Exp7/pic/apparatus.png>] [91 <./Exp7/pic/othersetup.png>]
-\openout2 = `Exp8/WavesI_StandingWaves.aux'.
-
-
-(./Exp8/WavesI_StandingWaves.tex [92
-
-
-]
-Chapter 9.
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-<./Exp8/pic/page01.png, id=1101, 821.31844pt x 373.395pt>
-File: ./Exp8/pic/page01.png Graphic file (type png)
-
-<use ./Exp8/pic/page01.png>
-Package pdftex.def Info: ./Exp8/pic/page01.png used on input line 24.
-(pdftex.def)             Requested size: 440.84747pt x 200.42241pt.
- [93
-
-]
-<./Exp8/pic/page02.png, id=1111, 821.31844pt x 373.395pt>
-File: ./Exp8/pic/page02.png Graphic file (type png)
-
-<use ./Exp8/pic/page02.png>
-Package pdftex.def Info: ./Exp8/pic/page02.png used on input line 32.
-(pdftex.def)             Requested size: 440.84747pt x 200.42241pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[94 <./Exp8/pic/page01.png (PNG copy)>]
-Underfull \vbox (badness 7558) has occurred while \output is active []
-
- [95 <./Exp8/pic/page02.png (PNG copy)>]
-<./Exp8/pic/page04.png, id=1128, 821.31844pt x 372.64218pt>
-File: ./Exp8/pic/page04.png Graphic file (type png)
-
-<use ./Exp8/pic/page04.png>
-Package pdftex.def Info: ./Exp8/pic/page04.png used on input line 61.
-(pdftex.def)             Requested size: 440.84747pt x 200.01833pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[96] <./Exp8/pic/image4.png, id=1135, 683.55376pt x 277.78781pt>
-File: ./Exp8/pic/image4.png Graphic file (type png)
-
-<use ./Exp8/pic/image4.png>
-Package pdftex.def Info: ./Exp8/pic/image4.png used on input line 80.
-(pdftex.def)             Requested size: 352.67932pt x 143.32722pt.
- [97 <./Exp8/pic/page04.png (PNG copy)>] [98 <./Exp8/pic/image4.png>] <./Exp8/p
-ic/page03.jpg, id=1154, 614.295pt x 794.97pt>
-File: ./Exp8/pic/page03.jpg Graphic file (type jpg)
-
-<use ./Exp8/pic/page03.jpg>
-Package pdftex.def Info: ./Exp8/pic/page03.jpg used on input line 106.
-(pdftex.def)             Requested size: 308.59187pt x 399.35208pt.
- [99 <./Exp8/pic/page03.jpg>] [100]
-<./Exp8/pic/image6.png, id=1173, 1204.5pt x 864.22874pt>
-File: ./Exp8/pic/image6.png Graphic file (type png)
-
-<use ./Exp8/pic/image6.png>
-Package pdftex.def Info: ./Exp8/pic/image6.png used on input line 133.
-(pdftex.def)             Requested size: 352.67932pt x 253.04633pt.
-
-<./Exp8/pic/image7.png, id=1174, 1630.09pt x 1260.71pt>
-File: ./Exp8/pic/image7.png Graphic file (type png)
-
-<use ./Exp8/pic/image7.png>
-Package pdftex.def Info: ./Exp8/pic/image7.png used on input line 141.
-(pdftex.def)             Requested size: 352.67932pt x 272.75945pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[101 <./Exp8/pic/image6.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 156--160
-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [102 <./Exp8/pic/image7.png>]) [103]
-\openout2 = `Exp9/WavesII_OscilliscopeandFunctionGenerator.aux'.
-
- (./Exp9/WavesII_OscilliscopeandFunctionGenerator.tex [104
-
-
-
-]
-Chapter 10.
-[105] [106] <./Exp9/pic/part1.pdf, id=1211, 561.89275pt x 241.5273pt>
-File: ./Exp9/pic/part1.pdf Graphic file (type pdf)
-
-<use ./Exp9/pic/part1.pdf>
-Package pdftex.def Info: ./Exp9/pic/part1.pdf used on input line 42.
-(pdftex.def)             Requested size: 396.76003pt x 170.54947pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[107] <./Exp9/pic/part2.pdf, id=1223, 561.89275pt x 481.8pt>
-File: ./Exp9/pic/part2.pdf Graphic file (type pdf)
-
-<use ./Exp9/pic/part2.pdf>
-Package pdftex.def Info: ./Exp9/pic/part2.pdf used on input line 65.
-(pdftex.def)             Requested size: 396.76003pt x 340.21306pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[108 <./Exp9/pic/part1.pdf>] [109 <./Exp9/pic/part2.pdf>]
-<./Exp9/pic/part3.pdf, id=1264, 561.89275pt x 379.6156pt>
-File: ./Exp9/pic/part3.pdf Graphic file (type pdf)
-
-<use ./Exp9/pic/part3.pdf>
-Package pdftex.def Info: ./Exp9/pic/part3.pdf used on input line 101.
-(pdftex.def)             Requested size: 308.59187pt x 208.488pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[110] [111 <./Exp9/pic/part3.pdf>]
-<./Exp9/pic/scope_label.pdf, id=1307, 559.23216pt x 281.45563pt>
-File: ./Exp9/pic/scope_label.pdf Graphic file (type pdf)
-
-<use ./Exp9/pic/scope_label.pdf>
-Package pdftex.def Info: ./Exp9/pic/scope_label.pdf used on input line 136.
-(pdftex.def)             Requested size: 396.76003pt x 199.68886pt.
- [112 <./Exp9/pic/scope_label.pdf>] [113]
-<./Exp9/pic/fgen.png, id=1342, 750.805pt x 403.5075pt>
-File: ./Exp9/pic/fgen.png Graphic file (type png)
-
-<use ./Exp9/pic/fgen.png>
-Package pdftex.def Info: ./Exp9/pic/fgen.png used on input line 179.
-(pdftex.def)             Requested size: 396.76003pt x 213.2361pt.
-) [114 <./Exp9/pic/fgen.png>]
-\openout2 = `Exp10/IdealGasandThermalConductivity.aux'.
-
-
-(./Exp10/IdealGasandThermalConductivity.tex
-Chapter 11.
-[115
-
-
-
-] [116] [117]
-<./Exp10/pic/condapppic.jpeg, id=1396, 2107.875pt x 2409.0pt>
-File: ./Exp10/pic/condapppic.jpeg Graphic file (type jpg)
-
-<use ./Exp10/pic/condapppic.jpeg>
-Package pdftex.def Info: ./Exp10/pic/condapppic.jpeg used on input line 98.
-(pdftex.def)             Requested size: 211.60489pt x 241.83307pt.
-
-<./Exp10/pic/steamchamberpic.jpeg, id=1397, 1897.0875pt x 2168.1pt>
-File: ./Exp10/pic/steamchamberpic.jpeg Graphic file (type jpg)
-
-<use ./Exp10/pic/steamchamberpic.jpeg>
-Package pdftex.def Info: ./Exp10/pic/steamchamberpic.jpeg used on input line 10
-4.
-(pdftex.def)             Requested size: 211.60489pt x 241.83307pt.
- [118] [119 <./Exp10/pic/condapppic.jpeg> <./Exp10/pic/steamchamberpic.jpeg>] [
-120] [121]
-<./Exp10/pic/idealgaspic.jpeg, id=1447, 1784.6675pt x 1750.54pt>
-File: ./Exp10/pic/idealgaspic.jpeg Graphic file (type jpg)
-
-<use ./Exp10/pic/idealgaspic.jpeg>
-Package pdftex.def Info: ./Exp10/pic/idealgaspic.jpeg used on input line 180.
-(pdftex.def)             Requested size: 211.60489pt x 207.54489pt.
-
-<./Exp10/pic/idealgasdiag.png, id=1448, 892.33376pt x 875.27pt>
-File: ./Exp10/pic/idealgasdiag.png Graphic file (type png)
-
-<use ./Exp10/pic/idealgasdiag.png>
-Package pdftex.def Info: ./Exp10/pic/idealgasdiag.png used on input line 184.
-(pdftex.def)             Requested size: 211.60489pt x 207.55824pt.
-
-<./Exp10/pic/pressuregaugepic.png, id=1450, 509.905pt x 362.35374pt>
-File: ./Exp10/pic/pressuregaugepic.png Graphic file (type png)
-
-<use ./Exp10/pic/pressuregaugepic.png>
-Package pdftex.def Info: ./Exp10/pic/pressuregaugepic.png used on input line 19
-7.
-(pdftex.def)             Requested size: 220.42374pt x 156.63843pt.
- [122 <./Exp10/pic/idealgaspic.jpeg> <./Exp10/pic/idealgasdiag.png>] [123 <./Ex
-p10/pic/pressuregaugepic.png>]
-<./Exp10/pic/adiabsetup.png, id=1478, 476.78125pt x 800.9925pt>
-File: ./Exp10/pic/adiabsetup.png Graphic file (type png)
-
-<use ./Exp10/pic/adiabsetup.png>
-Package pdftex.def Info: ./Exp10/pic/adiabsetup.png used on input line 239.
-(pdftex.def)             Requested size: 190.4431pt x 319.95132pt.
-
-<./Exp10/pic/adiabignite.png, id=1479, 501.875pt x 845.1575pt>
-File: ./Exp10/pic/adiabignite.png Graphic file (type png)
-
-<use ./Exp10/pic/adiabignite.png>
-Package pdftex.def Info: ./Exp10/pic/adiabignite.png used on input line 244.
-(pdftex.def)             Requested size: 190.4431pt x 320.71182pt.
- [124] [125 <./Exp10/pic/adiabsetup.png> <./Exp10/pic/adiabignite.png>]) [126] 
-[127
-
-
-] [128]
-Appendix A.
-[129
-
-] [130]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 169.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 169.
- (./main.aux (./cover.aux) (./intro.aux) (./Exp0/ExcelError.aux)
-(./Exp1/UncertaintyError.aux) (./Exp2/VelocityAcceleration.aux)
-(./Exp3/Forces.aux) (./Exp4/ProjectileMotionandConservationofEnergy.aux)
-(./Exp5/ConservationofMomentum.aux) (./Exp6/TorqueandRotationalInertia.aux)
-(./Exp7/CentripetalForceAngularMomentum.aux) (./Exp8/WavesI_StandingWaves.aux)
-(./Exp9/WavesII_OscilliscopeandFunctionGenerator.aux)
-(./Exp10/IdealGasandThermalConductivity.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 169.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 169.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A61B462ABD0A4C0656519D008CD60021;898.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 169.
- ) 
-Here is how much of TeX's memory you used:
- 24224 strings out of 493089
- 474933 string characters out of 6134842
- 569342 words of memory out of 5000000
- 26360 multiletter control sequences out of 15000+600000
- 22502 words of font info for 84 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 55i,17n,67p,1416b,898s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
-></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
-usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></us
-r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
-local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/lo
-cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loca
-l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/t
-exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texl
-ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive
-/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
-2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/20
-15/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/201
-5/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (134 pages, 12305305 bytes).
-PDF statistics:
- 1743 PDF objects out of 2073 (max. 8388607)
- 1474 compressed objects within 15 object streams
- 746 named destinations out of 1000 (max. 500000)
- 420 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ [73 <./Exp5/pic/image12.jpg>]
+
+! LaTeX Error: Environment tikzpicture undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.231         \begin{tikzpicture}
+                                 [MyPerspective,scale=0.5,thick]
+? 
+! Undefined control sequence.
+l.235             \pgfgetlastxy
+                               {\cylyx}{\cylyy}
+? 
+! Undefined control sequence.
+l.235             \pgfgetlastxy{\cylyx
+                                      }{\cylyy}
+? 
+! Undefined control sequence.
+l.235             \pgfgetlastxy{\cylyx}{\cylyy
+                                              }
+? 
+! Undefined control sequence.
+l.239             \pgfmathsetmacro{\cylt}{(\cylzy
+                                                  * \cylyx - \cylzx * \cylyy...
+
+? 
+! Undefined control sequence.
+l.239 ... \pgfmathsetmacro{\cylt}{(\cylzy * \cylyx
+                                                   - \cylzx * \cylyy)

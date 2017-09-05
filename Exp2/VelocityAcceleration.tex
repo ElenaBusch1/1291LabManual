@@ -80,7 +80,7 @@ When two objects collide and bounce away from each other, they tend to lose some
     e = \left|v_f/v_i\right|
 \end{equation}
 
-A perfectly elastic collision, one in which no energy is lost, would therefore have a coefficient of restitution equal to one; an elastic ``super'' ball is a good example of an object whose coefficient of restitution in many collisions is often close to one.  You can calculate $e$ for the case of the rider colliding with the elastic bumper by using the data you collected in this experiment.  
+A perfectly elastic collision, one in which no energy is lost, would therefore have a coefficient of restitution equal to one; an elastic ``super'' ball is a good example of an object whose coefficient of restitution in many collisions is often close to one.  You can calculate $e$ for the case of the rider colliding with the elastic bumper by using the data you collected in this experiment.
 
 \subsection{Using the Smart Tool to Read off Data Points}
 
@@ -92,21 +92,21 @@ Note that if you activate the Smart Tool in the second graph before the Smart To
 
 You should calculate $e$ from the data just collected using two different methods. \myskip
 \begin{itemize}
-\item In the first method, use the position versus time graph with the Smart Tool to read off and record the $(t,x)$ coordinates of 5 reasonably separated points before the bumper collision and 5 reasonably separated points after the collision.  Choose representative points that are not part of extraneous effects (which occur at the ends of the motion, in the small region of the collision, and at irregularities in the air track itself). 
+\item In the first method, use the position versus time graph with the Smart Tool to read off and record the $(t,x)$ coordinates of 5 reasonably separated points before the bumper collision and 5 reasonably separated points after the collision.  Choose representative points that are not part of extraneous effects (which occur at the ends of the motion, in the small region of the collision, and at irregularities in the air track itself).
 \begin{enumerate}
 \item In Microsoft Excel, plot the 5 $(t,x)$ data points and determine a line of best fit. Be sure to plot error bars on both axes (error bars on the time axis can be found using the precision of the Sonic Ranger ($0.05 s$) and error bars on the velocity axis can be found using the precision of the Sonic Ranger ($0.01 m/s$).
 \item Determine the initial velocity from the slope of your best-fit line with error. Error in initial velocity can be found by propagating uncertainties in the slope of your best-fit line using the max/min method for linear fits.
-\item    Repeat steps 1-2 for the 5 points after the collision and determine the final velocity with error using the same max/min linear fit method. 
+\item    Repeat steps 1-2 for the 5 points after the collision and determine the final velocity with error using the same max/min linear fit method.
     \item Calculate $e$ from the ratio of the two velocities with error found by propagating uncertainties in initial velocity $v_i$ and final velocity $v_f$.
 \end{enumerate}
 
-\item In the second method, use the velocity versus time graph with the Smart Tool to read off and record the velocity values for 5 reasonably separated points before the collision and 5 reasonably separated points after the collision.  Once again, choose representative points that are not part of extraneous effects. Perform the analysis in Microsoft Excel. 
+\item In the second method, use the velocity versus time graph with the Smart Tool to read off and record the velocity values for 5 reasonably separated points before the collision and 5 reasonably separated points after the collision.  Once again, choose representative points that are not part of extraneous effects. Perform the analysis in Microsoft Excel.
 \begin{enumerate}
 \item Calculate the initial velocity $v_i$ by averaging your 5 chosen initial velocity data points. Include error in average initial velocity using the 2/3 method.
 \item Calculate the final velocity $v_f$ by averaging your 5 chosen final velocity data points. Include error in average final velocity using the 2/3 method.
     \item Calculate $e$ from the ratio of these two average values with error by propagating uncertainties in initial velocity $v_i$ and final velocity $v_f$.
         \end{enumerate}
-    \item Which method  gives a more {\it{accurate}} value for $e$ (think about what the value of $e$ {\it{should}} be)? 
+    \item Which method  gives a more {\it{accurate}} value for $e$ (think about what the value of $e$ {\it{should}} be)?
     \item Which method gives a more {\it{precise}} value for $e$ (think about the difference between {\it{precision}} and {\it{accuracy}})?
 \end{itemize}
 \section{Gravitational Acceleration}
@@ -123,7 +123,7 @@ A small constant force can be applied to the rider by inclining the track slight
 
 Use a few of the shims provided to elevate the right side of the air-track. NOTE: All of the shims are $1.24\,\mathrm{mm}$ thick. \myskip
 
-It is important to remark in the small angle approximation, $\sin\theta \sim \tan(\theta) \sim h/D$, where $D$ is the horizontal distance between the two leg supports. In our case, $D=1.0m$, so $\sin(\theta) \sim h$ (see Figure \ref{fig:shims}). And so, {\it{ $\sin\theta$ is equal to the height of the shims}}.
+It is important to remark in the small angle approximation, $\sin\theta \sim \tan(\theta) \sim h/D$, where $D$ is the horizontal distance between the two leg supports. In our case, $D=1.0m$, so $\sin(\theta) \sim h$ (see Figure \ref{fig:shims}). And so, {\it{ $\sin\theta$ is equal to the height of the shims in meters}}.
 \begin{figure}[h]
     \begin{center}
         \includegraphics[width=0.8\textwidth]{./Exp2/pic/image15.jpg}
@@ -152,13 +152,11 @@ You can calculate the acceleration along the air track from the data displayed o
     v_f - v_{i} = a_\text{down} (t_f - t_i)
 \end{equation}
 \begin{enumerate}
-\item On graph paper, plot the 6 $(t,v)$ data points and draw a line of best fit. Be sure to plot error bars on both axes (error bars on the time axis can be found using the precision of the Sonic Ranger ($0.05 s$) and error bars on the velocity axis can be found using the precision of the Sonic Ranger ($0.01 m/s$).
-\item Determine the slope of your best-fit line with error using the max/min method for linear fit error.
+\item In Excel, plot the 6 $(t,v)$ data points and a line of best fit. Be sure to plot error bars on both axes (error bars on the time axis can be found using the precision of the Sonic Ranger ($0.05 s$) and error bars on the velocity axis can be found using the precision of the Sonic Ranger ($0.01 m/s$).
+\item Determine the slope of your best-fit line with error using Excel's built-in fitting function.
 \item From your slope, determine the acceleration down the ramp $a_{\text{down}}$ with error found by propagating uncertainty in the best-fit line.
 \item Calculate the gravitational acceleration $g$ with error found by propagating uncertainty in $a_\text{down}$.
 \item Is your measured value for $g$ close to the accepted value of $g=9.81 m/s^2$ within error?
 \end{enumerate}
 }
 \end{itemize}
-
-

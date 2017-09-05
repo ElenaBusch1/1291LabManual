@@ -1,71 +1,20 @@
-\chapter{Uncertainty and Error Part 2}
+\chapter{Uncertainty and Error}
 \label{chap:excel2}
 \section{Introduction}
 
-The purpose of this lab is to introduce some more advanced topics in error analysis and excel as an extension to the first lab.You will perform two experiments, demonstrating how we can use the principles of error analysis and excel to analyze data in real experiments. The techniques studied here will be essential for the rest of this two-semester lab course. The issues and techniques are important in order to arrive at accurate conclusions in any field in which it is necessary to understand not just numerical results, but the uncertainties associated with those results. \myskip
+The purpose of this lab is to allow time to practice using the tools you were introduced to last week, while also familiarizing yourself further with Microsoft Excel, which will help you greatly throughout the year. You will complete a few exercises and one experiment, demonstrating how we can use the principles of error analysis to analyze different sets of data. The issues and techniques are important in order to arrive at accurate conclusions in any field in which it is necessary to understand not just numerical results, but the uncertainties associated with those results. \myskip
 
-If you wish to use your personal laptop and have not already acquired a copy of Excel, you can download a copy with your student email address from 
+If you wish to use your personal laptop and have not already acquired a copy of Excel, you can download a copy with your student email address from
 \href{https://products.office.com/en-us/student?ms.officeurl=getoffice365}{Office 365 Education}\footnote{https://products.office.com/en-us/student?ms.officeurl=getoffice365}. However, this will not be absolutely necessary since computers are provided in the laboratory. Please note the sections introducing new Excel tools pertain to the newest version of Excel. If you are using a personal computer with a different version of Excel, you are responsible for adapting the instructions to your version of Excel.
 
-
 \section{Theory}
-\subsection{Advanced Uncertainty and Error}
-\subsubsection{Powers and Roots}
 
-When raising a value to a certain power, its relative uncertainty is multiplied by the exponent. This applies to roots as well, since taking the root of a number is equivalent to raising that number to a fractional power.\myskip 
+It is highly recommended that you look back on some of the lessons taught in last week's section. This lab will simply be an extension of those ideas.
 
-Squaring a quantity involves multiplying its relative uncertainty by 2, while cubing a quantity causes its relative uncertainty to be multiplied by 3.\myskip
+\subsection{Working With Excel}
+\subsubsection{Plotting with Excel}
 
-Taking the \underline{square root} of a quantity (which is equivalent to raising the quantity to the 1/2 power) causes its \underline{relative uncertainty} to be multiplied by 1/2. For example, if you know the area of a square to be: 
-\begin{equation}
-    \text{Area} = 100\pm 8\,\mathrm{m^2} = 100\,\mathrm{m}^2\;(1.00\pm 0.08)
-\end{equation}
-then it follows that the side of the square is:
-\begin{equation}
-    \text{Side} = 10\,\mathrm{m}\;\left( 1.00\pm 0.04 \right) = 10.0\pm 0.4\,\mathrm{m}
-\end{equation}
-The most general rule for finding the error in powers and roots is mathematically represented as follows.
-\begin{gather}
-f(x) = x^n \\
-\frac{\sigma_{f(x)}}{f(x)} = |n| \frac{\sigma_x}{x}
-\end{gather}
-Where $\sigma$ is the {\it{absolute}} uncertainty and $f(x)$ is some power or root of $x$.
-You can convince yourself that this is true by checking it backwards using the rules described in section 2.6.2 in the previous chapter (chapter 1-\ref{chap:excel}).
-
-\subsubsection{Other Functions}
-
-If you need to calculate the error of a calculation that does not fit into one of these rules (such as trigonometric functions or logarithmic ones), here is a manual method that you can use.\myskip
-
-Based upon the error of the quantity that you determined, you can find the maximum and minimum values of the quantity that you are calculating. The value that you found should be roughly midway between these two quantities. Then if you split the difference between the maximum and minimum you should obtain a reasonable estimate of the error. Mathematically, you would do so as follows.
-\begin{gather}
-\sigma_{f(x)} = \frac{f(x + \sigma_x) - f(x - \sigma_x)}{2}
-\end{gather}
-
-Here is an example: Suppose you measure an angle to be $(47.3 \pm 0.5)^\circ$ and you want to determine the error of $\sin(47.3 \pm 0.5)^\circ$. You find that $\sin(47.3) = 0.735$. Based upon your reported uncertainty, you know that your angle could be as large as $47.8^\circ$ and as small as $46.8^\circ$, and therefore you should calculate $\sin(47.8) = 0.741$ and $\sin(46.8) = 0.729$. So your calculated value is 0.735 but it can be as low as 0.729 and as high as 0.741 and therefore, if you halve the difference between 0.729 and 0.741 you get a reasonable error estimate of 0.006. So you should report your value as $0.735 \pm 0.006$.
-
-\subsubsection{Best-Fit Line}
-
-In most research laboratories, plotting measurements is found to be the preferred method of reviewing the data and quantitatively measuring the relationship between the experimental variables. This is effective because we often have some idea of the expected relationship between the variables {\it{apriori}}. In these labs, this expected relationship is almost always arranged to be a straight line. But even if we know that the ideal points fit on a precise straight line, experimentally measured data points will not always lie on a single line -- because the measurements always have intrinsic uncertainty. Therefore when the points are plotted, we should include error bars on both axes to indicate the uncertainties in the data. Because real measurements do not all lie on a single straight line, there are a variety of possible lines you might choose to fit the data. \myskip
-
-\begin{figure}[h]
-    \begin{center}
-        \includegraphics[width=0.9\textwidth, height=0.5\textwidth]{./Exp3/pic/image13.jpg}
-    \end{center}
-    \caption{Left: an example best-fit line. Right: the maximum and minimum possible slope from our data used to calculate uncertainty in the best-fit line. Notice how we have drawn the lines on the outer bounds of the error bars to achieve the maximum and minimum possible slope within the error bars.}
-    \label{fig:bestfit}
-\end{figure}
-
-How do we know which line represents the best fit?  There is actually an exact mathematical procedure to obtain the best-fit line, but since this is a tedious calculation (and usually done on a computer), we will introduce some useful ``eyeball'' methods that can be done easily (without a computer). These techniques are sufficiently precise for our purposes, and with some experience they give results surprisingly close to the best fits produce by computer algorithms. \myskip
-
-How does one draw the best line?  First, try to draw a line with as many points (with uncertainties included) lying above the line as below it. The gauge of how close the line is to a point is given by the uncertainty associated with that measured point. However, all the points at the left end should not lie on one side of the line with all the points at the right end lying on the other side. As a rule of thumb, roughly 2/3 of the points should have the line passing through the uncertainties (just as with the 2/3 rule).\myskip
-%The uncertainty for the best-fit line is obtained by estimating how much one could increase and decrease the slope of the line before the fit is deemed very bad. \myskip
-
-Clearly, this ''eyeball'' method has inherent uncertainty, so how do we estimate the uncertainty on the slope of the best-fit line? To do this we should estimate the spread of the slope, or maximum and minimum possible slopes that one can conceivably interpret from the graph. Half the difference between the minimum and maximum slopes is a good estimate of the slope uncertainty ($\sigma=\frac{m_{max}-m_{min}}{2}$). See figure \ref{fig:bestfit} for an example bist fit line and max/min slopes for some sample data.  \myskip
-
-\underline{Remark}: Often in our experiments the data points will not look as nice as in the above examples. One or several points may not be close to any best-fit line you try. Such anomalous points may occur, for example, because of a mistake in measuring. In such cases, it is acceptable to ignore these anomalies when estimating the best-fit line. (Of course you must note this fact down in your lab report)  Dropping anomalous points must be done with extreme care and only rarely (if you know the point is not physically meaningful).\footnote{More than once, data points that did not behave as theory predicted turned out to be new effects and led to Nobel prizes!}  It is better to choose a line with as many points above the line as below. If you are not sure of your measurements, it is better to re-measure or to take more data points. \myskip
-
-\subsection{Plotting in Excel}
-An important set data analysis tools in excel are plotting and linear fit functions. You will need to plot and fit data many times throughout this lab course, so make sure you are familiar with this section. Below is a walkthrough of plotting and fitting a set of data with error in excel. 
+An important set of data analysis tools in Excel are plotting and linear fit functions. You will need to plot and fit data many times throughout this lab course, so make sure you are familiar with this section. Below is a walkthrough of plotting and fitting a set of data with error in excel.
 \begin{enumerate}
 \item Before plotting, you need to have 4 columns with data: x data, y data, x error data, and y error data. Make sure you have entered the information into excel.
 \item First select your x data and y data (you can select multiple boxes in excel by holding down the ctrl button while selecting). Make sure to select your x data first or your x and y axes will be switched.
@@ -78,13 +27,12 @@ An important set data analysis tools in excel are plotting and linear fit functi
 \label{fig:excel1}
 \end{figure}
 
-
 \item To include error bars select your chart, then click the "plus" marker on the top right of the chart. Check the box titled "error bars". Now some basic error bars should appear on the plot. These are not based on the error bar data in your excel document, they are standard error bars.
 \item To change them so they match your error bar data, select the x axis error bars on your chart, and format the error bars by clicking the "Custom" selection, then "specify value".
 \item It should now prompt you for positive error values and negative error values. Delete "$\{1\}$" from the two boxes, and select your error bars using the cursor. Your chart will now have the correct error bars (see figure \ref{fig:excel2}).
 
 \item Repeat steps 5-6 for your y data.
-\item To linear fit your data, right click on your data in the plot and select "Add Trendline". Check the "Linear", "Display Equation on chart", and "Display R-square value on chart" boxes. 
+\item To linear fit your data, right click on your data in the plot and select "Add Trendline". Check the "Linear", "Display Equation on chart", and "Display R-square value on chart" boxes.
 \item Now the slope, intercept, and R squared values will be displayed on your chart. R squared is a measure of how well the line fits your data. It should be close to $1$ and at the very least greater than $0.9$.
 \end{enumerate}
 
@@ -101,6 +49,32 @@ An important set data analysis tools in excel are plotting and linear fit functi
 \caption{Using excel to perform a linear fit and return the intercept and slope.}
 \label{fig:excel3}
 \end{figure}
+
+\subsubsection{Helpful Commands}
+
+Your TA will guide you through the relevant excel commands necessary for data analysis, however a list of some relevant excel commands are listed below. A list of all excel commands can be found on the \href{https://support.office.com/en-us/article/Excel-functions-alphabetical-b3944572-255d-4efb-bb96-c6d90033e188}{Microsoft Office website}\footnote{https://support.office.com/en-us/article/Excel-functions-alphabetical-b3944572-255d-4efb-bb96-c6d90033e188}
+
+\begin{center}
+\begin{tabular}{c | c}
+ABS & Returns the absolute value of a number \\
+AVERAGE & Computes the average of the selected data set \\
+COS & Calculates cosine of a number\\
+DEGREES & Converts radians to degrees \\
+EXP & Returns e raised to the power of a given number \\
+LN & Returns the natural logarithm of a number \\
+MEDIAN & Finds the median of a data set \\
+MODE.SNGL & Finds the most commonly occuring number in a data set\\
+PI & Returns the value of pi\\
+POWER & Returns the result of a number raised to a power\\
+SIN & Calcualtes the sine of a number\\
+SQRT & Calculates the square root of a number\\
+STDEV.P & Calculates the standard deviation based on the entire population \\
+STDEV.S & Estimates the standard deviation based on a sample \\
+SUM & Calculates the sum of a data set\\
+TAN & Calculates the tangent of a number
+\end{tabular}
+\end{center}
+
 \newpage
 \subsection{Simple Pendulum}
 In this experiment, we will study the dynamics of a simple pendulum. A simple pendulum is defined as a small mass (known as a pendulum bob), treated as a point mass, suspended from a thin wire considered to be massless. When displaced from equilibrium, the mass will oscillate around the equilibrium point. To analyze the mechanics of the simple pendulum, we use Newton's second law to examine the forces on the pendulum bob (see figure \ref{fig:pendulum}).
@@ -132,36 +106,70 @@ In experiment, we can more easily measure the period of oscillation, which is re
 \label{fig:pendulum}
 \end{figure}
 
-\newpage
-\subsection{Buffon's Needle}
-Buffon's needle problem is a classic probability problems first posed by Georges-Louis Leclerc, Comte de Buffon that we will reproduce in this lab. It is stated as follows.
-\begin{quotation}
-"Suppose we have a floor made of parallel strips of wood, each the same width, and we drop a needle onto the floor. What is the probability that the needle will lie across a line between two strips?"
-\end{quotation}
-If the needle is shorter than the distance between two strips, the solution is surprisingly simple. The probability of a needle landing on a line is given by the following formula.
-\begin{gather}
-P = \frac{2 L}{D \pi}
-\label{equ:buffon}
-\end{gather}
-Where $L$ is the length of a single needle and $D$ is the distance between lines. The original question posed was trying to calculate the probability of needle falling between two lines, however, it is more interesting to use the derived relation to calculate the numerical value of $\pi$. We can do so by performing the following experiment.
-\begin{enumerate}
-\item Begin by drawing parallel lines one a sheet of paper and measuring the distance between the lines.
-\item Drop a preset number of "needles" (usually toothpicks with a well defined length) and calculate the probability $P$ by dividing the number of needles that land on a line by the total number of dropped needles.
-\item From $P$ you can calculate $\pi$.
-\end{enumerate}
-For a more detailed derivation and description of the problem, visit this online article on \href{https://en.wikipedia.org/wiki/Buffon\%27s_needle}{Buffon's needle} \footnote{https://en.wikipedia.org/wiki/Buffon\%27s\_needle}. For an extension of the problem to objects other than needles, visit this online article on \href{https://en.wikipedia.org/wiki/Buffon\%27s_noodle}{Buffon's noodle} \footnote{https://en.wikipedia.org/wiki/Buffon\%27s\_noodle}. A schematic is given in figure \ref{fig:buffon}.
-
-\begin{figure}[h]
-\centering
-\includegraphics[width=0.7\textwidth]{./Exp1/pic/buffon.png}
-\caption{A schematic of Buffon's needle experiment. The distance between lines is $D$ and the length of a single needle is $L$.}
-\label{fig:buffon}
-\end{figure}
-
 \section{Procedure}
+
+\subsection{Practice with Excel Analysis}
+In this section of the lab, you will get some experience using excel to determine the error on some data sets. You will need to put the data into excel and manipulate the data using the aforementioned excel commands. You can use excel on your personal computer to complete the exercises. Make sure to include the answers to the questions in your lab report.
+\begin{enumerate}
+
+\item {\bf{Data Set 1:}} consider a set of measurements you made of the gravitational constant $g$ on earth (in $m/s^2$). The data set is given below.
+\begin{center}
+\begin{tabular}{| c | c | c | c | c | c | c | c | c | c | c |}
+\hline
+Trial &1&2&3&4&5&6&7&8&9&10 \\ \hline
+$g (m/s^2)$&9.7&9.2&10.1&10.0&9.5&8.9&11.1&9.8&9.7&10.0 \\
+\hline
+\end{tabular}
+\end{center}
+\begin{enumerate}
+\item Calculate the mean, median, mode, and standard deviation of the data set using excel and include them in your report.
+\item Estimate the error in $g$ using the 2/3 method. How does this compare to the standard deviation?
+\item Does the mean value for $g$ agree with the expected value within error? Note the standard value of $g$  is $9.81 m/s^2$.
+\item If your mean doesn't agree (or if it hadn't agreed) with the expected value of $g$, what type of errors might have contributed to the incorrect value of $g$?
+\end{enumerate}
+
+\item {\bf{Data Set 2:}} consider two sets of measurements in which you measured the length of a table that is known to be $1.25 m$. In the first method, you used a meter stick, so you had to measure twice. In the second method, you used a 2 meter stick, so you only had to measure once. Assume the ruler has centimeter precision.
+\begin{center}
+\begin{tabular}{ |c | c | c | c | c | c |}
+\hline
+Trial &1&2&3&4&5 \\ \hline
+Method 1, Measurement 1 ($m$) & 1.00 & 1.00 & 1.00 &1.00 &1.00 \\
+\hline
+Method 1, Measurement 2  ($m$)& 0.23 &0.21&0.25&0.26&0.24 \\
+\hline
+Method 2 ($m$)& 1.23&1.21&1.25&1.26&1.24 \\
+\hline
+\end{tabular}
+\end{center}
+\begin{enumerate}
+\item Calculate the absolute and relative uncertainties for each measurement in both trials (don't use 2/3 method or standard deviation).
+\item Which measurement is most precise (has lower relative unertainty)?
+\item Estimate the error using the 2/3 methods. How does this compare to the error you calculated in part (a).
+\item What could you conclude about making measurements with a ruler?
+\end{enumerate}
+
+\item {\bf{Data Set 3:}} consider a measurement you made in which you counted the number of cars that passed in 1 hour on various highways in the united states. The data set containing the number of cars per hour is given in the following table.
+\begin{center}
+\begin{tabular}{|c | c | c | c | c | c | c | c | c | c | c|}
+\hline
+Trail&1&2&3&4&5&6&7&8&9&10 \\ \hline
+$N_{\text{cars}}$&523&143&496&1045&869&57&693&1150&327&87 \\
+\hline
+\end{tabular}
+\end{center}
+\begin{enumerate}
+\item Calculate the absolute error and the relative error in each measurement.
+\item Which measurement has the lowest absolute error?
+\item Which measurement has the lowest relative error?
+\item Which measurement would you say is the most precise?
+\item Calculate the rate in cars {\it{per second}} for each measurement with error.
+\item What experimental factors might contribute to the error in car rate (be creative!)?
+\end{enumerate}
+\end{enumerate}
+
 \subsection{Pendulum}
 
-In the first part, you will determine the gravitational constant $g$ through two methods. First, you will measure the time it takes a pendulum to swing through a full cycle, the period of oscillation, and use this to calculate the gravitational constant $g$. Second, you will measure the period for 5 different pendulum lengths and use the linear fit method to determine the gravitation constant $g$.. Since a number of measurements need to be made, you may wish to perform this experiment in teams of two: one person measures the time values, the other records the results. \myskip
+You will determine the gravitational constant $g$ through two methods. First, you will measure the time it takes a pendulum to swing through a full cycle, the period of oscillation, and use this to calculate the gravitational constant $g$. Second, you will measure the period for 5 different pendulum lengths and use the linear fit method to determine the gravitation constant $g$.. Since a number of measurements need to be made, you may wish to perform this experiment in teams of two: one person measures the time values, the other records the results. \myskip
 
 \begin{itemize}
 \item Measurement 1: Calculation of $g$ by measuring multiple periods $\tau$.
@@ -180,30 +188,43 @@ In the first part, you will determine the gravitational constant $g$ through two
 \begin{enumerate}
 \item Measure the length of the pendulum with error and record it in your report.
 \item Let the pendulum swing at some small angle (less then 15 degrees) and measure the period of the motion. Try to start and stop the stopwatch at the apex of the motion. Make a single measurement of the period $\tau$.
-\item repeat steps 1-2 for 5 different pendulum lengths $\ell$. 
+\item repeat steps 1-2 for 5 different pendulum lengths $\ell$.
 \item In excel, plot the length of the pendulum $\ell$ versus period squared $\tau^2$ with error bars on both axes. The error bars in $\ell$ and $\tau$ can be determined from the precision in the ruler/stopwatch (make sure to correctly propagate the error in squaring $\tau$).
 \item Use excel to fit your plot with a line and use the generated slope to determine the gravitational constant $g$. Include error in $g$ using the max-min method for linear fit error (discussed in section 2.1.3) (We suggest printing out your excel plot and doing the max-min method by hand).
 \item Does your calculated value of $g$ agree with the expected value?
 \item What are the main sources of error in this part of the experiment?
 \end{enumerate}
 \end{itemize}
-\subsection{Buffon's Needle}
-In this experiment, you will determine the value of $\pi$ through Buffon's probability experiment (see section 2.2 for a detailed explanation). You will need a piece of paper and the toothpicks provided in the lab.
-\begin{enumerate}
-\item Measure the length of a single toothpick and record it in your report with error.
-\item Draw at least four parallel lines on a piece of plain printer paper. Make sure all lines are equidistant apart {\it{and}} the distance between lines is greater than the length of a single toothpick. Record the distance between lines in your report with error.
-\item Drop 10 toothpicks on your piece of paper and record the number of toothpicks that cross a line with error.
-\item Calculate the value of $\pi$ (using equation \ref{equ:buffon}) with error found by propagating uncertainties in measured lengths and the number of counts.
-\item Repeat steps 3-4 this time dropping 50 toothpicks.
-\item Do your calculated values of $\pi$ agree with the expected results ($\pi = 3.14159...$).
-\item In which trial did you calculate a more accurate value of $\pi$. In which trial did you calculate a more precise value of $\pi$? Is this expected?
-\end{enumerate}
-(Optional) For those of you who are interested in a more in depth analysis of this experiment, you can try and work through the next two bullet points.
-\begin{enumerate}
-\item Buffon's needle experiment can be improved by using objects other than toothpicks such as triangles, circles, v shaped toothpicks, etc... where the number of counts is still the number of times a line is intersected by the dropped shape. Use the online Buffon's needle simulator \href{http://mste.illinois.edu/activity/buffon/}{here} \footnote{http://mste.illinois.edu/activity/buffon/} to determine which shape determines the most accurate value of $\pi$ in the fewest number of drops (make sure to use a "needle scale" of $1$). 
-\item Why might the shape you found in the previous part give you the most accurate value of $\pi$?
-\end{enumerate}
 
+\newpage
+\section{Applications}
+You read of a certain test intended to indicate a particular kind of cancer. The test gives you a positive result for $(80 \pm 10) \%$ of all persons tested who really have this kind of cancer (true positives). But the test also gives you a positive result for $(2 \pm 1) \%$ of all healthy persons (false positives). Now you read a publication where the author performed this test on $10,000$ workers that deal with a certain chemical. The author got 400 positive samples from these workers and claims that this is strong evidence that this particular chemical enhances the development of this kind of cancer since it is known from literature that only $(1 \pm 0.5)\%$ of the population are expected to have this kind of cancer. How reliable is the claim of the author?\myskip
+
+\noindent \underline{Numerical Answer}:
+
+If one assumes that the 10,000 workers would mirror the average population, then there should be:
+\begin{equation}
+    10000 \times (0.010 \pm 0.005) = 100 \pm 50
+\end{equation}
+persons having this cancer. Of them, the test gives:
+\begin{equation}
+    (0.8 \pm 0.1) \times (100 \pm 50) = 80 \pm 50
+\end{equation}
+positive results (true positives).\myskip
+
+There are then $9900 \pm 50$ persons expected not to have this kind of cancer. Of them:
+\begin{equation}
+    (0.02 \pm 0.01) \times (9900 \pm 50) \approx 200 \pm 100
+\end{equation}
+give positive results (false positives).\myskip
+
+The total number of positives in the average population is therefore $280 \pm 150$.\myskip
+
+So how do you judge the author's conclusion of ``strong evidences''?\myskip
+
+If you wanted to design a new test using the same procedure but to arrive at a stronger conclusion, and you could either increase the rate of true positives or decrease the rate of wrong negatives, which would you choose?\myskip
+
+\noindent\emph{Reference}: Paul Cutler: Problem Solving in Clinical Medicine, Chapter 5, Problem 5 (modified).
 
 \section{Lab Preparation Examples}
 
@@ -264,7 +285,7 @@ What is the volume of the box (including uncertainty and units) in $\mathrm{cm}^
 
 10. You measure the following quantities:
 \begin{align*}
-    A &= 1.0 \pm 0.2\,\mathrm{m}\quad B = 2.0 \pm 0.2\,\mathrm{m}\quad        C = 2.5 \pm 0.5\,\mathrm{m/s} \\ 
+    A &= 1.0 \pm 0.2\,\mathrm{m}\quad B = 2.0 \pm 0.2\,\mathrm{m}\quad        C = 2.5 \pm 0.5\,\mathrm{m/s} \\
     D &= 0.10\pm 0.01\,\mathrm{s}\quad E = 100\pm 10\,\mathrm{m/s^2} &
 \end{align*}
 Calculate the mean and uncertainty of:
@@ -287,8 +308,8 @@ Include units! For e)--g) perform it step by step.\myskip
 
 {\bf{13. Given the following measurements, which one has the highest absolute uncertainty and which one has the highest relative uncertainty?}}
 \begin{align*}
-    l &= 10.0 \pm 0.2\,\mathrm{m} \quad   l = 10.0\,\mathrm{m}\: (1.00 \pm 0.03)   \\ 
-    l &= 7.24\,\mathrm{m}\: (1.00 \pm 0.04) \quad l = 12.5 \pm 0.25\,\mathrm{m}   
+    l &= 10.0 \pm 0.2\,\mathrm{m} \quad   l = 10.0\,\mathrm{m}\: (1.00 \pm 0.03)   \\
+    l &= 7.24\,\mathrm{m}\: (1.00 \pm 0.04) \quad l = 12.5 \pm 0.25\,\mathrm{m}
 \end{align*}
 
 14. Given the following measurements which one has the highest absolute uncertainty and which one has the highest relative uncertainty?\myskip
@@ -305,4 +326,3 @@ Include units! For e)--g) perform it step by step.\myskip
 %16. Explain, using your own words, the difference between uncertainty and error as you perform several measurements and average.\myskip
 
 16. You measure the speed of light and get as a result $c = (2.25 \pm 0.25)\times 10^8\,\mathrm{m/s}$. The value you find in books is $c = 299\, 792\, 458\,\mathrm{m/s}$.  Using these values explain the difference between the uncertainty of your measurement and its error!
-

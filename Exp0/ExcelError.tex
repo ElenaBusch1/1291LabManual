@@ -1,23 +1,23 @@
-\chapter{Uncertainty and Error Part 1}
+\chapter{Intro to Uncertainty and Error}
 \label{chap:excel}
 \section{Introduction}
 
 There is no such thing as a perfect measurement. All measurements have errors and uncertainties, no matter how hard we might try to minimize them. Understanding possible errors is an important issue in any experimental science. The conclusions we draw from the data, and especially the strength of those conclusions, will depend on how well we control the uncertainties. \myskip
 
-Let’s look at an \emph{example}: You measure two values 2.5 and 1.5. From theory, the expected value is 2.3, so the value 2.5 almost agrees, whereas 1.5 is far off. But if you take into account the uncertainties (i.e.\ the interval in which your result is expected to lie), neither may be far off. For experimental uncertainties of 0.1 and 1.0, respectively, your two measured values may be expressed $2.5\pm 0.1$ and $1.5\pm 1.0$. The expected value falls within the range of the second measurement but not of the first! \myskip
+Let’s consider an \emph{example}: You're trying to measure something and from theory, you know the expected value should be 2.3. You make two measurements and get two very different values: 2.5 and 1.5. We can see immediately that 2.5 is rather close to the expected value while 1.5 is quite far off. However, we have not taken error into account. Each measurement has a certain amount of uncertainty, or wiggle room. Basically, there's an interval surrounding your measurement where the true value is expected to lie. If your measurements give experimental uncertainties of 0.1 and 1.0 respectively, the new measured values may be expressed $2.5\pm 0.1$ and $1.5\pm 1.0$. The expected value falls within the range of the second measurement, but not the first! \myskip
 
-Analyzing data and error in experiments is essential in making conclusions about the physical laws we are testing. The advent of computers and software made to manipulate large data sets has revolutionized scientist's ability to make conclusions from experimental data. In this lab course, we will be using Microsoft Excel to record data sets from the experiments and determine experimental uncertainties in calculated quantities. We will learn to use excel to propagate uncertainties and plot error bars with our data. You can download a personal copy of Microsoft Excel with your student email address from 
+Analyzing data and error in experiments is essential in making conclusions about the physical laws we are testing. The advent of computers and software made to manipulate large data sets has revolutionized scientist's ability to make conclusions from experimental data. In this lab course, we will be using Microsoft Excel to record data sets from the experiments and determine experimental uncertainties in calculated quantities. We will learn to use excel to propagate uncertainties and plot error bars with our data. You can download a personal copy of Microsoft Excel with your student email address from
 \href{https://products.office.com/en-us/student?ms.officeurl=getoffice365}{Office 365 Education} \footnote{https://products.office.com/en-us/student?ms.officeurl=getoffice365}. Please note the sections introducing new Excel tools pertain to the newest version of Excel. If you are using a personal computer with a different version of Excel, you are responsible for adapting the instructions to your version of Excel. \myskip
 
-The purpose of this first lab is to introduce some basic information about statistics and error in experiments and to show how we can use excel to represent error in data. The techniques studied here will be essential for the rest of this two-semester lab course. The issues and techniques are important in order to arrive at good judgments in any field (like medicine) in which it is necessary to understand not just numerical results, but the uncertainties associated with those results.
+The purpose of this introduction is to give some basic information about statistics and uncertainty. The techniques studied here will be essential for the rest of this two-semester lab course. These tools are important in order to arrive at good judgments in any field (like medicine) in which it is necessary to understand not just numerical results, but the uncertainties associated with those results.
 
-\section{Theory- Uncertainty and Error}
+\section{Theory}
 
 \subsection{Types of Uncertainties}
 
 Uncertainty in a measurement can arise from three possible origins: the measuring device, the procedure of how you measure, and the observed quantity itself. Usually the largest of these will determine the uncertainty in your data. \myskip
 
-Uncertainties can be divided into two different types: systematic uncertainties and random uncertainties. 
+Uncertainties can be divided into two different types: systematic uncertainties and random (statistical) uncertainties.
 
 \subsubsection{Systematic Uncertainties}
 
@@ -31,7 +31,7 @@ In performing experiments, try to estimate the effects of as many systematic err
 
 \subsubsection{Random Uncertainties}
 
-In contrast to systematic uncertainties, random uncertainties are an unavoidable result of measurement, no matter how well designed and calibrated the tools you are using. Whenever more than one measurement is taken, the values obtained will not be equal but will exhibit a spread around a mean value, which is considered the most reliable measurement. That spread is known as the random uncertainty. Random uncertainties are also unbiased -- meaning it is equally likely that an individual measurement is too high or too low. \myskip
+In contrast to systematic uncertainties, random uncertainties are an unavoidable result of measurement, no matter how well designed and calibrated the tools you are using. Whenever more than one measurement is taken, the values obtained will not be equal but will exhibit a spread around a mean value, which is considered the most reliable measurement. That spread is known as the random uncertainty. Random uncertainties are unbiased -- meaning it is equally likely that an individual measurement is too high or too low. \myskip
 
 From your everyday experience you might be thinking, ``Stop! Whenever I measure the length of a table with a meter stick I get exactly the same value no matter how often I measure it!''   This may happen if your meter stick is insensitive to random measurements, because you use a coarse scale (like $\mathrm{mm}$) and you always read the length to the nearest $\mathrm{mm}$. But if you would use a meter stick with a finer scale, or if you interpolate to fractions of a millimeter, you would definitely see the spread. As a general rule, if you do not get a spread in values, you can improve your measurements by using a finer scale or by interpolating between the finest scale marks on the ruler. \myskip
 
@@ -50,7 +50,7 @@ Precision refers to the closeness of two or more measurements to each other. Usi
 
 For example, if on average, your measurements for a given substance are close to the known value, but the measurements are far from each other, then you have accuracy without precision. \myskip
 
-A good analogy for understanding accuracy and precision is to imagine a basketball player shooting baskets. If the player shoots with accuracy, his aim will always take the ball close to or into the basket. If the player shoots with precision, his aim will always take the ball to the same location which may or may not be close to the basket. A good player will be both accurate and precise by shooting the ball the same way each time and each time making it in the basket. 
+A good analogy for understanding accuracy and precision is to imagine a basketball player shooting baskets. If the player shoots with accuracy, his aim will always take the ball close to or into the basket. If the player shoots with precision, his aim will always take the ball to the same location which may or may not be close to the basket. A good player will be both accurate and precise by shooting the ball the same way each time and each time making it in the basket.
 \subsection{Numerical Estimates of Uncertainties}
 
 For this laboratory, we will estimate uncertainties with three approximation techniques, which we describe below. You should note which technique you are using in a particular experiment.
@@ -72,11 +72,13 @@ For example in the figure above, where we are measuring the length of an object 
     \ell = (46.5\pm 0.1)\,\mathrm{cm}
 \end{equation}
 
+There will be many circumstances when the error is more complicated than simply the coarseness of the measuring tool. For example, if you find yourself measuring something that is very long or hard to line up properly with a meter stick. In this case, you may need to use some judgement of the best possible measurement to make and the uncertainty will be greater than the millimeter precision of your meter stick. It is always best to slightly overestimate error and allow yourself some wiggle room if you feel that better represents your measurement!
+
 \subsubsection{Estimation from the Spread (2/3 method)}
 
 For data in which there is random uncertainty, we usually observe individual measurements to cluster around the mean and drop in frequency as the values get further from the mean (in both directions).\footnote{There is a precise mathematical procedure to obtain uncertainties (standard deviations) from a number of measured values. Here we will apply a simple ``rule of thumb'' that avoids the more complicated mathematics of that technique. The uncertainty using the standard deviation for the group of values in our example below is 0.2.}  Find the interval around the mean that contains about 2/3 of the measured points: \emph{half} the size of this interval is a good estimate of the uncertainty in each measurement. \myskip
 
-The reasons for choosing a range that includes 2/3 of the values come from the underlying statistics of the normal (or Gaussian) distribution. This choice allows us to accurately add and multiply values with errors and has the advantage that the range is not affected much by outliers and occasional mistakes. A range that always includes all of the values is generally less meaningful. \myskip
+The reasons for choosing a range that includes 2/3 of the values come from the underlying statistics of the normal (or Gaussian) distribution (see figure \ref{fig:bellcurve}). This choice allows us to accurately add and multiply values with errors and has the advantage that the range is not affected much by outliers and occasional mistakes. A range that always includes all of the values is generally less meaningful. \myskip
 
 \emph{Example}: You measure the following values of a specific quantity:
 \begin{equation*}
@@ -98,7 +100,7 @@ Suppose further that we wish to use this measurement to calculate the circumfere
 \begin{equation}
     c = 5.099433195\pm 0.3204424507\,\mathrm{cm}
 \end{equation}
-This is not a reasonable way to write the result!  The uncertainty in the diameter had only one significant digit, so the uncertainty of the circumference calculated from the diameter cannot be substantially better. Therefore we should record the final result as: 
+This is not a reasonable way to write the result!  The uncertainty in the diameter had only one significant digit, so the uncertainty of the circumference calculated from the diameter cannot be substantially better. Therefore we should record the final result as:
 \begin{equation}
     c = 5.1\pm 0.3\,\mathrm{cm}
 \end{equation}
@@ -106,15 +108,15 @@ This is not a reasonable way to write the result!  The uncertainty in the diamet
 
 \subsection{Relative and Absolute Uncertainty}
 
-There are two ways to record uncertainties: the absolute value of the uncertainty or the uncertainty relative to the mean value. So in the example above, you can write $c = (5.1 \pm 0.3)\,\mathrm{cm}$ or equally well $c = 5.1\,\mathrm{cm}\; (1.00 \pm 0.06)$. You can see that if you multiply out the second form you will obtain the first, since $5.1 \times 0.06 = 0.3$. The second form may look a bit odd, but it tells you immediately that the uncertainty is 6\% of the measured value. The number $0.3\,\mathrm{cm}$ is the absolute uncertainty and has the same units as the mean value (cm). The 0.06 (or 6\%) is the relative uncertainty and has no units since it is the ratio of two lengths.
+There are two ways to record uncertainties: the absolute value of the uncertainty or the uncertainty relative to the mean value. So in the example above, you can write $c = (5.1 \pm 0.3)\,\mathrm{cm}$ or equally well $c = 5.1\,\mathrm{cm}\; (1.00 \pm 0.06)$. You can see that if you multiply out the second form you will obtain the first, since $5.1 \times 0.06 = 0.3$. The second form may look a bit odd, but it tells you immediately that the uncertainty is 6\% of the measured value. The number $0.3\,\mathrm{cm}$ is the absolute uncertainty and has the same units as the mean value (cm). The 0.06 (or 6\%) is the relative uncertainty and has no units since it is the ratio of two lengths. It's important to use proper notation when describing uncertainty to remove any unwanted ambiguity, so make sure it's clear when you are using relative or absolute errors.
 
 \subsection{Propagation of Uncertainties}
 
-Often, we are not directly interested in a measured value, but we want to use it in a formula to calculate another quantity. In many cases, we measure many of the quantities in the formula and each has an associated uncertainty. We deal here with how to propagate uncertainties to obtain a well-defined uncertainty on a computed quantity. 
+Often, we are not directly interested in a measured value, but we want to use it in a formula to calculate another quantity. In many cases, we measure many of the quantities in the formula and each has an associated uncertainty. We deal here with how to propagate uncertainties to obtain a well-defined uncertainty on a computed quantity.
 
 \subsubsection{Adding/Subtracting Quantities}
 
-When we \underline{add or subtract} quantities, their {\underline{absolute}} uncertainties must always be \underline{added} (never subtracted) to obtain the \underline{absolute uncertainty} on the computed quantity.\footnote{The propagation of random uncertainties is actually slightly more complicated, but the procedure outlined here usually represents a good approximation, and it never underestimates the uncertainty. See the appendix for more information.}
+When we \textbf{add or subtract} quantities, the combined uncertainty is the \textbf{sum of the absolute uncertainties} of the constituent parts. \footnote{The propagation of random uncertainties is actually slightly more complicated, but the procedure outlined here usually represents a good approximation, and it never underestimates the uncertainty. See the appendix for more information.}
 
 Take as an example measuring the length of a dog. We measure the distance between the left wall and the tail of the dog and subtract the distance from the wall to the dog's nose.
 \begin{figure}[h]
@@ -135,9 +137,9 @@ So the total length of the dog is:
 
 \subsubsection{Multiplying/Dividing Quantities}
 
-When we \underline{multiply or divide} quantities, we \underline{add} (never subtract) the \underline{relative uncertainties} to obtain the \underline{relative uncertainty} of the computed quantity.\footnote{Our calculation of the uncertainty actually overestimates it. The correct method does not add the absolute/relative uncertainty, but rather involves evaluating the square root of the sum of the squares. For more information please refer to the appendix of this experiment.}
+When we \textbf{multiply or divide} quantities, the combined \textbf{relative} uncertainty is the \textbf{sum of the relative uncertainties} of the constituent parts.\footnote{Our calculation of the uncertainty actually overestimates it. The correct method does not add the absolute/relative uncertainty, but rather involves evaluating the square root of the sum of the squares. For more information please refer to the appendix of this lab manual.}
 
-Take as an example the area of a rectangle, whose individual sides are measured to be: 
+Take as an example the area of a rectangle, whose individual sides are measured to be:
 \begin{align}
     a = 25.0\pm 0.5\,\mathrm{cm} = 25.0\,\mathrm{cm}\;(1.00\pm 0.02) \nonumber \\
     b = 10.0\pm 0.3\,\mathrm{cm} = 10.0\,\mathrm{cm}\;(1.00\pm 0.03)
@@ -157,7 +159,7 @@ The area is obtained as follows:
 
 Note that the final step has rounded both the result and the uncertainty to an appropriate number of significant digits, given the uncertainty on the lengths of the sides. \myskip
 
-\underline{Remarks:} Note that uncertainties on quantities used in a mathematical relationship always increase the uncertainty on the result. The quantity with the biggest uncertainty usually dominates the final result. Often one quantity will have a much bigger uncertainty than all the others. In such cases, we can simply use this main contribution. 
+\underline{Remarks:} Note that uncertainties on quantities used in a mathematical relationship always increase the uncertainty on the result. The quantity with the biggest uncertainty usually dominates the final result. Often one quantity will have a much bigger uncertainty than all the others. In such cases, we can simply use this main contribution.
 
 \subsubsection{Multiplication by a Constant}
 
@@ -168,6 +170,38 @@ C = 2\pi r \nonumber \\
  C= 2\pi (1.0 \pm 0.1) \\
  C=6.3 \pm 0.6 \hspace{1mm}  \text{cm} \nonumber
 \end{gather}
+
+\subsubsection{Powers and Roots}
+
+When raising a value to a certain power, its \textbf{relative uncertainty is multiplied by the exponent}. This applies to roots as well, since taking the root of a number is equivalent to raising that number to a fractional power.\myskip
+
+Squaring a quantity involves multiplying its relative uncertainty by 2, while cubing a quantity causes its relative uncertainty to be multiplied by 3.\myskip
+
+Taking the \underline{square root} of a quantity (which is equivalent to raising the quantity to the 1/2 power) causes its \underline{relative uncertainty} to be multiplied by 1/2. For example, if you know the area of a square to be:
+\begin{equation}
+    \text{Area} = 100\pm 8\,\mathrm{m^2} = 100\,\mathrm{m}^2\;(1.00\pm 0.08)
+\end{equation}
+then it follows that the side of the square is:
+\begin{equation}
+    \text{Side} = 10\,\mathrm{m}\;\left( 1.00\pm 0.04 \right) = 10.0\pm 0.4\,\mathrm{m}
+\end{equation}
+The most general rule for finding the error in powers and roots is mathematically represented as follows.
+\begin{gather}
+f(x) = x^n \\
+\frac{\sigma_{f(x)}}{f(x)} = |n| \frac{\sigma_x}{x}
+\end{gather}
+Where $\sigma$ is the {\it{absolute}} uncertainty and $f(x)$ is some power or root of $x$.
+
+\subsubsection{Other Functions}
+
+If you need to calculate the error of a calculation that does not fit into one of these rules (such as trigonometric functions or logarithmic ones), here is a manual method that you can use.\myskip
+
+Based upon the error of the quantity that you determined, you can find the maximum and minimum values of the quantity that you are calculating. The value that you found should be roughly midway between these two quantities. Then if you split the difference between the maximum and minimum you should obtain a reasonable estimate of the error. Mathematically, you would do so as follows.
+\begin{gather}
+\sigma_{f(x)} = \frac{f(x + \sigma_x) - f(x - \sigma_x)}{2}
+\end{gather}
+
+Here is an example: Suppose you measure an angle to be $(47.3 \pm 0.5)^\circ$ and you want to determine the error of $\sin(47.3 \pm 0.5)^\circ$. You find that $\sin(47.3) = 0.735$. Based upon your reported uncertainty, you know that your angle could be as large as $47.8^\circ$ and as small as $46.8^\circ$, and therefore you should calculate $\sin(47.8) = 0.741$ and $\sin(46.8) = 0.729$. So your calculated value is 0.735 but it can be as low as 0.729 and as high as 0.741 and therefore, if you halve the difference between 0.729 and 0.741 you get a reasonable error estimate of 0.006. So you should report your value as $0.735 \pm 0.006$.
 
 \subsection{Numerical Statistics}
 The previuos discussions of uncertainty and error tell us how we can quantitatively describe our inability to make perfect single measurements. However, in real physics experiments, very rarely do we draw conclustions from a single data points. As such, it is essential that we know how to quantify error in sets of data. The 2/3 methods as discussed in section 2.2.2 provides a good estimation of data statistics, but we can more rigorously calculate data set statistics. In statistics, a data set can be well described by the following 4 fundamental quantites: mean, median, mode, and standard deviation. The mean of a data set is the sum of all numbers in the data set divided by the number of points in the set. It is defined in the following manner.
@@ -199,120 +233,18 @@ Notice how both data sets have the same mean, median, and mode, which tells us t
     \label{fig:bellcurve}
 \end{figure}
 
-\newpage
-\section{Theory-Excel}
-Your TA will guide you through the relevant excel commands necessary for data analysis, however a list of some relevant excel commands are listed below. A list of all excel commands can be found on the \href{https://support.office.com/en-us/article/Excel-functions-alphabetical-b3944572-255d-4efb-bb96-c6d90033e188}{Microsoft Office website}\footnote{https://support.office.com/en-us/article/Excel-functions-alphabetical-b3944572-255d-4efb-bb96-c6d90033e188}
+\subsection{Best-Fit Line}
 
-\begin{center}
-\begin{tabular}{c | c}
-ABS & Returns the absolute value of a number \\
-AVERAGE & Computes the average of the selected data set \\
-COS & Calculates cosine of a number\\
-DEGREES & Converts radians to degrees \\
-EXP & Returns e raised to the power of a given number \\
-LN & Returns the natural logarithm of a number \\ 
-MEDIAN & Finds the median of a data set \\
-MODE.SNGL & Finds the most commonly occuring number in a data set\\
-PI & Returns the value of pi\\
-POWER & Returns the result of a number raised to a power\\
-SIN & Calcualtes the sine of a number\\
-SQRT & Calculates the square root of a number\\
-STDEV.P & Calculates the standard deviation based on the entire population \\
-STDEV.S & Estimates the standard deviation based on a sample \\
-SUM & Calculates the sum of a data set\\
-TAN & Calculates the tangent of a number
-\end{tabular}
-\end{center}
+In most research laboratories, plotting measurements is found to be the preferred method of reviewing the data and quantitatively measuring the relationship between the experimental variables. This is effective because we often have some idea of the expected relationship between the variables {\it{apriori}}. In these labs, this expected relationship is almost always arranged to be a straight line. But even if we know that the ideal points fit on a precise straight line, experimentally measured data points will not always lie on a single line -- because the measurements always have intrinsic uncertainty. Therefore when the points are plotted, we should include error bars on both axes to indicate the uncertainties in the data. Because real measurements do not all lie on a single straight line, there are a variety of possible lines you might choose to fit the data. \myskip
 
-\section{Procedure}
+\begin{figure}[h]
+    \begin{center}
+        \includegraphics[width=0.9\textwidth, height=0.5\textwidth]{./Exp3/pic/image13.jpg}
+    \end{center}
+    \caption{Left: an example best-fit line. Right: the maximum and minimum possible slope from our data used to calculate uncertainty in the best-fit line. Notice how we have drawn the lines on the outer bounds of the error bars to achieve the maximum and minimum possible slope within the error bars.}
+    \label{fig:bestfit}
+\end{figure}
 
-\subsection{Practice with Excel Analysis}
-In this section of the lab, you will get some experience using excel to determine the error on some data sets. You will need to put the data into excel and manipulate the data using the aforementioned excel commands. You can use excel on your personal computer to complete the exercises. Make sure to include the answers to the questions in your lab report.
-\begin{enumerate}
+How do we know which line represents the best fit? There is an exact mathematical procedure to obtain the best-fit line, but this is usually a very tedious calculation which is outside the scope of this lab. For experiments in this course, you will be using Excel's built-in fitting function for data. The process for doing which will be explained in your next lab. However, if you are interested in learning how to approximate the technique without a computer, please see the appendix.\myskip
 
-\item {\bf{Data Set 1:}} consider a set of measurements you made of the gravitational constant $g$ on earth (in $m/s^2$). The data set is given below.
-\begin{center}
-\begin{tabular}{| c | c | c | c | c | c | c | c | c | c | c |}
-\hline
-Trial &1&2&3&4&5&6&7&8&9&10 \\ \hline
-$g (m/s^2)$&9.7&9.2&10.1&10.0&9.5&8.9&11.1&9.8&9.7&10.0 \\
-\hline
-\end{tabular}
-\end{center}
-\begin{enumerate}
-\item Calculate the mean, median, mode, and standard deviation of the data set using excel and include them in your report.
-\item Estimate the error in $g$ using the 2/3 method. How does this compare to the standard deviation? 
-\item Does the mean value for $g$ agree with the expected value within error? Note the standard value of $g$  is $9.81 m/s^2$.
-\item If your mean doesn't agree (or if it hadn't agreed) with the expected value of $g$, what type of errors might have contributed to the incorrect value of $g$? 
-\end{enumerate}
-
-\item {\bf{Data Set 2:}} consider two sets of measurements in which you measured the length of a table that is known to be $1.25 m$. In the first method, you used a meter stick, so you had to measure twice. In the second method, you used a 2 meter stick, so you only had to measure once. Assume the ruler has centimeter precision.
-\begin{center}
-\begin{tabular}{ |c | c | c | c | c | c |}
-\hline
-Trial &1&2&3&4&5 \\ \hline
-Method 1, Measurement 1 ($m$) & 1.00 & 1.00 & 1.00 &1.00 &1.00 \\
-\hline
-Method 1, Measurement 2  ($m$)& 0.23 &0.21&0.25&0.26&0.24 \\
-\hline
-Method 2 ($m$)& 1.23&1.21&1.25&1.26&1.24 \\
-\hline
-\end{tabular}
-\end{center}
-\begin{enumerate}
-\item Calculate the absolute and relative uncertainties for all trials in both methods (don't use 2/3 method or standard deviation).
-\item Which method is more {\it{precise}}? Which trial is more {\it{accurate}}?
-\item Estimate the error using the 2/3 methods. How does this compare to the error you calculated in part (a).
-\item What could you conclude about making measurements with a ruler?
-\end{enumerate}
-
-\item {\bf{Data Set 3:}} consider a measurement you made in which you counted the number of cars that passed in 1 hour on various highways in the united states. The data set containing the number of cars per hour is given in the following table.
-\begin{center}
-\begin{tabular}{|c | c | c | c | c | c | c | c | c | c | c|}
-\hline
-Trail&1&2&3&4&5&6&7&8&9&10 \\ \hline
-$N_{\text{cars}}$&523&143&496&1045&869&57&693&1150&327&87 \\
-\hline
-\end{tabular}
-\end{center}
-\begin{enumerate}
-\item Calculate the absolute error and the relative error in each measurement.
-\item Which trial has the lowest absolute error?
-\item Which trial has the lowest relative error?
-\item Which trial would you say is the most precise?
-\item Calculate the rate in cars {\it{per second}} for each measurement with error.
-\item What experimental factors might contribute to the error in car rate (be creative!)?
-\end{enumerate} 
-\end{enumerate}
-
-
-\section{Applications}
-You read of a certain test intended to indicate a particular kind of cancer. The test gives you a positive result for $(80 \pm 10) \%$ of all persons tested who really have this kind of cancer (true positives). But the test also gives you a positive result for $(2 \pm 1) \%$ of all healthy persons (false positives). Now you read a publication where the author performed this test on $10,000$ workers that deal with a certain chemical. The author got 400 positive samples from these workers and claims that this is strong evidence that this particular chemical enhances the development of this kind of cancer since it is known from literature that only $(1 \pm 0.5)\%$ of the population are expected to have this kind of cancer. How reliable is the claim of the author?\myskip
-
-\noindent \underline{Numerical Answer}:
-
-If one assumes that the 10,000 workers would mirror the average population, then there should be:
-\begin{equation}
-    10000 \times (0.010 \pm 0.005) = 100 \pm 50
-\end{equation}
-persons having this cancer. Of them, the test gives:
-\begin{equation}
-    (0.8 \pm 0.1) \times (100 \pm 50) = 80 \pm 50
-\end{equation}
-positive results (true positives).\myskip
-
-There are then $9900 \pm 50$ persons expected not to have this kind of cancer. Of them:
-\begin{equation}
-    (0.02 \pm 0.01) \times (9900 \pm 50) \approx 200 \pm 100
-\end{equation}
-give positive results (false positives).\myskip
-
-The total number of positives in the average population is therefore $280 \pm 150$.\myskip
-
-So how do you judge the author's conclusion of ``strong evidences''?\myskip
-
-If you wanted to design a new test using the same procedure but to arrive at a stronger conclusion, and you could either increase the rate of true positives or decrease the rate of wrong negatives, which would you choose?\myskip
-
-\noindent\emph{Reference}: Paul Cutler: Problem Solving in Clinical Medicine, Chapter 5, Problem 5 (modified).
-
-
+\underline{Remark}: Often in our experiments the data points will not look as nice as in the above examples. One or several points may not be close to any best-fit line you try. Such anomalous points may occur, for example, because of a mistake in measuring. In such cases, it is acceptable to ignore these anomalies when estimating the best-fit line. (Of course you must note this fact down in your lab report)  Dropping anomalous points must be done with extreme care and only rarely (if you know the point is not physically meaningful).\footnote{More than once, data points that did not behave as theory predicted turned out to be new effects and led to Nobel prizes!}  It is better to choose a line with as many points above the line as below. If you are not sure of your measurements, it is better to re-measure or to take more data points. \myskip
