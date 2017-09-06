@@ -21,7 +21,7 @@ The key point of the oscilloscope is that we can change the scale of the axes, m
 
 The final, and arguably most useful thing about the scope is its ability to `trigger'. This means that the oscilloscope can sync up a periodic signal's start and end points on the screen. When the signal we are trying to plot fills up the whole screen, the scope will start plotting again at the left hand side. But if it did so right away, and the wave we are looking at did not exactly fit onto the screen, then the second plot of the wave would look different from the first, and will look like it's scrolling, which is difficult to analyze! The trigger has a defined ``trigger level'' that tells the scope not to start plotting the signal when it leaves the screen until it reaches a certain voltage. This will ensure that the wave will look like a standing wave on the screen -- which makes it easy to examine and analyze. The result is that a properly triggered signal will no longer scroll, but look as though it is standing still. \myskip
 
-Oscilloscopes will be found in any physics lab, and most science labs in general. Since most modern experiments output some sort of voltage signal that needs to be examined, they offer scientists a convenient way of observing the physics in real time. 
+Oscilloscopes will be found in any physics lab, and most science labs in general. Since most modern experiments output some sort of voltage signal that needs to be examined, they offer scientists a convenient way of observing the physics in real time.
 
 \subsection{The function generator}
 
@@ -34,7 +34,7 @@ A function generator outputs a period function as a voltage signal. Most functio
 
 \subsection{Use the function generator to create waves}
 
-As described above, a function generator outputs a time-varying voltage in the form of a wave. The function generators in this lab can output sine, square, or triangle waves. 
+As described above, a function generator outputs a time-varying voltage in the form of a wave. The function generators in this lab can output sine, square, or triangle waves.
 
 Begin by hooking up the MAIN output of the function generator to the oscilloscope using the cables provided as in Figure \ref{fig:part1}. Remember that you need to use both ground and signal cables.
 \begin{figure}[h!]
@@ -48,12 +48,12 @@ Begin by hooking up the MAIN output of the function generator to the oscilloscop
 \begin{enumerate}
 \item Look at a 0.5 Hz sine wave on CH1 of the oscilloscope. You can set this on the function generator by selecting the 1 Hz RANGE button, and turning the frequency dial to 0.5. Set the amplitude of the wave such that it is 2 V from the bottom to the top (peak-to-peak). Set the SEC/DIV so that you can see the signal ``being drawn'' across the screen. Since the scope is more accurate at frequency counting than the function generator knob, use the horizontal scale to confirm that your sine wave is truly at 0.5 Hz. You can press RUN/STOP to freeze the image.
 
-\item Now change the frequency of the sine wave to 10 kHz. You will need to change the horizontal scale (SEC/DIV) to something faster to see this wave. Set the trigger source to be CH1. This means that the scope is using the signal itself to figure out when to trigger. Adjust the trigger level while holding down ``TRIGGER VIEW'', and set the dashed line somewhere on the wave. Does the signal look like a standing wave? 
+\item Now change the frequency of the sine wave to 10 kHz. You will need to change the horizontal scale (SEC/DIV) to something faster to see this wave. Set the trigger source to be CH1. This means that the scope is using the signal itself to figure out when to trigger. Adjust the trigger level while holding down ``TRIGGER VIEW'', and set the dashed line somewhere on the wave. Does the signal look like a standing wave?
 
 \item What is the maximum amplitude that the function generator can produce? What is the maximum and minimum VOLTS/DIV that the oscilloscope can read? What is the minimum SEC/DIV that the scope can read? What does this tell you about the range and type of signals the scope is useful for and not useful for?
 
 \item One measure of the performance of a device is its signal-to-noise ratio, or SNR. The signal on a sine wave can be interpreted as the peak-to-peak voltage, or twice the amplitude. The noise is the variations on that wave, or the thickness of the signal. Turn down the amplitude of the wave using the function generator until it only a few 10s of millivolts peak-to-peak. You will need to adjust the trigger level. Zoom in on your 10 kHz sine wave by decreasing the VOLTS/DIV on the oscilloscope, until you can see the noise on top of the signal, and measure its amplitude. The amplitude of noise should {\bf{not}} depend on the amplitude of the waveform. What is the signal to noise ratio of a wave with $2V$ peak-to-peak?
- 
+
 \end{enumerate}
 
 \subsection{Human pulse}
@@ -92,7 +92,7 @@ Connector Key For Pulse Circuit Board\\
 
 As we explored in the last lab, standing sound waves can be made and amplified in certain types of resonant cavities, and the length of these cavities can tell us properties of the waves. Sound waves can also be digitized using a microphone, and then analyzed using an oscilloscope. In this part of the lab you will create and detect sound waves through electronic means, and learn more about the trigger function of the oscilloscope.
 
-Remember that sound waves are longitudinal pressure waves, created by moving regions of alternating high and low pressure. For a speaker to make sound, an electronic voltage signal, like the ones above, are used to move a membrane forward and backwards, pushing air at set intervals to create a sound wave as described above. To detect sound waves, a microphone does exactly the opposite. A membrane is moved around by pressure waves in the air, and this motion is detected electronically, much like the pressure sensor in the pulse reader. This is similar to how your ear works! 
+Remember that sound waves are longitudinal pressure waves, created by moving regions of alternating high and low pressure. For a speaker to make sound, an electronic voltage signal, like the ones above, are used to move a membrane forward and backwards, pushing air at set intervals to create a sound wave as described above. To detect sound waves, a microphone does exactly the opposite. A membrane is moved around by pressure waves in the air, and this motion is detected electronically, much like the pressure sensor in the pulse reader. This is similar to how your ear works!
 
 The similarities in creating and detecting waves electronically means that we can use speakers as microphones and vice-versa. The only difference is that each tool is optimized for the function indicated by its name. A speaker makes a poor microphone, and a microphone makes a poor speaker, but the simpler these components are, the better their uses can be interchanged. Note that unfortunately, it is not possible for us to make noises with our eardrum.
 
@@ -110,7 +110,7 @@ The similarities in creating and detecting waves electronically means that we ca
 
 \item Hook up the other speaker to CH2 on the oscilloscope (Press the CH2 MENU button to have it show up on the screen), and place the headphone speaker over it so that they are facing each other. Turn up the sensitivity of the oscilloscope until you can see the detected sound wave.  You may want to strap a rubber band around both speakers to keep them together.
 
-\item Determine the SNR of the source sound wave and the sound wave meausred through the second speaker. 
+\item Determine the SNR of the source sound wave and the sound wave meausred through the second speaker.
 
 \item Calculate the ratio of amplitudes of original signal and the detected signal with error. You can determine the error in the ratio by propagating uncertaines in the measured signals, interpreting the SNR as the {\it{relative uncertainty}}.
 
@@ -142,15 +142,15 @@ The similarities in creating and detecting waves electronically means that we ca
 \begin{enumerate}
 
 %1
-\item \textbf{CH1 POSITION} This knob simply adds a constant value to any point that is going to be displayed on the screen for CH1. 
+\item \textbf{CH1 POSITION} This knob simply adds a constant value to any point that is going to be displayed on the screen for CH1.
 %2
 \item \textbf{VOLTS/DIV} This knob sets the y-scale of the plot. You are changing how many volts each vertical division on the graph corresponds to. You can see the value on the bottom of the screen for each channel.
 %3
-\item \textbf{CH1 Input}  Where you plug in your input signal. Note that you always need to put in two wires (plus/minus), since voltage is always relative. 
+\item \textbf{CH1 Input}  Where you plug in your input signal. Note that you always need to put in two wires (plus/minus), since voltage is always relative.
 %4
 \item \textbf{HORIZONTAL POSITION} This knob allows you to scroll left or right on the signal, which is like looking forwards or backwards in time.
 %5
-\item \textbf{SEC/DIV} This knob sets the x-axis scale on the screen. Each box will correspond to the number of seconds indicated on bottom of the screen. 
+\item \textbf{SEC/DIV} This knob sets the x-axis scale on the screen. Each box will correspond to the number of seconds indicated on bottom of the screen.
 %6
 \item \textbf{EXT TRIG} This is where you plug in the trigger signal, that is, some periodic wave that you know is at the same frequency as the signal you are trying to analyze.
 %7
@@ -162,7 +162,7 @@ The similarities in creating and detecting waves electronically means that we ca
 %10
 \item \textbf{MEASURE} Brings up the measure menu, from which you can access the internal measuring functions of the scope, including readings of frequencies for input signals.
 %11
-\item \textbf{AUTOSET} You can press this button if you are having issues getting anything to work properly. But once you do, you'll need to look through and make sure you understand what has changed. 
+\item \textbf{AUTOSET} You can press this button if you are having issues getting anything to work properly. But once you do, you'll need to look through and make sure you understand what has changed.
 \end{enumerate}
 
 \subsection*{Additional notes}
@@ -181,12 +181,10 @@ The similarities in creating and detecting waves electronically means that we ca
         \label{fig:gen}
 \end{figure}
 
-
-
 \begin{enumerate}
 \item \textbf{Amplitude.} Adjusts the peak to peak amplitude of the outgoing wave.
 \item \textbf{DC offset.} Adds a constant value to every point on the wave.
-\item \textbf{Duty.} Adjusts the width of the concave part of the wave relative to the convex part. Is mostly for use with the square wave. In that case, it will make the top-bounded squares wider, and thelower bounded areas narrower.  
+\item \textbf{Duty.} Adjusts the width of the concave part of the wave relative to the convex part. Is mostly for use with the square wave. In that case, it will make the top-bounded squares wider, and thelower bounded areas narrower.
 \item \textbf{Output and Sync.} Outputs the desired function. Sync outputs the same thing but with lower amplitude.
 \item \textbf{Volts Out, Invert, Sweep.} ``Volts out" sets the scale of the amplitude, ``Invert" inverts the signal, and ``Sweep" puts the device in a mode where it begins varying the frequency of the signal.
 \item \textbf{Range options.} Sets the scale on the frequency knob (9)
@@ -194,4 +192,3 @@ The similarities in creating and detecting waves electronically means that we ca
 \item \textbf{Function.} Option to output square, triangle, or sine wave.
 \item \textbf{Frequency dial.} Sets the frequency of the output.
 \end{enumerate}
-

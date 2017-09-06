@@ -76,7 +76,7 @@ Q=\frac{\kappa A(T_{\rm hot} - T_{cold})t}{h}
 
 Normally the heat $Q$ that a substance acquires or loses is dependent on how much its temperature changes via the equation $Q=mc\Delta T$ where $m$ and $c$ are its mass and specific heat, respectively.  Specific heat varies with material, and is ultimately a measure of how much heat is required to produce some $\Delta T$.\myskip
 
-However, a substance can also absorb or emit heat when it undergoes a phase change via creating destroying the various molecular bonds that differentiate a substance between its solid, liquid, or gaseous states.  For example, we know water has some preference in the orientation of its H$_{2}$O molecules that weakly binds them together - creating a more structured molecular environment (liquid) than would exist in 
+However, a substance can also absorb or emit heat when it undergoes a phase change via creating destroying the various molecular bonds that differentiate a substance between its solid, liquid, or gaseous states.  For example, we know water has some preference in the orientation of its H$_{2}$O molecules that weakly binds them together - creating a more structured molecular environment (liquid) than would exist in
 water vapor (gas).  Furthermore, at $373$ K H$_{2}$O can exist as both a liquid and a gas; yet evaporation by definition demands changing the structural alignment of these bonds.  Such an alteration requires additional energy, which we call \textit{latent heat}.  Importantly, latent heat is not responsible for raising the temperature of an object - it is solely the energy necessary for breaking or constructing intermolecular bonds.  In such transitions the heat is given by
 
 \begin{equation}
@@ -126,7 +126,7 @@ In this lab we test that the ideal gas law and thermal conduction under ``normal
 	\begin{center}
 	\begin{tabular}{| c | c| c | c | c | c | c | c || c | c | c | c | c |}
 	\hline
-	Material & $h$ & $d_B$ & $d_A$& $m_{0}$ & $t_{0}$ & $m_{1}$ & $t_{1}$ & $d_\text{ave}$ & $A$ & $R_{0}$ & $R_{1}$ & $R$ \\
+	Material & $h$ & $d_B$ & $d_A$& $m_{0}$ & $t_{0}$ & $m_{1}$ & $t_{1}$ & $d_\text{ave}$ & $A$ & $r_{0}$ & $r_{1}$ & $r$ \\
 	\hline
 	& & & & & & & & & & & &   \\
 	\hline
@@ -137,12 +137,12 @@ In this lab we test that the ideal gas law and thermal conduction under ``normal
 	\label{vchart}
 	\end{table}
 	\begin{enumerate}
-		\item Because the ice is surrounded by air at room temperature, there is a small contribution of ice melt that is not caused by thermal conductivity from the steam.  Thus, $R_{1} \equiv m_{1}/t_{1}$ is the rate of melting due to the thermal conductivity of the sample material plus that of the room temperature air encompassing the remainder of the ice block.  We want to subtract off $R_{0} \equiv m_{0}/t_{0}$ - which corresponds to the rate of ice melt due solely to the heat from the temperature of the room.  This value, $R = R_{1} - R_{0}$ should give us the amount of mass melted per unit time caused specifically by the sample material's thermal conduction.
-		\item Using Equation \ref{eq:latent} we find $Q/t = mL/t = RL$ (the amount of heat absorbed by the ice per unit time) where $L = 334,000$ J/kg for the ice/water phase transition.
+		\item Because the ice is surrounded by air at room temperature, there is a small contribution of ice melt that is not caused by thermal conductivity from the steam.  Thus, $r_{1} \equiv m_{1}/t_{1}$ is the rate of melting due to the thermal conductivity of the sample material plus that of the room temperature air encompassing the remainder of the ice block.  We want to subtract off $r_{0} \equiv m_{0}/t_{0}$ - which corresponds to the rate of ice melt due solely to the heat from the temperature of the room.  The total rate, $r = r_{1} - r_{0}$ should give us the amount of mass melted per unit time caused specifically by the sample material's thermal conduction.
+		\item Using Equation \ref{eq:latent} we find $Q/t = mL/t = rL$ (the amount of heat absorbed by the ice per unit time) where $L = 334,000$ J/kg for the ice/water phase transition.
 		\item Another consequence of the room melting the exterior of the ice block is there may be a slow decrease in the area of contact of the ice/sample material barrier.  It is likely then you found $d_A < d_B$.  To remedy this we can compute the average diameter $d_\text{ave}$, and using these estimate the average area $A =\pi \left ( \frac{d_\text{ave}}{2}\right )^2$.
-		\item Lastly, be sure to use $T_{\rm hot}$ and $T_{\rm cold}$ in Kelvin or Celsius (the difference between two temperatures in both these systems is the same).  
-\item Calculate the thermal conductivity $\kappa$ with error for your sample material. You can calculate the error in thermal conductivity by propagating uncertainties in measured lengths $d_\text{ave}$ and $h$, masses $m_0$ and $m_1$, and times $t_0$ and $t_1$. 
-\item  How does your thermal conductivity constant compare to its accepted value in Table \ref{kvalues}? 
+		\item Lastly, be sure to use $T_{\rm hot}$ and $T_{\rm cold}$ in Kelvin or Celsius (the difference between two temperatures in both these systems is the same).
+\item Calculate the thermal conductivity $\kappa$ with error for your sample material. You can calculate the error in thermal conductivity by propagating uncertainties in measured lengths $d_\text{ave}$ and $h$, masses $m_0$ and $m_1$, and times $t_0$ and $t_1$.
+\item  How does your thermal conductivity constant compare to its accepted value in Table \ref{kvalues}?
 \item  Discuss the largest sources of error that may have contributed to an incorrect thermal conductivity constant. Do they explain why your result might be larger or smaller than expected?
 
 
@@ -167,7 +167,7 @@ In this lab we test that the ideal gas law and thermal conduction under ``normal
 	\end{table}
 \end{enumerate}
 
-\newpage 
+\newpage
 
 
 \subsection{Ideal Gas Law}
@@ -198,7 +198,7 @@ In this experiment we will verify the relation between pressure, volume, and tem
 		\caption{Disconnecting the pressure connector allows one to change the volume of the gas chamber without affecting the pressure.}
 		\label{pdisc}
 	\end{figure}
-	
+
 	\item Release the plunger and allow it to expand back out on its own (it may not return to $V_{2}$).  Again, permit the pressure and temperature to approach at some equilibrium values.  Click \textbf{Stop}.
 	\item \textbf{Data and Calculations - Constant $T$}
 	\begin{enumerate}
@@ -258,4 +258,3 @@ This experiment will be a demonstration of using adiabatic compression to ignite
 		\item Why is compressing the plunger quickly essential to this experiment?  How would the results change if you did so slowly?  Why?
 	\end{enumerate}
 \end{enumerate}
-
