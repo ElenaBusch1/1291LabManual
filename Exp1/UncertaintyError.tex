@@ -18,7 +18,7 @@ An important set of data analysis tools in Excel are plotting and linear fit fun
 \begin{enumerate}
 \item Before plotting, you need to have 4 columns with data: x data, y data, x error data, and y error data. Make sure you have entered the information into excel.
 \item First select your x data and y data (you can select multiple boxes in excel by holding down the ctrl button while selecting). Make sure to select your x data first or your x and y axes will be switched.
-\item Choose the subheading "insert", then "Scatter", then "Scatter with straight lines and markers". Now your x and y data should be plotted without error bars (see figure \ref{fig:excel1}).
+\item Choose the subheading ``insert", then ``Scatter", then ``Scatter with straight lines and markers". Now your x and y data should be plotted without error bars (see figure \ref{fig:excel1}).
 
 \begin{figure}[h!]
 \centering
@@ -27,13 +27,13 @@ An important set of data analysis tools in Excel are plotting and linear fit fun
 \label{fig:excel1}
 \end{figure}
 
-\item To include error bars select your chart, then click the "plus" marker on the top right of the chart. Check the box titled "error bars". Now some basic error bars should appear on the plot. These are not based on the error bar data in your excel document, they are standard error bars.
-\item To change them so they match your error bar data, select the x axis error bars on your chart, and format the error bars by clicking the "Custom" selection, then "specify value".
-\item It should now prompt you for positive error values and negative error values. Delete "$\{1\}$" from the two boxes, and select your error bars using the cursor. Your chart will now have the correct error bars (see figure \ref{fig:excel2}).
+\item To include error bars select your chart, then click the ``plus" marker on the top right of the chart. Check the box titled ``error bars". Now some basic error bars should appear on the plot. These are not based on the error bar data in your excel document, they are standard error bars.
+\item To change them so they match your error bar data, select the x axis error bars on your chart, and format the error bars by clicking the ``Custom" selection, then ``specify value".
+\item It should now prompt you for positive error values and negative error values. Delete ``$\{1\}$" from the two boxes, and select your error bars using the cursor. Your chart will now have the correct error bars (see figure \ref{fig:excel2}).
 
 \item Repeat steps 5-6 for your y data.
-\item To linear fit your data, right click on your data in the plot and select "Add Trendline". Check the "Linear", "Display Equation on chart", and "Display R-square value on chart" boxes.
-\item Now the slope, intercept, and R squared values will be displayed on your chart. R squared is a measure of how well the line fits your data. It should be close to $1$ and at the very least greater than $0.9$.
+\item To linear fit your data, right click on your data in the plot and select ``Add Trendline". Check the ``Linear", ``Display Equation on chart", and ``Display R-square value on chart" boxes.
+\item Now the slope, intercept, and R squared values will be displayed on your chart. R squared is a measure of how well the line fits your data. It should be close to $1$ and at the very least greater than $0.9$. 
 \end{enumerate}
 
 \begin{figure}[h!]
@@ -56,7 +56,10 @@ The previous steps will help plot your data, but in order to draw conclusions, y
 
 \begin{enumerate}
 \item The LINEST function is an array-type function, meaning it will output more than one number. Start, by highlighting a 2-by-3 section of empty cells (two columns, three rows).
-\item With these six cells highlighted, in the input box at the top of the screen type "= LINEST(" and add the proper arguments. The arguments should be the list of y-values, the list of x-values, TRUE, and TRUE.
+\item With these six cells highlighted, in the input box at the top of the screen type ``= LINEST(" and add the proper arguments. The arguments should be the list of y-values, the list of x-values, TRUE, and TRUE. 
+For example:
+$=\texttt{LINEST}(\texttt{C2:C11, A2:A11, TRUE, TRUE})$.
+
 \item Press CONTROL+SHIFT+ENTER. \it{Note that on a Mac, this is CMD+SHIFT+ENTER.}
 \end{enumerate}
 
@@ -79,26 +82,25 @@ Your TA will guide you through the relevant excel commands necessary for data an
 
 \begin{center}
 \begin{tabular}{c | c}
-ABS & Returns the absolute value of a number \\
-AVERAGE & Computes the average of the selected data set \\
-COS & Calculates cosine of a number\\
-DEGREES & Converts radians to degrees \\
-EXP & Returns e raised to the power of a given number \\
-LN & Returns the natural logarithm of a number \\
-MEDIAN & Finds the median of a data set \\
-MODE.SNGL & Finds the most commonly occuring number in a data set\\
-PI & Returns the value of pi\\
-POWER & Returns the result of a number raised to a power\\
-SIN & Calcualtes the sine of a number\\
-SQRT & Calculates the square root of a number\\
-STDEV.P & Calculates the standard deviation based on the entire population \\
-STDEV.S & Estimates the standard deviation based on a sample \\
-SUM & Calculates the sum of a data set\\
-TAN & Calculates the tangent of a number
+\texttt{ABS} & Returns the absolute value of a number \\
+\texttt{AVERAGE} & Computes the average of the selected data set \\
+\texttt{COS} & Calculates cosine of a number\\
+\texttt{DEGREES} & Converts radians to degrees \\
+\texttt{EXP} & Returns e raised to the power of a given number \\
+\texttt{LN} & Returns the natural logarithm of a number \\
+\texttt{MEDIAN} & Finds the median of a data set \\
+\texttt{MODE.SNGL} & Finds the most commonly occuring number in a data set\\
+\texttt{PI} & Returns the value of pi\\
+\texttt{POWER} & Returns the result of a number raised to a power\\
+\texttt{SIN} & Calcualtes the sine of a number\\
+\texttt{SQRT} & Calculates the square root of a number\\
+\texttt{STDEV.P} & Calculates the standard deviation based on the entire population \\
+\texttt{STDEV.S} & Estimates the standard deviation based on a sample \\
+\texttt{SUM} & Calculates the sum of a data set\\
+\texttt{TAN} & Calculates the tangent of a number
 \end{tabular}
 \end{center}
 
-\newpage
 \subsection{Simple Pendulum}
 In this experiment, we will study the dynamics of a simple pendulum. A simple pendulum is defined as a small mass (known as a pendulum bob), treated as a point mass, suspended from a thin wire considered to be massless. When displaced from equilibrium, the mass will oscillate around the equilibrium point. To analyze the mechanics of the simple pendulum, we use Newton's second law to examine the forces on the pendulum bob (see figure \ref{fig:pendulum}).
 \myskip
@@ -151,7 +153,7 @@ $g (m/s^2)$&9.7&9.2&10.1&10.0&9.5&8.9&11.1&9.8&9.7&10.0 \\
 \item If your mean doesn't agree (or if it hadn't agreed) with the expected value of $g$, what type of errors might have contributed to the incorrect value of $g$?
 \end{enumerate}
 
-\item {\bf{Data Set 2:}} consider two sets of measurements in which you measured the length of a table that is known to be $1.25 m$. In the first method, you used a meter stick, so you had to measure twice. In the second method, you used a 2 meter stick, so you only had to measure once. Assume the ruler has centimeter precision.
+\item {\bf{Data Set 2:}} consider two sets of measurements in which you measured the length of a table that is known to be $1.25 m$. In the first method, you used a meter stick, so you had to measure twice. In the second method, you used a 2-meter stick, so you only had to measure once. Assume the ruler has centimeter precision.
 \begin{center}
 \begin{tabular}{ |c | c | c | c | c | c |}
 \hline
@@ -192,7 +194,7 @@ $N_{\text{cars}}$&523&143&496&1045&869&57&693&1150&327&87 \\
 
 \subsection{Pendulum}
 
-You will determine the gravitational constant $g$ through two methods. First, you will measure the time it takes a pendulum to swing through a full cycle, the period of oscillation, and use this to calculate the gravitational constant $g$. Second, you will measure the period for 5 different pendulum lengths and use the linear fit method to determine the gravitation constant $g$.. Since a number of measurements need to be made, you may wish to perform this experiment in teams of two: one person measures the time values, the other records the results. \myskip
+You will determine the gravitational constant $g$ through two methods. First, you will measure the time it takes a pendulum to swing through a full cycle, the period of oscillation, and use this to calculate the gravitational constant $g$. Second, you will measure the period for 5 different pendulum lengths and use the linear fit method to determine the gravitation constant $g$. Since a number of measurements need to be made, you may wish to perform this experiment in teams of two: one person measures the time values, the other records the results. \myskip
 
 \begin{itemize}
 \item Measurement 1: Calculation of $g$ by measuring multiple periods $\tau$.
