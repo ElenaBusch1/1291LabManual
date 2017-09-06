@@ -90,22 +90,6 @@ The mean of these six values is 10.0. The interval from 9.8 to 10.1 includes 4 o
 
 For inherently random phenomena that involve counting individual events or occurrences, we measure only a single number $N$. This kind of measurement is relevant to counting the number of radioactive decays in a specific time interval from a sample of material, for example. It is also relevant to counting the number of left-handed people in a random sample of the population. The (absolute) uncertainty of such a single measurement, $N$, is estimated as the square root of $N$ (a counting measurement is expressed as $N \pm \sqrt{N}$). As an example, if we measure 50 radioactive decays in 1 second we should present the result as $50\pm 7$ decays per second. (The quoted uncertainty indicates that a subsequent measurement performed identically could easily result in numbers differing by 7 from 50.)
 
-\subsection{Number of Significant Digits}
-
-The number of significant digits in a result refers to the number of digits that are relevant. The digits may occur after a string of zeroes. For example, the measurement of $2.3\,\mathrm{mm}$ has two significant digits. This does not change if you express the result in meters as $0.0023\,\mathrm{m}$. The number 100.10, by contrast, has 5 significant digits.
-
-When you record a result, you should use the calculated error to determine how many significant digits to keep. Let's illustrate the procedure with the following example. Assume you measure the diameter of a circle to be $d = 1.6232\,\mathrm{cm}$, with an uncertainty of $0.102\,\mathrm{cm}$. You now round your uncertainty to one or two significant digits (up to you). So (using one significant digit) we initially quote $d = (1.6232 \pm 0.1)\,\mathrm{cm}$. Now we compare the mean value with the uncertainty, and keep only those digits that the uncertainty indicates are relevant. Finally, we quote the result as $d = (1.6 \pm 0.1)\,\mathrm{cm}$ for our measurement.
-
-Suppose further that we wish to use this measurement to calculate the circumference $c$ of the circle with the relation $c = \pi\cdot d$. If we use a standard calculator, we might get a 10 digit display indicating:
-\begin{equation}
-    c = 5.099433195\pm 0.3204424507\,\mathrm{cm}
-\end{equation}
-This is not a reasonable way to write the result!  The uncertainty in the diameter had only one significant digit, so the uncertainty of the circumference calculated from the diameter cannot be substantially better. Therefore we should record the final result as:
-\begin{equation}
-    c = 5.1\pm 0.3\,\mathrm{cm}
-\end{equation}
-(If you do intermediate calculations, it is a good idea to keep as many figures as your calculator can store. The above argument applies when you \underline{record} your results!)
-
 \subsection{Relative and Absolute Uncertainty}
 
 There are two ways to record uncertainties: the absolute value of the uncertainty or the uncertainty relative to the mean value. So in the example above, you can write $c = (5.1 \pm 0.3)\,\mathrm{cm}$ or equally well $c = 5.1\,\mathrm{cm}\; (1.00 \pm 0.06)$. You can see that if you multiply out the second form you will obtain the first, since $5.1 \times 0.06 = 0.3$. The second form may look a bit odd, but it tells you immediately that the uncertainty is 6\% of the measured value. The number $0.3\,\mathrm{cm}$ is the absolute uncertainty and has the same units as the mean value (cm). The 0.06 (or 6\%) is the relative uncertainty and has no units since it is the ratio of two lengths. It's important to use proper notation when describing uncertainty to remove any unwanted ambiguity, so make sure it's clear when you are using relative or absolute errors.
@@ -203,6 +187,22 @@ Based upon the error of the quantity that you determined, you can find the maxim
 
 Here is an example: Suppose you measure an angle to be $(47.3 \pm 0.5)^\circ$ and you want to determine the error of $\sin(47.3 \pm 0.5)^\circ$. You find that $\sin(47.3) = 0.735$. Based upon your reported uncertainty, you know that your angle could be as large as $47.8^\circ$ and as small as $46.8^\circ$, and therefore you should calculate $\sin(47.8) = 0.741$ and $\sin(46.8) = 0.729$. So your calculated value is 0.735 but it can be as low as 0.729 and as high as 0.741 and therefore, if you halve the difference between 0.729 and 0.741 you get a reasonable error estimate of 0.006. So you should report your value as $0.735 \pm 0.006$.
 
+\subsection{Best-Fit Line}
+
+In most research laboratories, plotting measurements is found to be the preferred method of reviewing the data and quantitatively measuring the relationship between the experimental variables. This is effective because we often have some idea of the expected relationship between the variables {\it{apriori}}. In these labs, this expected relationship is almost always arranged to be a straight line. But even if we know that the ideal points fit on a precise straight line, experimentally measured data points will not always lie on a single line -- because the measurements always have intrinsic uncertainty. Therefore when the points are plotted, we should include error bars on both axes to indicate the uncertainties in the data. Because real measurements do not all lie on a single straight line, there are a variety of possible lines you might choose to fit the data. \myskip
+
+\begin{figure}[h]
+    \begin{center}
+        \includegraphics[width=0.9\textwidth, height=0.5\textwidth]{./Exp3/pic/image13.jpg}
+    \end{center}
+    \caption{Left: an example best-fit line. Right: the maximum and minimum possible slope from our data used to calculate uncertainty in the best-fit line. Notice how we have drawn the lines on the outer bounds of the error bars to achieve the maximum and minimum possible slope within the error bars.}
+    \label{fig:bestfit}
+\end{figure}
+
+How do we know which line represents the best fit? There is an exact mathematical procedure to obtain the best-fit line, but this is usually a very tedious calculation which is outside the scope of this lab. For experiments in this course, you will be using Excel's built-in fitting function for data. The process for doing which will be explained in your next lab. However, if you are interested in learning how to approximate the technique without a computer, please see the appendix.\myskip
+
+\underline{Remark}: Often in our experiments the data points will not look as nice as in the above examples. One or several points may not be close to any best-fit line you try. Such anomalous points may occur, for example, because of a mistake in measuring. In such cases, it is acceptable to ignore these anomalies when estimating the best-fit line. (Of course you must note this fact down in your lab report)  Dropping anomalous points must be done with extreme care and only rarely (if you know the point is not physically meaningful).\footnote{More than once, data points that did not behave as theory predicted turned out to be new effects and led to Nobel prizes!}  It is better to choose a line with as many points above the line as below. If you are not sure of your measurements, it is better to re-measure or to take more data points. \myskip
+
 \subsection{Numerical Statistics}
 The previuos discussions of uncertainty and error tell us how we can quantitatively describe our inability to make perfect single measurements. However, in real physics experiments, very rarely do we draw conclustions from a single data points. As such, it is essential that we know how to quantify error in sets of data. The 2/3 methods as discussed in section 2.2.2 provides a good estimation of data statistics, but we can more rigorously calculate data set statistics. In statistics, a data set can be well described by the following 4 fundamental quantites: mean, median, mode, and standard deviation. The mean of a data set is the sum of all numbers in the data set divided by the number of points in the set. It is defined in the following manner.
 \begin{gather}
@@ -233,18 +233,119 @@ Notice how both data sets have the same mean, median, and mode, which tells us t
     \label{fig:bellcurve}
 \end{figure}
 
-\subsection{Best-Fit Line}
+\subsection{Number of Significant Digits}
 
-In most research laboratories, plotting measurements is found to be the preferred method of reviewing the data and quantitatively measuring the relationship between the experimental variables. This is effective because we often have some idea of the expected relationship between the variables {\it{apriori}}. In these labs, this expected relationship is almost always arranged to be a straight line. But even if we know that the ideal points fit on a precise straight line, experimentally measured data points will not always lie on a single line -- because the measurements always have intrinsic uncertainty. Therefore when the points are plotted, we should include error bars on both axes to indicate the uncertainties in the data. Because real measurements do not all lie on a single straight line, there are a variety of possible lines you might choose to fit the data. \myskip
+The number of significant digits in a result refers to the number of digits that are relevant. The digits may occur after a string of zeroes. For example, the measurement of $2.3\,\mathrm{mm}$ has two significant digits. This does not change if you express the result in meters as $0.0023\,\mathrm{m}$. The number 100.10, by contrast, has 5 significant digits.
 
-\begin{figure}[h]
-    \begin{center}
-        \includegraphics[width=0.9\textwidth, height=0.5\textwidth]{./Exp3/pic/image13.jpg}
-    \end{center}
-    \caption{Left: an example best-fit line. Right: the maximum and minimum possible slope from our data used to calculate uncertainty in the best-fit line. Notice how we have drawn the lines on the outer bounds of the error bars to achieve the maximum and minimum possible slope within the error bars.}
-    \label{fig:bestfit}
-\end{figure}
+When you record a result, you should use the calculated error to determine how many significant digits to keep. Let's illustrate the procedure with the following example. Assume you measure the diameter of a circle to be $d = 1.6232\,\mathrm{cm}$, with an uncertainty of $0.102\,\mathrm{cm}$. You now round your uncertainty to one or two significant digits (up to you). So (using one significant digit) we initially quote $d = (1.6232 \pm 0.1)\,\mathrm{cm}$. Now we compare the mean value with the uncertainty, and keep only those digits that the uncertainty indicates are relevant. Finally, we quote the result as $d = (1.6 \pm 0.1)\,\mathrm{cm}$ for our measurement.
 
-How do we know which line represents the best fit? There is an exact mathematical procedure to obtain the best-fit line, but this is usually a very tedious calculation which is outside the scope of this lab. For experiments in this course, you will be using Excel's built-in fitting function for data. The process for doing which will be explained in your next lab. However, if you are interested in learning how to approximate the technique without a computer, please see the appendix.\myskip
+Suppose further that we wish to use this measurement to calculate the circumference $c$ of the circle with the relation $c = \pi\cdot d$. If we use a standard calculator, we might get a 10 digit display indicating:
+\begin{equation}
+    c = 5.099433195\pm 0.3204424507\,\mathrm{cm}
+\end{equation}
+This is not a reasonable way to write the result!  The uncertainty in the diameter had only one significant digit, so the uncertainty of the circumference calculated from the diameter cannot be substantially better. Therefore we should record the final result as:
+\begin{equation}
+    c = 5.1\pm 0.3\,\mathrm{cm}
+\end{equation}
+(If you do intermediate calculations, it is a good idea to keep as many figures as your calculator can store. The above argument applies when you \underline{record} your results!)
 
-\underline{Remark}: Often in our experiments the data points will not look as nice as in the above examples. One or several points may not be close to any best-fit line you try. Such anomalous points may occur, for example, because of a mistake in measuring. In such cases, it is acceptable to ignore these anomalies when estimating the best-fit line. (Of course you must note this fact down in your lab report)  Dropping anomalous points must be done with extreme care and only rarely (if you know the point is not physically meaningful).\footnote{More than once, data points that did not behave as theory predicted turned out to be new effects and led to Nobel prizes!}  It is better to choose a line with as many points above the line as below. If you are not sure of your measurements, it is better to re-measure or to take more data points. \myskip
+\section{Example Questions}
+
+\myskip
+{\bf{Note: Suggested prelab questions are in bold. These will help with conceptual under- standing of the laboratory experiments. }}
+\myskip
+
+\noindent \underline{Estimation of Uncertainty}:\myskip
+
+1. You have the following distribution of measured values:
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|c|l|l|l|}
+        \hline
+         %& 5 & 10 & 15 \\ \hline
+        \quad 0\quad & \hspace{1.5cm} & \hspace{1.5cm} & \hspace{1.5cm} \\ \hline
+        \quad 1\quad & I & \hspace{1.5cm} & \hspace{1.5cm} \\ \hline
+        \quad 2\quad & III & \hspace{1.5cm} & \hspace{1.5cm} \\ \hline
+        \quad 3\quad & IIIII & I & \hspace{1.5cm} \\ \hline
+        \quad 4\quad & IIIII & IIII & \hspace{1.5cm} \\ \hline
+        \quad 5\quad & IIIII & IIIII & IIIII \\ \hline
+        \quad 6\quad & IIIII & IIIII & I \\ \hline
+        \quad 7\quad & IIIII & III & \hspace{1.5cm} \\ \hline
+        \quad 8\quad & IIII & \hspace{1.5cm} & \hspace{1.5cm} \\ \hline
+        \quad 9\quad & II & \hspace{1.5cm} & \hspace{1.5cm} \\ \hline
+        \quad 10\quad & I & \hspace{1.5cm} & \hspace{1.5cm} \\ \hline
+    \end{tabular}
+\end{table}
+
+Estimate the uncertainty using the 2/3 estimate. \myskip
+
+2. Estimate the mean and uncertainty of the following group of values:
+\begin{equation*}
+    1.6\,\mathrm{s}, 1.3\,\mathrm{s}, 1.7\,\mathrm{s}, 1.4\,\mathrm{s}
+\end{equation*}
+
+3. In a radioactive decay you get 16 counts. What is the absolute uncertainty of the number of counts? What is the relative uncertainty? \myskip
+
+4. In a radioactive decay you get 1600 counts. What is the absolute uncertainty of the number of counts? What is the relative uncertainty? \myskip
+
+{\bf{5. How many counts should you get so that the relative uncertainty is $1\%$ or less? }}\myskip
+
+\noindent \underline{Significant digits}: \myskip
+
+6. How many significant digits has $l = 0.0254\,\mathrm{m}$? \myskip
+
+7. Write $t = 1.25578 \pm 0.1247\,\mathrm{s}$ with two significant digits (in the uncertainty). \myskip
+
+\noindent \underline{Propagation of Uncertainty}: \myskip
+
+{\bf{8. For a pendulum with $l = 1.0 \pm 0.1\,\mathrm{m}$, you measure a period of $t = 2.0 \pm 0.2\,\mathrm{s}$. What is the value of the earth's acceleration g?}} \myskip
+
+{\bf{9. You measure the volume of a box by measuring the length of the single sides. For the lengths of the single sides you get:
+\begin{equation*}
+    a = 10.0 \pm 0.1\,\mathrm{cm}\qquad    b = 5.0 \pm 0.2\,\mathrm{cm} \qquad c = 7.5 \pm 0.3\,\mathrm{cm}
+\end{equation*}
+What is the volume of the box (including uncertainty and units) in $\mathrm{cm}^3$? What is the volume of the box in $\mathrm{m}^3$? }}\myskip
+
+10. You measure the following quantities:
+\begin{align*}
+    A &= 1.0 \pm 0.2\,\mathrm{m}\quad B = 2.0 \pm 0.2\,\mathrm{m}\quad        C = 2.5 \pm 0.5\,\mathrm{m/s} \\
+    D &= 0.10\pm 0.01\,\mathrm{s}\quad E = 100\pm 10\,\mathrm{m/s^2} &
+\end{align*}
+Calculate the mean and uncertainty of:
+\begin{enumerate}[a)]
+    \item $A+B=$
+    \item $A-B=$
+    \item $C\cdot D=$
+    \item $C/D=$
+    \item $C\cdot D + A=$
+    \item $\frac{1}{2}E\cdot D + C=$
+    \item $A\cdot B/(A-B)=$
+\end{enumerate}
+Include units! For e)--g) perform it step by step.\myskip
+
+\noindent \underline{Relative and Absolute Uncertainty}:\myskip
+
+11. What is the relative uncertainty for $v = 12.25 \pm 0.25\,\mathrm{m/s}$?\myskip
+
+12. What is the absolute uncertainty if the mean value is $120\,\mathrm{s}$ and the relative uncertainty is $5\%$?\myskip
+
+{\bf{13. Given the following measurements, which one has the highest absolute uncertainty and which one has the highest relative uncertainty?}}
+\begin{align*}
+    l &= 10.0 \pm 0.2\,\mathrm{m} \quad   l = 10.0\,\mathrm{m}\: (1.00 \pm 0.03)   \\
+    l &= 7.24\,\mathrm{m}\: (1.00 \pm 0.04) \quad l = 12.5 \pm 0.25\,\mathrm{m}
+\end{align*}
+
+14. Given the following measurements which one has the highest absolute uncertainty and which one has the highest relative uncertainty?\myskip
+\begin{align*}
+    l &= 10.0\pm 0.2\,\mathrm{m} \quad t = 7.5\pm 0.2\,\mathrm{s} \\
+    d &= 5.6\,\mathrm{cm}\:(1.00\pm 0.04) \quad v = 6.4\times 10^6\,\mathrm{m/s}\:(1.00\pm 0.03)
+\end{align*}
+\emph{Caution}: Don't get tricked!\myskip
+
+\noindent \underline{Explanations}:\myskip
+
+{\bf{15. Explain, using your own words, why the uncertainty decreases as you average over several measurements (you might want to take a look at the appendix).}} \myskip
+
+%16. Explain, using your own words, the difference between uncertainty and error as you perform several measurements and average.\myskip
+
+16. You measure the speed of light and get as a result $c = (2.25 \pm 0.25)\times 10^8\,\mathrm{m/s}$. The value you find in books is $c = 299\, 792\, 458\,\mathrm{m/s}$.  Using these values explain the difference between the uncertainty of your measurement and its error!
