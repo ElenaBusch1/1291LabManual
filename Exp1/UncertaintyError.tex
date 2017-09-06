@@ -50,6 +50,29 @@ An important set of data analysis tools in Excel are plotting and linear fit fun
 \label{fig:excel3}
 \end{figure}
 
+\subsubsection{Finding Error in Slope}
+
+The previous steps will help plot your data, but in order to draw conclusions, you must add uncertainty. Excel has a built in function called LINEST which finds the standard error for a linear fit. Using the same columns of data from before, the walkthrough below will help you calculate the error so you can propagate it further in the experiment.
+
+\begin{enumerate}
+\item The LINEST function is an array-type function, meaning it will output more than one number. Start, by highlighting a 2-by-3 section of empty cells (two columns, three rows).
+\item With these six cells highlighted, in the input box at the top of the screen type "= LINEST(" and add the proper arguments. The arguments should be the list of y-values, the list of x-values, TRUE, and TRUE.
+\item Press CONTROL+SHIFT+ENTER. \it{Note that on a Mac, this is CMD+SHIFT+ENTER.}
+\end{enumerate}
+
+Your results should have filled in that 2-by-3 section in the following way:
+\begin {table}[H]
+\begin{center}
+\begin{tabular}{ |c | c | c |}
+\hline
+Slope &X Intercept \\ \hline
+Error of Slope &Error of Intercept \\ \hline
+$R^2$ &Error in Y \\ \hline
+\end{tabular}
+\caption{LINEST function output in Excel.}
+\end{center}
+\end{table}
+
 \subsubsection{Helpful Commands}
 
 Your TA will guide you through the relevant excel commands necessary for data analysis, however a list of some relevant excel commands are listed below. A list of all excel commands can be found on the \href{https://support.office.com/en-us/article/Excel-functions-alphabetical-b3944572-255d-4efb-bb96-c6d90033e188}{Microsoft Office website}\footnote{https://support.office.com/en-us/article/Excel-functions-alphabetical-b3944572-255d-4efb-bb96-c6d90033e188}
