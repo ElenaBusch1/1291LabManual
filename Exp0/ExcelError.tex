@@ -1,4 +1,4 @@
-\chapter{Intro to Uncertainty and Error}
+\chapter{Intro to Labs and Uncertainty}
 \label{chap:excel}
 \section{Introduction}
 
@@ -7,7 +7,7 @@ There is no such thing as a perfect measurement. All measurements have errors an
 Let's consider an \emph{example}: You're trying to measure something and from theory, you know the expected value should be 2.3. You make two measurements and get two very different values: 2.5 and 1.5. We can see immediately that 2.5 is rather close to the expected value while 1.5 is quite far off. However, we have not taken error into account. Each measurement has a certain amount of uncertainty, or wiggle room. Basically, there's an interval surrounding your measurement where the true value is expected to lie. If your measurements give experimental uncertainties of 0.1 and 1.0 respectively, the new measured values may be expressed $2.5\pm 0.1$ and $1.5\pm 1.0$. The expected value falls within the range of the second measurement, but not the first! \myskip
 
 Analyzing data and error in experiments is essential in making conclusions about the physical laws we are testing. The advent of computers and software made to manipulate large data sets has revolutionized scientist's ability to make conclusions from experimental data. In this lab course, we will be using Microsoft Excel to record data sets from the experiments and determine experimental uncertainties in calculated quantities. We will learn to use excel to propagate uncertainties and plot error bars with our data. You can download a personal copy of Microsoft Excel with your student email address from
-\href{https://products.office.com/en-us/student?ms.officeurl=getoffice365}{Office 365 Education} \footnote{https://products.office.com/en-us/student?ms.officeurl=getoffice365}. Please note the sections introducing new Excel tools pertain to the newest version of Excel. If you are using a personal computer with a different version of Excel, you are responsible for adapting the instructions to your version of Excel. \myskip
+\href{https://products.office.com/en-us/student?ms.officeurl=getoffice365}{Office 365 Education} \footnote{https://products.office.com/en-us/student?ms.officeurl=getoffice365}. Please note the sections introducing new Excel tools pertain to the newest version of Excel. If you are using a personal laptop with a different version of Excel, you are responsible for adapting the instructions to your version of Excel. \myskip
 
 The purpose of this introduction is to give some basic information about statistics and uncertainty. The techniques studied here will be essential for the rest of this two-semester lab course. These tools are important in order to arrive at good judgments in any field (like medicine) in which it is necessary to understand not just numerical results, but the uncertainties associated with those results.
 
@@ -17,7 +17,7 @@ The purpose of this introduction is to give some basic information about statist
 
 Uncertainty in a measurement can arise from three possible origins: the measuring device, the procedure of how you measure, and the observed quantity itself. Usually the largest of these will determine the uncertainty in your data. \myskip
 
-Uncertainties can be divided into two different types: systematic uncertainties and random (statistical) uncertainties\footnote{if you were to further research, random uncertainty is also referred to statistical uncertainty.}.
+Uncertainties can be divided into two different types: systematic uncertainties and random (statistical) uncertainties\footnote{If you were to engage in further research, random uncertainty is typically referred to as statistical uncertainty.}.
 
 \subsubsection{Systematic Uncertainties}
 
@@ -73,7 +73,7 @@ For example in the figure above, where we are measuring the length of an object 
     \ell = (46.5\pm 0.1)\,\mathrm{cm}
 \end{equation}
 
-There will be many circumstances when the error is more complicated than simply the coarseness of the measuring tool. For example, if you find yourself measuring something that is very long or hard to line up properly with a meter stick. In this case, you may need to use some judgement of the best possible measurement to make and the uncertainty will be greater than the millimeter precision of your meter stick. It is always best to slightly overestimate error and allow yourself some wiggle room if you feel that better represents your measurement!
+There will be many circumstances when the error is more complicated than simply the coarseness of the measuring tool. For example, if you find yourself measuring something that is very long or hard to line up properly with a meter stick. In this case, you may need to use some judgement of the best possible measurement to make and the uncertainty will be greater than the millimeter precision of your meter stick. \textbf{It is always best to slightly overestimate error and allow yourself some wiggle room if you feel that better represents your measurement!}
 
 \subsubsection{Estimation from the Spread (2/3 method)} \label{sssec:twothirds}
 
@@ -101,7 +101,7 @@ Often, we are not directly interested in a measured value, but we want to use it
 
 \subsubsection{Adding/Subtracting Quantities}
 
-When we \textbf{add or subtract} quantities, the combined uncertainty is the \textbf{sum of the absolute uncertainties} of the constituent parts. \footnote{The propagation of random uncertainties is actually slightly more complicated, but the procedure outlined here usually represents a good approximation, and it never underestimates the uncertainty. See the appendix for more information.}
+When we \textbf{add or subtract} quantities, the combined uncertainty is the \textbf{sum of the absolute uncertainties} of the constituent parts\footnote{The propagation of random uncertainties is actually slightly more complicated, but the procedure outlined here usually represents a good approximation, and it never underestimates the uncertainty. See the appendix for more information.}.
 
 Take as an example measuring the length of a dog. We measure the distance between the left wall and the tail of the dog and subtract the distance from the wall to the dog's nose.
 \begin{figure}[h]
@@ -162,7 +162,7 @@ When raising a value to a certain power, its \textbf{relative uncertainty is mul
 
 Squaring a quantity involves multiplying its relative uncertainty by 2, while cubing a quantity causes its relative uncertainty to be multiplied by 3.\myskip
 
-Taking the \underline{square root} of a quantity (which is equivalent to raising the quantity to the 1/2 power) causes its \underline{relative uncertainty} to be multiplied by 1/2. For example, if you know the area of a square to be:
+Taking the square root of a quantity (which is equivalent to raising the quantity to the 1/2 power) causes its relative uncertainty to be multiplied by 1/2. For example, if you know the area of a square to be:
 \begin{equation}
     \text{Area} = 100\pm 8\,\mathrm{m^2} = 100\,\mathrm{m}^2\;(1.00\pm 0.08)
 \end{equation}
@@ -202,7 +202,7 @@ In most research laboratories, plotting measurements is found to be the preferre
 
 How do we know which line represents the best fit? There is an exact mathematical procedure to obtain the best-fit line, but this is usually a very tedious calculation which is outside the scope of this lab. For experiments in this course, you will be using Excel's built-in fitting function for data. The process for doing which will be explained in your next lab. However, if you are interested in learning how to approximate the technique without a computer, please see the appendix.\myskip
 
-\underline{Remark}: Often in our experiments the data points will not look as nice as in the above examples. One or several points may not be close to any best-fit line you try. Such anomalous points may occur, for example, because of a mistake in measuring. In such cases, it is acceptable to ignore these anomalies when estimating the best-fit line. (Of course you must note this fact down in your lab report)  Dropping anomalous points must be done with extreme care and only rarely (if you know the point is not physically meaningful).\footnote{More than once, data points that did not behave as theory predicted turned out to be new effects and led to Nobel prizes!}  It is better to choose a line with as many points above the line as below. If you are not sure of your measurements, it is better to re-measure or to take more data points. \myskip
+\underline{Remark}: Often in our experiments the data points will not look as nice as in the above examples. One or several points may not be close to any best-fit line you try. Such anomalous points may occur, for example, because of a mistake in measuring. In such cases, it is acceptable to ignore these anomalies when estimating the best-fit line (and of course you must note this fact down in your lab report).  Dropping anomalous points must be done with extreme care and only rarely (if you know the point is not physically meaningful).\footnote{More than once, data points that did not behave as theory predicted turned out to be new effects and led to Nobel prizes!}  It is better to choose a line with as many points above the line as below. If you are not sure of your measurements, it is better to re-measure or to take more data points. \myskip
 
 \subsection{Numerical Statistics}
 The previous discussions of uncertainty and error tell us how we can quantitatively describe our inability to make perfect single measurements. However, in real physics experiments, very rarely do we draw conclusions from a single data points. As such, it is essential that we know how to quantify error in sets of data. The 2/3 methods as discussed in Section \ref{sssec:twothirds} provides a good estimation of data statistics, but we can more rigorously calculate data set statistics. In statistics, a data set can be well described by the following four fundamental quantities: mean, median, mode, and standard deviation. The mean of a data set is the sum of all numbers in the data set divided by the number of points in the set. It is defined in the following manner.
@@ -282,7 +282,7 @@ Estimate the uncertainty using the 2/3 estimate. \myskip
 
 2. Estimate the mean and uncertainty of the following group of values:
 \begin{equation*}
-    1.6\,\mathrm{s}, 1.3\,\mathrm{s}, 1.7\,\mathrm{s}, 1.4\,\mathrm{s}
+    1.6\,\mathrm{s}, 1.3\,\mathrm{s}, 1.7\,\mathrm{s}, 1.4\,\mathrm{s}, 1.6\,\mathrm{s}, 1.2\,\mathrm{s},
 \end{equation*}
 
 3. In a radioactive decay you get 16 counts. What is the absolute uncertainty of the number of counts? What is the relative uncertainty? \myskip
