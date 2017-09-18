@@ -51,6 +51,7 @@ An important set of data analysis tools in Excel are plotting and linear fit fun
 \end{figure}
 
 \subsubsection{Finding Error in Slope}
+\label{sec:linest}
 
 The previous steps will help plot your data, but in order to draw conclusions, you must add uncertainty. Excel has a built in function called LINEST which finds the standard error for a linear fit. Using the same columns of data from before, the walkthrough below will help you calculate the error so you can propagate it further in the experiment.
 
@@ -215,7 +216,7 @@ You will determine the gravitational constant $g$ through two methods. First, yo
 \item Let the pendulum swing at some small angle (less then 15 degrees) and measure the period of the motion. Try to start and stop the stopwatch at the apex of the motion. Make a single measurement of the period $\tau$.
 \item repeat steps 1-2 for 5 different pendulum lengths $\ell$.
 \item In excel, plot the length of the pendulum $\ell$ versus period squared $\tau^2$ with error bars on both axes. The error bars in $\ell$ and $\tau$ can be determined from the precision in the ruler/stopwatch (make sure to correctly propagate the error in squaring $\tau$).
-\item Use excel to fit your plot with a line and use the generated slope to determine the gravitational constant $g$. Include error in $g$ using the max-min method for linear fit error (discussed in section 2.1.3) (We suggest printing out your excel plot and doing the max-min method by hand).
+\item Use excel to fit your plot with a line and use the generated slope to determine the gravitational constant $g$. Include error in $g$ using the LINEST method described in Section ~\ref(sec:linest).
 \item Does your calculated value of $g$ agree with the expected value?
 \item What are the main sources of error in this part of the experiment?
 \end{enumerate}
