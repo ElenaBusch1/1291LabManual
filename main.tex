@@ -106,24 +106,24 @@
 
 \setcounter{page}{1}
 \include{intro}
-\include{Exp0/ExcelError}
+\include{Exp1-1/ExcelError}
 
-\titleformat{\chapter}[display]
-    {\bfseries\huge\filcenter}
-    {\underline{Experiment 1-\thechapter}}
-    {0pt}
-    {\huge}
+%\titleformat{\chapter}[display]
+%    {\bfseries\huge\filcenter}
+%    {\underline{Experiment 1-\thechapter}}
+%    {0pt}
+%    {\huge}
 
-\include{Exp1/UncertaintyError}
-\include{Exp2/VelocityAcceleration}
-\include{Exp3/Forces}
-\include{Exp4/ProjectileMotionandConservationofEnergy}
-\include{Exp5/ConservationofMomentum}
-\include{Exp6/TorqueandRotationalInertia}
-\include{Exp7/CentripetalForceAngularMomentum}
-\include{Exp8/WavesI_StandingWaves}
-\include{Exp9/WavesII_OscilliscopeandFunctionGenerator}
-\include{Exp10/IdealGasandThermalConductivity}
+\include{Exp1-2/UncertaintyError}
+\include{Exp1-3/VelocityAcceleration}
+\include{Exp1-4/Forces}
+\include{Exp1-5/ProjectileMotionandConservationofEnergy}
+\include{Exp1-6/ConservationofMomentum}
+\include{Exp1-7/TorqueandRotationalInertia}
+\include{Exp1-8/CentripetalForceAngularMomentum}
+\include{Exp1-9/WavesI_StandingWaves}
+\include{Exp1-10/WavesII_OscilliscopeandFunctionGenerator}
+\include{Exp1-11/IdealGasandThermalConductivity}
 
 \titleformat{\chapter}[display]
     {\bfseries\huge\filright}
@@ -138,7 +138,7 @@
 \chapter{Advanced Error Analysis}
 \section{Clarification of 2/3 Rule}
 
-To find the true uncertainty, we are really interested in the \emph{standard error of the mean}, i.e. how likely it would be for a newly measured average value to be close to our original value were we to perform the experiment again.  The proper way to figure this out would be to get say a thousand friends to perform this experiment in the same way, each using the same number of data points, and then compare the results of everyone.  Each student would calculate his or her own mean, and they would likely all be clustered around some central average.  We could then examine the spread of this cluster of means using the 2/3 rule, and we'd have a quantitative measure of the uncertainty surrounding any single student's measurement.\myskip
+To find the true uncertainty, we are really interested in the \emph{standard error of the mean}, i.e., how likely it would be for a newly measured average value to be close to our original value were we to perform the experiment again.  The proper way to figure this out would be to get say a thousand friends to perform this experiment in the same way, each using the same number of data points, and then compare the results of everyone.  Each student would calculate his or her own mean, and they would likely all be clustered around some central average.  We could then examine the spread of this cluster of means using the 2/3 rule, and we'd have a quantitative measure of the uncertainty surrounding any single student's measurement.\myskip
 
 While it's usually impractical to get 1000 friends together to repeat an experiment a thousand times, it turns out that the uncertainty (or ``standard error'') of the mean can be estimated with the following formula:
 \begin{equation}
@@ -168,10 +168,10 @@ While this method gives a closer approximation to what the true propagated uncer
 
 \section{Max-Min Method for Best-fit Line}
 
-This technique will show you how to draw an approximate best-fit line for a  set of data without a computer and it is sufficiently precise for most purposes.
+This alternate technique will show you how to draw an approximate best-fit line for a  set of data without a computer and it is sufficiently precise for most purposes.
 
 First, try to draw a line with as many points (with uncertainties included) lying above the line as below it. The gauge of how close the line is to a point is given by the uncertainty associated with that measured point. However, all the points at the left end should not lie on one side of the line with all the points at the right end lying on the other side. As a rule of thumb, roughly 2/3 of the points should have the line passing through the uncertainties (just as with the 2/3 rule).\myskip
 %The uncertainty for the best-fit line is obtained by estimating how much one could increase and decrease the slope of the line before the fit is deemed very bad. \myskip
 
-Clearly, this ''eyeball'' method has inherent uncertainty, so how do we estimate the uncertainty on the slope of the best-fit line? To do this we should estimate the spread of the slope, or maximum and minimum possible slopes that one can conceivably interpret from the graph. Half the difference between the minimum and maximum slopes is a good estimate of the slope uncertainty ($\sigma=\frac{m_{max}-m_{min}}{2}$).
+Clearly, this ``eyeball'' method has inherent uncertainty, so how do we estimate the uncertainty on the slope of the best-fit line? To do this we should estimate the spread of the slope, or maximum and minimum possible slopes that one can conceivably interpret from the graph. Half the difference between the minimum and maximum slopes is a good estimate of the slope uncertainty ($\sigma=\frac{m_{max}-m_{min}}{2}$).
 \end{document}
