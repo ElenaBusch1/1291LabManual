@@ -3,3 +3,10 @@
 *.out
 *.toc
 *.gz
+*.swp
+*.index
+/tmp/
+!/main.pdf
+*.DS_Store*
+.texlipse
+.project
