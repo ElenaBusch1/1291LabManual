@@ -157,7 +157,7 @@ You will determine the gravitational constant $g$ through two methods. First, yo
 \item Let the pendulum swing at some small angle (less then 15 degrees) and measure the period of the motion. Try to start and stop the stopwatch at the apex of the motion. Make a single measurement of the period $\tau$.
 \item repeat steps 1-2 for 5 different pendulum lengths $\ell$.
 \item In excel, plot the length of the pendulum $\ell$ versus period squared $\tau^2$ with error bars on both axes. The error bars in $\ell$ and $\tau$ can be determined from the precision in the ruler/stopwatch (make sure to correctly propagate the error in squaring $\tau$).
-\item Use excel to fit your plot with a line and use the generated slope to determine the gravitational constant $g$. Include error in $g$ using the LINEST method described in Section ~\ref(sec:linest).
+\item Use excel to fit your plot with a line and use the generated slope to determine the gravitational constant $g$. Include error in $g$ using the LINEST method described in Section ~\ref{sec:linest}.
 \item Does your calculated value of $g$ agree with the expected value?
 \item What are the main sources of error in this part of the experiment?
 \end{enumerate}
@@ -195,58 +195,58 @@ If you wanted to design a new test using the same procedure but to arrive at a s
 
 \section{Lab Preparation Examples}
 
-\item Consider a set of measurements you made of the gravitational constant $g$ on earth (in $m/s^2$). The data set is given below.
-\begin{center}
-\begin{tabular}{| c | c | c | c | c | c | c | c | c | c | c |}
-\hline
-Trial &1&2&3&4&5&6&7&8&9&10 \\ \hline
-$g (m/s^2)$&9.7&9.2&10.1&10.0&9.5&8.9&11.1&9.8&9.7&10.0 \\
-\hline
-\end{tabular}
-\end{center}
 \begin{enumerate}
-\item Calculate the mean, median, mode, and standard deviation of the data set using excel and include them in your report.
-\item Estimate the error in $g$ using the 2/3 method. How does this compare to the standard deviation?
-\item Does the mean value for $g$ agree with the expected value within error? Note the standard value of $g$  is $9.81 m/s^2$.
-\item If your mean doesn't agree (or if it hadn't agreed) with the expected value of $g$, what type of errors might have contributed to the incorrect value of $g$?
-\end{enumerate}
+  \item Consider a set of measurements you made of the gravitational constant $g$ on earth (in $m/s^2$). The data set is given below.
+  \begin{center}
+    \begin{tabular}{| c | c | c | c | c | c | c | c | c | c | c |}
+      \hline
+      Trial &1&2&3&4&5&6&7&8&9&10 \\ \hline
+      $g (m/s^2)$&9.7&9.2&10.1&10.0&9.5&8.9&11.1&9.8&9.7&10.0 \\
+      \hline
+    \end{tabular}
+  \end{center}
+  \begin{enumerate}
+    \item Calculate the mean, median, mode, and standard deviation of the data set using excel and include them in your report.
+    \item Estimate the error in $g$ using the 2/3 method. How does this compare to the standard deviation?
+    \item Does the mean value for $g$ agree with the expected value within error? Note the standard value of $g$  is $9.81 m/s^2$.
+    \item If your mean doesn't agree (or if it hadn't agreed) with the expected value of $g$, what type of errors might have contributed to the incorrect value of $g$?
+  \end{enumerate}
 
-\begin{enumerate}
-\item Consider two sets of measurements in which you measured the length of a table that is known to be $1.25 m$. In the first method, you used a meter stick, so you had to measure twice. In the second method, you used a 2-meter stick, so you only had to measure once. Assume the ruler has centimeter precision.
-\begin{center}
-\begin{tabular}{ |c | c | c | c | c | c |}
-\hline
-Trial &1&2&3&4&5 \\ \hline
-Method 1, Measurement 1 ($m$) & 1.00 & 1.00 & 1.00 &1.00 &1.00 \\
-\hline
-Method 1, Measurement 2  ($m$)& 0.23 &0.21&0.25&0.26&0.24 \\
-\hline
-Method 2 ($m$)& 1.23&1.21&1.25&1.26&1.24 \\
-\hline
-\end{tabular}
-\end{center}
-\begin{enumerate}
-\item Calculate the absolute and relative uncertainties for each measurement in both trials (don't use 2/3 method or standard deviation).
-\item Which measurement is most precise (has lower relative unertainty)?
-\item Estimate the error using the 2/3 methods. How does this compare to the error you calculated in part (a).
-\item What could you conclude about making measurements with a ruler?
-\end{enumerate}
+  \item Consider two sets of measurements in which you measured the length of a table that is known to be $1.25 m$. In the first method, you used a meter stick, so you had to measure twice. In the second method, you used a 2-meter stick, so you only had to measure once. Assume the ruler has centimeter precision.
+  \begin{center}
+    \begin{tabular}{ |c | c | c | c | c | c |}
+      \hline
+      Trial &1&2&3&4&5 \\ \hline
+      Method 1, Measurement 1 ($m$) & 1.00 & 1.00 & 1.00 &1.00 &1.00 \\
+      \hline
+      Method 1, Measurement 2  ($m$)& 0.23 &0.21&0.25&0.26&0.24 \\
+      \hline
+      Method 2 ($m$)& 1.23&1.21&1.25&1.26&1.24 \\
+      \hline
+    \end{tabular}
+  \end{center}
+  \begin{enumerate}
+    \item Calculate the absolute and relative uncertainties for each measurement in both trials (don't use 2/3 method or standard deviation).
+    \item Which measurement is most precise (has lower relative unertainty)?
+    \item Estimate the error using the 2/3 methods. How does this compare to the error you calculated in part (a).
+    \item What could you conclude about making measurements with a ruler?
+  \end{enumerate}
 
-\item Consider a measurement you made in which you counted the number of cars that passed in 1 hour on various highways in the united states. The data set containing the number of cars per hour is given in the following table.
-\begin{center}
-\begin{tabular}{|c | c | c | c | c | c | c | c | c | c | c|}
-\hline
-Trail&1&2&3&4&5&6&7&8&9&10 \\ \hline
-$N_{\text{cars}}$&523&143&496&1045&869&57&693&1150&327&87 \\
-\hline
-\end{tabular}
-\end{center}
-\begin{enumerate}
-\item Calculate the absolute error and the relative error in each measurement.
-\item Which measurement has the lowest absolute error?
-\item Which measurement has the lowest relative error?
-\item Which measurement would you say is the most precise?
-\item Calculate the rate in cars {\it{per second}} for each measurement with error.
-\item What experimental factors might contribute to the error in car rate (be creative!)?
-\end{enumerate}
+  \item Consider a measurement you made in which you counted the number of cars that passed in 1 hour on various highways in the united states. The data set containing the number of cars per hour is given in the following table.
+  \begin{center}
+    \begin{tabular}{|c | c | c | c | c | c | c | c | c | c | c|}
+      \hline
+      Trail&1&2&3&4&5&6&7&8&9&10 \\ \hline
+      $N_{\text{cars}}$&523&143&496&1045&869&57&693&1150&327&87 \\
+      \hline
+    \end{tabular}
+  \end{center}
+  \begin{enumerate}
+    \item Calculate the absolute error and the relative error in each measurement.
+    \item Which measurement has the lowest absolute error?
+    \item Which measurement has the lowest relative error?
+    \item Which measurement would you say is the most precise?
+    \item Calculate the rate in cars {\it{per second}} for each measurement with error.
+    \item What experimental factors might contribute to the error in car rate (be creative!)?
+  \end{enumerate}
 \end{enumerate}

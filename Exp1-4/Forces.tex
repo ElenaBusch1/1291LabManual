@@ -88,12 +88,12 @@ In the first part of the experiment, we deal with three different forces due to 
 
 The equipment includes a wooden board to which three pulleys are clamped. Over each pulley, we place a string with a weight (making sure the string doesn't slip off the pulley). Choose two different known weights and attach them to two of the strings (you might begin with a $100\,\mathrm{g}$ and $150\,\mathrm{g}$ weight for example). The three strings are tied together over the board at a ``node''. Move the node, where the strings join, around gently and try to find the equilibrium position. (The position at which the node no longer moves, or the location to which the node returns if displaced a few cm, represent this equilibrium position.)  Place a sheet of paper on the wooden board, under the strings. In order to have room to record the string locations, make sure that the node is approximately in the middle of your paper and the wooden board. (You may need to move the pulleys to accomplish this.) \myskip
 
-You are going to draw vector representations of the forces due to each of the weights. Draw three line segments on your paper, corresponding to the three strings, using the method of parallax-free reading. After removing your paper, extend the lines so that they intersect at the node. Then, draw two arrows along the lines corresponding to the strings holding the known masses, with lengths proportional to the masses on the strings. Choose a scale that is appropriate for your weights and the size of the paper. A good strategy for making sure the length of the force corresponds to the mass is to define a global quantity ``length per unit mass" $\lambda$. Then the length of your vector will be $\lambda * m$.  For example, we might choose a scale of $\lambda = 1cm/20g$. If we have a mass of $100g$, then the length of the vector must be $5cm$. If done correctly, these final arrows are vectors representing both the magnitude and direction of the forces due to the known weights.\myskip
+You are going to draw vector representations of the forces due to each of the weights. Draw three line segments on your paper, corresponding to the three strings, using the method of parallax-free reading. After removing your paper, extend the lines so that they intersect at the node. Then, draw two arrows along the lines corresponding to the strings holding the known masses, with lengths proportional to the masses on the strings. Choose a scale that is appropriate for your weights and the size of the paper. A good strategy for making sure the length of the force corresponds to the mass is to define a global quantity ``length per unit mass" $\lambda$. Then the length of your vector will be $\lambda * m$ where $m$ is the corresponding mass.  For example, we might choose a scale of $\lambda = 1cm/20g$. If we have a mass of $100g$, then the length of the vector must be $5cm$. If done correctly, these final arrows are vectors representing both the magnitude and direction of the forces due to the known weights.\myskip
 
 Add these two vectors graphically using the parallelogram method described above to obtain their resultant force. The resultant of these two vectors should be opposite in direction but equal in length to the vector representing the unknown force (from the unknown mass).
 
 \begin{enumerate}
-    \item Are the directions of the original vectors opposite? If not,  quantify the discrepancy between the two vectors?
+    \item Are the directions of the original vectors exactly opposite? If not, quantify the discrepancy between the two vectors?
     \item Measure the length of the resultant vector. From this length, calculate the magnitude of the unknown mass $M$ with error found by propagating uncertainties in measured lengths $l$.
 
 \item On the electronic scale, measure the unknown mass $M$ and compare it to the mass determined by the parallelogram method. Are the two masses the  same?  If not, discuss which errors might contribute to the discrepancy.
@@ -116,7 +116,7 @@ Read the force meter to determine the force you are applying to the spring by {\
     \item Plot a force vs. distance (stretch) graph in Excel with error bars on both axes.
     \item Determine the best-fit line in Excel and determine the slope with error found using the LINEST function.
     \item Discuss the physical meaning of the slope?
-    \item What is the value of the intercept of your line (where the distance is zero) with error found by propagating uncertainties in measured force?  How can you interpret the intercept when it is non-zero?
+    \item What is the value of the intercept of your line (where the distance is zero) with error?  How can you interpret the intercept when it is non-zero?
     \item Give the value of the spring constant including error in measured slope.
 \end{enumerate}
 
@@ -138,14 +138,9 @@ Read the force meter to determine the force you are applying to the spring by {\
     \item Set up the Photogate Head and open the DataStudio file "Inclined Plane."
     \item Start recording data.  Release the Friction Tray from rest.  Stop recording data when the tray reaches the bottom of the track.
     \item Complete three trials of the data recording procedure for the first Friction Tray, recording the acceleration after each run in table \ref{planedatatable} (use the statistics tool in Data Studios to find the average acceleration during the run). Make sure to use the same release position in each trial.
-        \item Calculate the average acceleration for the Friction Tray and use the average acceleration and the angle to determine the coefficient of kinetic friction, $\mu_k$ with error due to uncertainty in average acceleration $a_\text{ave}$. You can find the uncertainty in average acceleration by determining the standard deviation. The mathematical expression is repeated below.
-\begin{gather}
-\sigma = \sqrt{\frac{1}{N}\sum_{i}^{N} (a_i - a_{\text{ave}})^2}
-\end{gather}
-%% Is this necessary?
-Where $a_{avg}$ is the average acceleration you calculated in lab. $N$ is the total number of data points.
-\item  Make sure to record $a_{ave}$ and $\mu_k$ in table \ref{planedatatable}.
-     \item The coefficient of friction for such a plastic-on-plastic combination is $0.2-0.4$.  How does this quantitatively compare with your result? Does it agree with error? If not, discuss the largest sources of error in measuring the coefficient of kinetic friction $\mu_k$.
+    \item Calculate the average acceleration for the Friction Tray and use the average acceleration and the angle to determine the coefficient of kinetic friction, $\mu_k$ with error due to uncertainty in average acceleration $a_\text{ave}$. You can find the uncertainty in average acceleration by determining the standard deviation.
+    \item  Make sure to record $a_{ave}$ and $\mu_k$ in table \ref{planedatatable}.
+    \item The coefficient of friction for such a plastic-on-plastic combination is $0.2-0.4$.  How does this quantitatively compare with your result? Does it agree with error? If not, discuss the largest sources of error in measuring the coefficient of kinetic friction $\mu_k$.
     \item When you are finished taking data, make sure to exit DataStudios and {\bf{\it{do not}}} save your settings.
 \end{enumerate}
 %%%%
