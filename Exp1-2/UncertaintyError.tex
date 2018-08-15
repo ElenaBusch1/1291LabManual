@@ -71,9 +71,9 @@ Your results should have filled in that 2-by-3 section in the following way:
 \begin{center}
 \begin{tabular}{ |c | c | c |}
 \hline
-Slope &X Intercept \\ \hline
-Error of Slope &Error of Intercept \\ \hline
-$R^2$ &Error in Y \\ \hline
+Slope 		& Y Intercept \\ \hline
+Error of Slope 	& Error of Y Intercept \\ \hline
+$R^2$ 		& Error in Y \\ \hline
 \end{tabular}
 \caption{LINEST function output in Excel.}
 \end{center}
@@ -114,11 +114,11 @@ F = ml \frac{d^2}{dt^2}\theta \\
 \text{using the small angle approximation} \hspace{3mm} \sin(\theta) \sim \theta \nonumber \\
 -\frac{g}{l} \theta = \frac{d^2}{dt^2}\theta
 \end{gather}
-You may recognize equation 2.8 as the equation for simple harmonic motion. In simple harmonic motion, the object (in this case the pendulum) will oscillate about an equilibrium point with a specific frequency $f$. The frequency can be found from Newton's second law as simple harmonic motion takes the following form.
+You may recognize equation 2.3 as the equation for simple harmonic motion. In simple harmonic motion, the object (in this case the pendulum) will oscillate about an equilibrium point with a specific frequency $f$. The frequency can be found from Newton's second law as simple harmonic motion takes the following form.
 \begin{gather}
 -(2\pi f)^2 \theta = \frac{d^2}{dt^2}\theta
 \end{gather}
-By comparison of equations 2.8 and 2.9, the frequency can be determined in terms of know parameters.
+By comparison of equations 2.3 and 2.4, the frequency can be determined in terms of know parameters.
 \begin{gather}
 f = \frac{1}{2\pi}\sqrt{\frac{g}{l}}
 \end{gather}
@@ -142,7 +142,7 @@ You will determine the gravitational constant $g$ through two methods. First, yo
 \item Measurement 1: Calculation of $g$ by measuring multiple periods $\tau$.
 \begin{enumerate}
 \item Begin by measuring the length of the pendulum with error and recording it in your report.
-\item Let the pendulum swing at some small angle (less then 15 degrees) and measure the period of the motion. Try to start and stop the stopwatch at the apex of the motion. A full period is the time it takes to travel from one maximum point to back to the same point. Take 18 measurements of the period and record the data in an excel document.
+\item Let the pendulum swing at some small angle (less then 15 degrees; just release the pendulum, pushing it will skew measurements) and measure the period of the motion. Try to start and stop the stopwatch at the apex of the motion. A full period is the time it takes to travel from one maximum point to back to the same point. Take 18 measurements of the period and record the data in an excel document.
 \item Use excel functions to determine the error in measured period using two methods: first, calculate the standard deviation, then estimate the error using the 2/3 method. Do the two methods give a similar error? Use standard deviation as the error in later calculations.
 \item Use the following formula to determine the gravitational constant $g$ with error found by propagating uncertainties in pendulum length $l$ and period $\tau$.
 \begin{gather}
@@ -155,9 +155,9 @@ You will determine the gravitational constant $g$ through two methods. First, yo
 \begin{enumerate}
 \item Measure the length of the pendulum with error and record it in your report.
 \item Let the pendulum swing at some small angle (less then 15 degrees) and measure the period of the motion. Try to start and stop the stopwatch at the apex of the motion. Make a single measurement of the period $\tau$.
-\item repeat steps 1-2 for 5 different pendulum lengths $\ell$.
+\item repeat steps 1-2 for 5 different pendulum lengths $\ell$ (use loops provided on string).
 \item In excel, plot the length of the pendulum $\ell$ versus period squared $\tau^2$ with error bars on both axes. The error bars in $\ell$ and $\tau$ can be determined from the precision in the ruler/stopwatch (make sure to correctly propagate the error in squaring $\tau$).
-\item Use excel to fit your plot with a line and use the generated slope to determine the gravitational constant $g$. Include error in $g$ using the LINEST method described in Section ~\ref{sec:linest}.
+\item Use excel to fit your plot with a line and use the generated slope to determine the gravitational constant $g$. Include error in $g$ using the LINEST method described in Section \ref{sec:linest}.
 \item Does your calculated value of $g$ agree with the expected value?
 \item What are the main sources of error in this part of the experiment?
 \end{enumerate}
@@ -236,8 +236,8 @@ If you wanted to design a new test using the same procedure but to arrive at a s
   \begin{center}
     \begin{tabular}{|c | c | c | c | c | c | c | c | c | c | c|}
       \hline
-      Trail&1&2&3&4&5&6&7&8&9&10 \\ \hline
-      $N_{\text{cars}}$&523&143&496&1045&869&57&693&1150&327&87 \\
+      Trial&1&2&3&4&5 \\ \hline
+      $N_{\text{cars}}$&523&143&496&1045&869 \\
       \hline
     \end{tabular}
   \end{center}

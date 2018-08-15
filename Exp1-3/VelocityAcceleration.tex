@@ -40,6 +40,8 @@ The Sonic Ranger has two modes of operation, which are controlled by the switch 
 
 \subsection{Setting Up the Sonic Ranger for Use with the Air Track}
 
+\textbf{Note}: It is important that you take care when using the rider and air-track.  Don't let the rider sit on the track when the air is off, and don't let the flag-side of the rider collide with the elastic bumper. Both of these can cause the rider and air-track to scrape against each other, leaving scratches which permanently damage the equipment. \myskip
+
 Set the Sonic Ranger just at the right end of the track, and switch the Sonic Ranger to the cart mode.  Adjust the location and tilt of the device so that the sonar beam travels horizontally along the center line of the air track.  This will allow you to make sure the Sonic Ranger is able to detect the rider when it is at the far end.  Turn on the air for the air-track and set the rider at the far left end of the track.   Prop up the right side of the track so that the rider stays at the left end. Follow the procedure mentioned in the previous section to collect data.  The distance from the Sonic Ranger to the flag on the rider will be approximately $1.8\,\mathrm{m}$, so if it is aimed correctly you should see a stationary object about $1.8\,\mathrm{m}$ away on the graph. If not, try to re-aim it while you are taking data or try taking data again.  You can then check the alignment more precisely by giving the rider a small push along the air-track, and observe whether the computer plots the rider's position smoothly throughout the length of the track.  If there are ``static-like'' jumps in the plot, then the sound waves are not reflecting properly back to the Sonic Ranger, and you will need to align it more carefully.
 
 \subsection{A Note about Distances}
@@ -54,10 +56,6 @@ Note also that the scale on the air-track increases as you read toward the right
     \caption{The measurement scale of the Sonic Ranger starts at its faceplate, and increases toward the left, \emph{oppositely of the ruler on the air track}}
     \label{fig:measurement}
 \end{figure}
-
-\subsection{A Note about the Rider and Air-Track}
-
-It is important that you take care when using the rider and air-track.  Don't let the rider sit on the track when the air is off, and don't let the flag-side of the rider collide with the elastic bumper. Both of these can cause the rider and air-track to scrape against each other, leaving scratches which permanently damage the equipment.
 
 \section{Motion with Constant Velocity}
 
@@ -154,7 +152,7 @@ You can calculate the acceleration along the air track from the data displayed o
 \begin{enumerate}
 \item In Excel, plot the 6 $(t,v)$ data points and a line of best fit. Be sure to plot error bars on both axes (error bars on the time axis can be found using the precision of the Sonic Ranger ($0.05 s$) and error bars on the velocity axis can be found using the precision of the Sonic Ranger ($0.01 m/s$).
 \item Determine the slope of your best-fit line with uncertainty using Excel's built-in fitting function.
-\item From your slope, determine the acceleration down the ramp $a_{\text{down}}$ with uncertainty found by propagating uncertainty in the best-fit line.
+\item From your slope, determine the acceleration down the ramp $a_{\text{down}}$ with uncertainty found by propagating uncertainty in the LINEST best-fit line.
 \item Calculate the gravitational acceleration $g$ with uncertainty found by propagating uncertainty in $a_\text{down}$.
 \item Is your measured value for $g$ close to the accepted value of $g=9.81 m/s^2$ within uncertainty?
 \end{enumerate}

@@ -2,6 +2,8 @@
 \chapter{Waves II: The Oscilloscope and Function Generator}
 \label{chap:waves}
 \section{Introduction}
+\textbf{Note: It is highly recommended that students visit Lab Library and read cheat sheets at the end of this experiment before the lab to familiarize themselves with the oscilloscope and function generator.}
+
 While we found ways to observe the waves in the Experiment 1-8 with our own eyes and ears, we will explore other types of waves and the instruments that scientists use to record them. In this lab we will introduce two experimental instruments that are used extensively in practical physics research. The first tool is the function generator. As its name implies, it outputs voltages in the form of a periodic, mathematical function ? usually a sine wave. They can also produce square or triangle waves, and usually have the functionality to adjust the frequency and amplitude of the wave. The second piece of equipment commonly used is the oscilloscope, which are tools to view periodic phenomena. Often, physics experiments probe signals that will change too rapidly in time to record by looking at a needle with our own eyes. The oscilloscope allows these signals to be interpreted in a visual way that we, as humans, can accurately interpret. The exercises in this lab will familiarize you with the equipment, and show you some of the most common applications.\myskip
 
 In Experiment 1-8, we studied both transverse waves propagating along a string, and the longitudinal pressure waves of sound. Both of these examples are very common examples of physical waves, that is waves induced by the motion of matter. For example, physical waves can also be found in ultrasound monitors or earthquakes as pressure waves, in water as traveling waves and even as shock waves within the plasma of an exploding star. In addition to physical waves, electromagnetic radiation is a wave phenomenon that is commonly experienced in our lives. Radios, microwave ovens, lasers, and many more modern equipment all use electromagnetic waves. In any system with periodic disturbances, a detector will pick up the waveform that varies in time and read the signal in the form of a voltage. Thus, detectors (such as oscilloscopes) that enable scientists to study and analyze wave phenomena are crucial to accessing interesting physical phenomena.
@@ -53,41 +55,9 @@ Begin by hooking up the MAIN output of the function generator to the oscilloscop
 
 \item What is the maximum amplitude that the function generator can produce? What is the maximum and minimum VOLTS/DIV (vertical axis scale) that the oscilloscope can read? What is the minimum SEC/DIV (horizontal axis scale) that the scope can read? What does this tell you about the range and type of signals the scope is useful for and not useful for? Note the units on both the x and y axes.
 
-\item One measure of the performance of a device is its signal-to-noise ratio, or SNR. The signal on a sine wave can be interpreted as the peak-to-peak voltage, or twice the amplitude. The noise is the variations on that wave, or the thickness of the signal. Turn down the amplitude of the wave using the function generator until it only a few tens of millivolts peak-to-peak. You will need to adjust the trigger level. Zoom in on your 10 kHz sine wave by decreasing the VOLTS/DIV on the oscilloscope, until you can see the noise on top of the signal, and measure its amplitude. The amplitude of noise should {\bf{not}} depend on the amplitude of the waveform. What is the signal to noise ratio of a wave with $2V$ peak-to-peak?
+\item One measure of the performance of a device is its signal-to-noise ratio, or SNR. The signal on a sine wave can be interpreted as the peak-to-peak voltage, or twice the amplitude. The noise is the variations on that wave, or the thickness of the signal. Turn down the amplitude of the wave using the function generator until its only a few tens of millivolts peak-to-peak. You will need to adjust the trigger level. Zoom in on your 10 kHz sine wave by decreasing the VOLTS/DIV on the oscilloscope, until you can see the noise on top of the signal, and measure its amplitude. The amplitude of noise should {\bf{not}} depend on the amplitude of the waveform. What is the signal to noise ratio of a wave with $2V$ peak-to-peak?
 
 \end{enumerate}
-
-\subsection{Human pulse}
-
-Oscilloscopes allow us to analyze periodic phenomena qualitatively and quantitatively. Most sensors output some sort of voltage signal. In this part, you will use a pressure sensor to measure your pulse. You need to power the pressure sensor circuit board using 5V from the B-output of the power supply, connected to VCC and to GND. See Figure \ref{fig:part2}.
-
-\begin{figure}[h!]
-        \centering
-            \includegraphics[width=0.9\textwidth]{./Exp1-10/pic/part2.pdf}
-        \caption{Circuit diagram for part 2 of this experiment. Note that the Power Supply, circuit board, and oscilloscope all share the same GROUND.}
-        \label{fig:part2}
-\end{figure}
-
-\begin{enumerate}
-\item When examining a person's pulse, the scope can be useful for determining the frequency, amplitude, and pulse duration. Think of a couple simple experiments you can do to see how to change these properties of a human pulse. For example, you should be able to increase the frequency of the pulse by doing some jumping jacks.
-
-\item Put the green sensor on your index finger and plug the analog signal (AO) from the circuit into the oscilloscope. Turn the horizontal knob until the sec/div is something long (~500 ms - 1 s) Measure the three quantities identified above, and try those experiments you thought of. You can ``freeze'' the image on the scope by pressing the ``Run/Stop'' button.
-
-\item Given the structure of the pulse signal, measuring the pulse width is not well-defined. The digital output (DO) of the sensor circuit puts out a high voltage once the pressure goes above a certain level, and goes back to zero when it goes below that threshold. This results in a square wave that has better defined boundaries of where the pulse begins and ends. Measure the pulse width in this way.
-
-\item Measure the SNR of your pulse using the method from the last experiment.
-\end{enumerate}
-
-\begin{center}
-Connector Key For Pulse Circuit Board\\
-\begin{tabular}{ |l | l | } \hline
-  \textbf{Connector Color} & \textbf{Connector} \\ \hline
-  Black & Ground \\ \hline
-  Blue & DO \\ \hline
-  Yellow & AO \\ \hline
-  Red & VCC \\ \hline
-\end{tabular}
-\end{center}
 
 \subsection{Sound waves}
 
@@ -123,7 +93,37 @@ The similarities in creating and detecting waves electronically means that we ca
 
 \end{enumerate}
 
+\subsection{Human Pulse (Demo)}
 
+Oscilloscopes allow us to analyze periodic phenomena qualitatively and quantitatively. Most sensors output some sort of voltage signal. In this part, you will use a pressure sensor to measure your pulse. You need to power the pressure sensor circuit board using 5V from the B-output of the power supply, connected to VCC and to GND. See Figure \ref{fig:part2}.
+
+\begin{figure}[h!]
+        \centering
+            \includegraphics[width=0.9\textwidth]{./Exp1-10/pic/part2.pdf}
+        \caption{Circuit diagram for part 2 of this experiment. Note that the Power Supply, circuit board, and oscilloscope all share the same GROUND.}
+        \label{fig:part2}
+\end{figure}
+
+\begin{enumerate}
+\item When examining a person's pulse, the scope can be useful for determining the frequency, amplitude, and pulse duration. Think of a couple simple experiments you can do to see how to change these properties of a human pulse. For example, you should be able to increase the frequency of the pulse by doing some jumping jacks.
+
+\item Put the green sensor on your index finger and plug the analog signal (AO) from the circuit into the oscilloscope. Turn the horizontal knob until the sec/div is something long (~500 ms - 1 s) Measure the three quantities identified above, and try those experiments you thought of. You can ``freeze'' the image on the scope by pressing the ``Run/Stop'' button.
+
+\item Given the structure of the pulse signal, measuring the pulse width is not well-defined. The digital output (DO) of the sensor circuit puts out a high voltage once the pressure goes above a certain level, and goes back to zero when it goes below that threshold. This results in a square wave that has better defined boundaries of where the pulse begins and ends. Measure the pulse width in this way.
+
+\item Measure the SNR of your pulse using the method from the last experiment.
+\end{enumerate}
+
+\begin{center}
+Connector Key For Pulse Circuit Board\\
+\begin{tabular}{ |l | l | } \hline
+  \textbf{Connector Color} & \textbf{Connector} \\ \hline
+  Black & Ground \\ \hline
+  Blue & DO \\ \hline
+  Yellow & AO \\ \hline
+  Red & VCC \\ \hline
+\end{tabular}
+\end{center}
 
 
 \newpage

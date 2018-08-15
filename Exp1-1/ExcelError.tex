@@ -1,4 +1,5 @@
 %Exp 1-1
+\newcommand{\comment}[1]{}
 \chapter{Intro to Labs and Uncertainty}
 \label{chap:excel}
 \section{Introduction}
@@ -260,7 +261,7 @@ This is not a reasonable way to write the result!  The uncertainty in the diamet
 \noindent \underline{Estimation of Uncertainty}:\myskip
 
 1. You have the following distribution of measured values:
-\begin{table}[h]
+\comment{\begin{table}[h]
     \centering
     \begin{tabular}{|c|l|l|l|}
         \hline
@@ -277,7 +278,20 @@ This is not a reasonable way to write the result!  The uncertainty in the diamet
         \quad 9\quad & II & \hspace{1.5cm} & \hspace{1.5cm} \\ \hline
         \quad 10\quad & I & \hspace{1.5cm} & \hspace{1.5cm} \\ \hline
     \end{tabular}
-\end{table}
+\end{table}}
+
+$$\begin{array}{ l l }
+	1 & (1)\\
+	2, 2, 2 & (2)\\
+	3, 3, 3, 3, 3, 3 & (6) \\
+	4, 4, 4, 4, 4, 4, 4, 4, 4 & (9) \\
+	5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5 & (15) \\ 
+	6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6  & (11)\\
+	7, 7, 7, 7, 7, 7, 7, 7 & (8) \\
+	8, 8, 8, 8 & (4) \\
+	9, 9 & (2) \\
+	10 & (1)
+\end{array}$$
 
 Estimate the uncertainty using the 2/3 estimate. \myskip
 
